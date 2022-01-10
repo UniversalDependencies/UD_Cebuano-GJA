@@ -1,6 +1,6 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+UD_Cebuano_GJA is a collection of annotated Cebuano sample sentences randomly taken from three different sources: the website Tatoeba (https://tatoeba.org/en/), and Cebuano grammar books by Bunye & Yap (1971) and Tanangkinsing (2011). This project is currently work in progress.
 
 
 # Introduction
@@ -14,7 +14,9 @@
 
 ## References
 
-* (citation)
+* Bunye, M. & Yap, E. (1971). Cebuano for Beginners. University of Hawaii Press: Honolulu, USA.
+* Tanangkinsing, M. (2011). A functional reference grammar of Cebuano: from a discourse perspective. Vol 1 & 2. Lambert Academic Publishing: Saarbrücken, Germany.
+
 
 
 # Changelog
