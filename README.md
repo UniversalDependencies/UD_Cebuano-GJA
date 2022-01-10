@@ -14,7 +14,7 @@ UD_Cebuano_GJA is a collection of annotated Cebuano sample sentences randomly ta
 
 ## References
 
-* Bunye, M. & Yap, E. (1971). Cebuano for Beginners. University of Hawaii Press: Honolulu, USA.
+* Bunye, M. & Yap, E. (1971). Cebuano for beginners. University of Hawaii Press: Honolulu, USA.
 * Tanangkinsing, M. (2011). A functional reference grammar of Cebuano: from a discourse perspective. Vol 1 & 2. Lambert Academic Publishing: Saarbrücken, Germany.
 
 
