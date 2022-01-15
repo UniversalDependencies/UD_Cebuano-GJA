@@ -1,0 +1,123 @@
+# sent_id = bunyeyap-01
+# text = Mamalit sila ug sinina.
+# gloss = will.buy they dress.
+# text_en = They will buy a dress.
+1	Mamalit	palit	VERB	_	Aspect=Prosp|Mood=Ind|Voice=Act	0	root	_	Gloss=will.buy
+2	sila	sila	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	Gloss=they
+3	ug	ug	ADP	_	_	4	case	_	MGloss=CASE-extended
+4	sinina	sinina	NOUN	_	_	1	obj	_	Gloss=dress|SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-02
+# text = Tua sa Cebu ang akong ginikanan.
+# gloss = there in Cebu my parents.
+# text_en = My parents are there in Cebu.
+1	Tua	tua	ADV	_	Deixis=Remt	0	root	_	Gloss=there
+2	sa	sa	ADP	_	Case=Dat	3	case	_	Gloss=in
+3	Cebu	Cebu	PROPN	_	_	1	advmod	_	Gloss=Cebu
+4	ang	ang	ADP	_	Case=Nom	7	case	_	_
+5-6	akong	_	_	_	_	_	_	_	_
+5	ako	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs|Link=Yes	7	nmod	_	Gloss=my
+6	-ng	nga	PART	_	_	5	fixed	_	MGloss=LINK
+7	ginikanan	ginikanan	NOUN	_	_	1	obj	_	Gloss=parents|SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-03
+# text = Pilay gibayad nimo?
+# gloss = how.much. did.pay you?
+# text_en = How much did you pay? 
+1-2	Pilay	_	_	_	_	_	_	_	_
+1	Pila	pila	ADV	_	_	3	advmod	_	Gloss=how.much
+2	-y	-y	ADP	_	_	1	case	_	MGloss=CASE-neutral
+3	gibayad	bayad	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=did.pay
+4	nimo	nimo	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	Gloss=you|SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	_	Gloss=?
+
+# sent_id = bunyeyap-04
+# text = Gitawag ni Maria ang bata.
+# gloss = called Maria the child.
+# text_en = Maria called the child.
+1	Gitawag	tawag	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=called
+2	ni	ni	ADP	_	Case=Gen	3	case	_	_
+3	Maria	Maria	PROPN	_	Gender=Fem	1	obj	_	Gloss=Maria
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	bata	bata	NOUN	_	_	1	nsubj:pass	_	Gloss=child|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-05
+# text = Taas kini.
+# gloss = tall this.
+# text_en = This is tall.
+1	Taas	taas	ADJ	_	_	0	root	_	Gloss=tall
+2	kini	kini	PRON	_	Deixis=Prox|PronType=Dem	1	obj	_	Gloss=this|SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-06
+# text = Sa klase siya magtuon sa leksyon.
+# gloss = in class. he will.study the lesson.
+# text_en = He will study the lesson in class.
+1	Sa	sa	ADP	_	Case=Dat	2	case	_	Gloss=in
+2	klase	klase	NOUN	_	_	4	iobj	_	Gloss=class
+3	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Gloss=he
+4	magtuon	tuon	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=will.study
+5	sa	sa	ADP	_	Case=Dat	6	case	_	Gloss=the
+6	leksyon	leksyon	NOUN	_	_	4	obj	_	Gloss=lesson|SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	Gloss=.
+
+# sent_id = bunyeyap-07
+# text = Kang Alicia ang libro.
+# gloss = 's Alicia the book.
+# text_en = The book is Alicia's.
+1	Kang	kang	ADP	_	Case=Dat	2	case	_	_
+2	Alicia	Alicia	PROPN	_	Gender=Fem	0	root	_	Gloss=Alicia
+3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
+4	libro	libro	NOUN	_	_	2	obj	_	Gloss=book|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	Gloss=.
+
+# sent_id = bunyeyap-08
+# text = Putlon ni Undo ang kahoy alang kang Ruben.
+# gloss = wil.cut Undo the tree for Ruben
+# text_en = Undo will cut the tree for Ruben.
+1	Putlon	putlon	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	Gloss=will.cut
+2	ni	ni	ADP	_	Case=Gen	3	case	_	_
+3	Undo	Undo	PROPN	_	Gender=Masc	1	nsubj:pass	_	Gloss=Undo
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	kahoy	kahoy	NOUN	_	_	1	obj	_	Gloss=tree
+6	alang	alang	ADP	_	_	8	case	_	Gloss=for
+7	kang	kang	ADP	_	Case=Dat	6	fixed	_	_
+8	Ruben	Ruben	PROPN	_	Gender=Masc	5	nmod	_	Gloss=Ruben|SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-09
+# text = Silhigan ni Ditang ang kusina para ni Tonying.
+# gloss = will.sweep Ditang the kitchen for Tonying.
+# text_en = Ditang will sweep the kitchen for Tonying.
+1	Silhigan	silhig	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	Gloss=will.sweep
+2	ni	ni	ADP	_	Case=Gen	3	case	_	_
+3	Ditang	Ditang	PROPN	_	Gender=Fem	1	nsubj:pass	_	Gloss=Ditang
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	kusina	kusina	NOUN	_	_	1	obj	_	Gloss=kitchen
+6	para	para	ADP	_	_	8	case	_	Gloss=for
+7	ni	ni	ADP	_	Case=Gen	6	fixed	_	_
+8	Tonying	Tonying	PROPN	_	Gender=Masc	5	nmod	_	Gloss=Tonying|SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-10
+# text = Silhigan ni Ditang ang kusina para sa iyang igsoong lalake.
+# gloss = will.sweep Ditang the kitchen for her brother.
+# text_en = Ditang will sweep the kitchen for her brother.
+1	Silhigan	silhig	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	Gloss=will.sweep
+2	ni	ni	ADP	_	Case=Gen	3	case	_	_
+3	Ditang	Ditang	PROPN	_	Gender=Fem	1	nsubj:pass	_	Gloss=Ditang
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	kusina	kusina	NOUN	_	_	1	obj	_	Gloss=kitchen
+6	para	para	ADP	_	_	8	case	_	Gloss=for
+7	sa	sa	ADP	_	Case=Dat	6	fixed	_	_
+8-9	iyang	_	_	_	_	_	_	_	_
+8	iya	iya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs|Link=Yes	10	nmod	_	Gloss=her
+9	-ng	nga	PART	_	_	8	mark	_	MGloss=LINK
+10-11	igsoong	_	_	_	_	_	_	_	_
+10	igsoon	igsoon	NOUN	_	Link=Yes	5	nmod	_	Gloss=brother
+11	-g	nga	PART	_	_	10	mark	_	MGLoss=LINK
+12	lalake	lalake	NOUN	_	Gender=Masc	10	nmod	_	MGloss=Masc|SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	Gloss=.
