@@ -17,7 +17,7 @@
 3	Cebu	Cebu	PROPN	_	_	1	advmod	_	Gloss=Cebu
 4	ang	ang	ADP	_	Case=Nom	7	case	_	_
 5-6	akong	_	_	_	_	_	_	_	_
-5	ako	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs|Link=Yes	7	nmod	_	Gloss=my
+5	ako	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nmod	_	Gloss=my
 6	-ng	nga	PART	_	_	5	fixed	_	MGloss=LINK
 7	ginikanan	ginikanan	NOUN	_	_	1	obj	_	Gloss=parents|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
@@ -26,12 +26,10 @@
 # text = Pilay gibayad nimo?
 # gloss = how.much. did.pay you?
 # text_en = How much did you pay? 
-1-2	Pilay	_	_	_	_	_	_	_	_
-1	Pila	pila	ADV	_	_	3	advmod	_	Gloss=how.much
-2	-y	-y	ADP	_	_	1	case	_	MGloss=CASE-neutral
-3	gibayad	bayad	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=did.pay
-4	nimo	nimo	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	Gloss=you|SpaceAfter=No
-5	?	?	PUNCT	_	_	2	punct	_	Gloss=?
+1	Pilay	pila	ADV	_	Neutral=Yes	2	advmod	_	Gloss=how.much
+2	gibayad	bayad	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=did.pay
+3	nimo	nimo	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	nsubj:pass	_	Gloss=you|SpaceAfter=No
+4	?	?	PUNCT	_	_	1	punct	_	Gloss=?
 
 # sent_id = bunyeyap-04
 # text = Gitawag ni Maria ang bata.
@@ -114,10 +112,564 @@
 6	para	para	ADP	_	_	8	case	_	Gloss=for
 7	sa	sa	ADP	_	Case=Dat	6	fixed	_	_
 8-9	iyang	_	_	_	_	_	_	_	_
-8	iya	iya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs|Link=Yes	10	nmod	_	Gloss=her
+8	iya	iya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	10	nmod	_	Gloss=her
 9	-ng	nga	PART	_	_	8	mark	_	MGloss=LINK
 10-11	igsoong	_	_	_	_	_	_	_	_
-10	igsoon	igsoon	NOUN	_	Link=Yes	5	nmod	_	Gloss=brother
+10	igsoon	igsoon	NOUN	_	_	5	nmod	_	Gloss=brother
 11	-g	nga	PART	_	_	10	mark	_	MGLoss=LINK
 12	lalake	lalake	NOUN	_	Gender=Masc	10	nmod	_	MGloss=Masc|SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-11
+# text = Liguon ko siya ug tubig.
+# gloss = will.bathe I him with water.
+# text_en = I will bathe him with water.
+1	Liguon	ligo	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	Gloss=will.bathe
+2	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj:pass	_	Gloss=I
+3	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	obj	_	Gloss=him
+4	ug	ug	ADP	_	_	5	case	_	Gloss=with|MGloss=CASE-extended
+5	tubig	tubig	NOUN	_	_	1	iobj	_	Gloss=water|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-12
+# text = Liguon ko siya sa tubig.
+# gloss = will.bathe I him inwater.
+# text_en = I will bathe him in water.
+1	Liguon	ligo	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	Gloss=will.bathe
+2	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj:pass	_	Gloss=I
+3	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	obj	_	Gloss=him
+4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=in
+5	tubig	tubig	NOUN	_	_	1	obl	_	Gloss=water|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-13
+# text = Dili Maria ang iyang ngalan.
+# gloss = not Maria her name.
+# text_en = Her name is not Maria.
+1	Dili	dili	PART	_	Polarity=Neg	2	advmod	_	Gloss=not
+2	Maria	Maria	PROPN	_	Gender=Fem	0	root	_	Gloss=Maria
+3	ang	ang	ADP	_	Case=Nom	6	case	_	_
+4-5	iyang	_	_	_	_	_	_	_	_
+4	iya	iya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	nmod	_	Gloss=her
+5	-ng	nga	PART	_	_	4	mark	_	MGloss=LINK
+6	ngalan	ngalan	NOUN	_	_	2	parataxis	_	Gloss=name|SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	Gloss=.
+
+# sent_id = bunyeyap-14
+# text = Wala paliti ni Carmen si Adot.
+# gloss = no did.but Carmen for Adot.
+# text_en = Carmen didn't buy for Adot.
+1	Wala	wala	PART	_	Polarity=Neg	2	advmod	_	Gloss=not
+2	paliti	palit	VERB	_	Mood=Imp|Voice=Act	0	root	_	Gloss=did.buy
+3	ni	ni	ADP	_	Case=Gen	4	case	_	_
+4	Carmen	Carmen	PROPN	_	Gender=Fem	2	nsubj:pass	_	Gloss=Carmen
+5	si	si	ADP	_	Case=Nom	6	case	_	Gloss=for
+6	Adot	Adot	PROPN	_	Gender=Masc	2	iobj	_	Gloss=Adot|SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	Gloss=.
+
+# sent_id = bunyeyap-15
+# text = Ayaw pagpatakag sulti.
+# gloss = not talk nonsense talk.
+# text_en = Don't talk nonsense.
+1	Ayaw	ayaw	PART	_	Polarity=Neg	2	advmod	_	Gloss=not
+2-3	pagpatakag	_	_	_	_	_	_	_	Gloss=nonsense
+2	pagpataka	pataka	VERB	_	Mood=Imp|Voice=Act	0	root	_	_
+3	-g	ug	ADP	_	_	4	case	_	MGloss=CASE-extended
+4	sulti	sulti	NOUN	_	_	2	xcomp	_	Gloss=talk|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	Gloss=.
+
+# sent_id = bunyeyap-16
+# text = Bitaw, nagtinonto lang ko.
+# gloss = actually, am.kidding only I.
+# text_en = Actually, I'm only kidding.
+1	Bitaw	bitaw	PART	_	_	3	advmod	_	Gloss=actually|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	Gloss=,
+3	nagtinonto	tonto	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=am.kidding
+4	lang	lang	PART	_	_	3	advmod	_	Gloss=only
+5	ko	ko	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=I|SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	Gloss=.
+
+# sent_id = bunyeyap-17
+# text = Maayo na lang gani nia ang inahan.
+# gloss = good that here the mother.
+# text_en = It's good that at least the mother is here.
+1	Maayo	maayo	ADJ	_	_	0	root	_	Gloss=good
+2	na	na	PART	_	_	1	advmod	_	_
+3	lang	lang	PART	_	_	1	advmod	_	_
+4	gani	gani	PART	_	_	1	advmod	_	_
+5	nia	nia	ADV	_	Deixis=Prox 	1	advmod	_	Gloss=here
+6	ang	ang	ADP	_	Case=Nom	7	case	_	Gloss=the
+7	inahan	inahan	NOUN	_	_	5	nsubj	_	Gloss=mother|SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	Gloss.
+
+# sent_id = bunyeyap-18
+# text = Paliton na lang kini nakog sayis pesos karon.
+# gloss = am.buying only it I six pesos now.
+# text_en = I'm buying it now for only six pesos.
+1	Paliton	palit	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	Gloss=am.buying
+2	na	na	PART	_	_	1	advmod	_	_
+3	lang	lang	PART	_	_	1	advmod	_	Gloss=only
+4	kini	kini	DET	_	Deixis=Prox	1	advmod	_	Gloss=it
+5-6	nakog	_	_	_	_	_	_	_	Gloss=I
+5	nako	nako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	nsubj:pass	_	_
+6	-g	ug	ADP	_	_	8	case	_	MGloss=CASE-extended
+7	sayis	sayis	NUM	_	_	8	amod	_	Gloss=six
+8	pesos	pesos	NOUN	_	_	5	nmod	_	Gloss=pesos
+9	karon	karon	ADV	_	_	1	advmod	_	Gloss=now|SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-19
+# text = Ikaw sab.
+# gloss = you too.
+# text_en = You too.
+1	Ikaw	ikaw	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	0	root	_	Gloss=you
+2	sab	sab	PART	_	_	1	advmod	_	Gloss=too|SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-20
+# text = Dako ang iyang balay.
+# gloss = big his house.
+# text_en = His house is big.
+1	Dako	dako	ADJ	_	_	0	root	_	Gloss=big
+2	ang	ang	PART	_	Case=Nom	5	case	_	_
+3-4	iyang	_	_	_	_	_	_	_	_
+3	iya	iya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	nmod	_	Gloss=his
+4	-ng	nga	PART	_	_	3	mark	_	MGloss=LINK
+5	balay	balay	NOUN	_	_	1	amod	_	Gloss=house|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-21
+# text = Mubo ang among lapis.
+# gloss = short our pencil.
+# text_en = Our pencil is short.
+1	Mubo	mubo	ADJ	_	_	0	root	_	Gloss=short
+2	ang	ang	ADP	_	Case=Nom	5	case	_	_
+3-4	among	_	_	_	_	_	_	_	_
+3	amo	amo	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs|Clusivity=In	5	nmod	_	Gloss=our
+4	-ng	nga	PART	_	_	3	mark	_	MGloss=LINK
+5	lapis	lapis	NOUN	_	_	1	amod	_	Gloss=pencil|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-22
+# text = Sakit ang iyang ulo.
+# gloss = hurts his head.
+# text_en = His head hurts.
+1	Sakit	sakit	ADJ	_	_	0	root	_	Gloss=hurts
+2	ang	ang	ADP	_	Case=Nom	5	case	_	_
+3-4	iyang	_	_	_	_	_	_	_	_
+3	iya	PRON	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	nmod	_	Gloss=his
+4	-ng	nga	PART	_	_	3	mark	_	MGloss=LINK
+5	ulo	ulo	NOUN	_	_	1	obj	_	Gloss=head|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-23
+# text = Niay imong bisita.
+# gloss = here your visitor.
+# text_en = Here is your visitor.
+1	Niay	nia	ADV	_	Deixis=Prox|Neutral=Yes 	4	advmod	_	Gloss=here
+2-3	imong	_	_	_	_	_	_	_	_
+2	imo	imo	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod	_	Gloss=your
+3	-ng	nga	PART	_	_	2	mark	_	MGloss=LINK
+4	bisita	bisita	NOUN	_	_	0	root	_	Gloss=visitor|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	Gloss=.
+
+# sent_id = bunyeyap-24
+# text = Asa ka padulong?
+# gloss = Where you heading.to?
+# text_en = Where are you heading to?
+1	Asa	asa	ADV	_	_	3	advmod	_	Gloss=where
+2	ka	ka	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	Gloss=you
+3	padulong	dulong	VERB	_	Mood=Imp|Voice=Act	0	root	_	Gloss=heading.to|SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	Gloss=?
+
+# sent_id = bunyeyap-25
+# text = Mga tres pesos, tingali.
+# gloss = around three pesos, perhaps.
+# text_en = Around three pesos, perhaps.
+1	Mga	mga	DET	_	_	3	det	_	Gloss=around
+2	tres	tres	NUM	_	_	3	nummod	_	Gloss=three
+3	pesos	pesos	NOUN	_	_	0	root	_	Gloss=pesos|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	Gloss=,
+5	tingali	tingali	ADV	_	_	3	advmod	_	Gloss=perhaps|SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	Gloss=.
+
+# sent_id = bunyeyap-26
+# text = Paingon siya sa balay ni Inday.
+# gloss = is.heading he house of Inday.
+# text_en = He is heading to Inday's house.
+1	Paingon	paingon	ADV	_	_	2	advmod:lmod	_	Gloss=is.heading
+2	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	0	root	_	Gloss=he
+3	sa	sa	ADP	_	Case=Dat	4	case	_	_
+4	balay	balay	NOUN	_	_	2	obl	_	Gloss=house
+5	ni	ni	ADP	_	Case=Gen	6	case	_	_
+6	Inday	Inday	PROPN	_	Gender=Fem	4	nmod	_	Gloss=Inday|SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	Gloss=.
+
+# sent_id = bunyeyap-27
+# text = Gitawag si Ben sa iyang amigo kay may bisita kini.
+# gloss = was.called. Ben by his friend because has visitor he.
+# text_en = Ben was called by his friend because he has a visitor.
+1	Gitawag	tawag	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=was.called
+2	si	si	ADP	_	Case=Nom	3	case	_	_
+3	Ben	Ben	PROPN	_	_	1	obj	_	Gloss=Ben
+4	sa	sa	ADP	_	Case=Dat	7	case	_	_
+5-6	iyang	_	_	_	_	_	_	_	_
+5	iya	iya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Pr	7	nmod	_	Gloss=his
+6	-ng	nga	PART	_	_	5	mark	_	MGloss=LINK
+7	amigo	amigo	NOUN	_	_	1	nsubj	_	Gloss=friend
+8	kay	kay	SCONJ	_	_	9	mark	_	Gloss=because
+9	may	may	VERB	_	Polarity=Pos	1	advcl	_	Gloss=has|MGLoss=does+exist
+10	bisita	bisita	NOUN	_	_	9	obj	_	Gloss=visitor
+11	kini	kini	PRON	_	Deixis=Prox|PronType=Dem	9	nmod	_	Gloss=he|SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-28
+# text = Duol ba sa eskwelahan ang kapitolyo?
+# gloss = near Q the school the city.center?
+# text_en = Is the school near the city center?
+1	Duol	duol	ADJ	_	_	0	root	_	Gloss=near
+2	ba	ba	PART	_	PartType=Int	1	advmod	_	Gloss=QUESTION
+3	sa	sa	ADP	_	Case=Dat	4	case	_	Gloss=the
+4	eskwelahan	eskwelahan	NOUN	_	_	1	obl	_	Gloss=school
+5	ang	ang	ADP	_	Case=Nom	6	case	_	Gloss=the
+6	kapitolyo	kapitolyo	NOUN	_	_	1	nsubj	_	Gloss=city.center|SpaceAfter=No
+7	?	?	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-29
+# text = Aduna siyay plano nga magparty sa ilang balay.
+# gloss = has he plan to.have.a.party at their house.
+# text_en = He has a plan to have a party at their house.
+1	Aduna	aduna	VERB	_	_	0	root	_	Gloss=has|MGloss=does+exist
+2	siyay	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs|Neutral=Yes	1	nsubj	_	Gloss=he
+3	plano	plano	NOUN	_	_	1	acl	_	Gloss=plan
+4	nga	nga	PART	_	_	5	mark	_	MGloss=LINK
+5	magparty	party	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	3	acl	_	Gloss=to.have.a.party
+6	sa	sa	ADP	_	Case=Dat	9	case	_	Gloss=at
+7-8	ilang	_	_	_	_	_	_	_	_
+7	ila	ila	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	9	nmod	_	Gloss=their
+8	-ng	nga	PART	_	_	7	mark	_	MGloss=LINK
+9	balay	balay	NOUN	_	_	5	obl	_	Gloss=house|SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-30
+# text = Pila ka bulan sa usa ka tuig?
+# gloss = how.many month in one year?
+# text_en = How many months in one year?
+1	Pila	pila	ADV	_	_	0	root	_	Gloss=how.many
+2	ka	ka	PART	_	_	3	mark	_	MGloss=LINK
+3	bulan	bulan	NOUN	_	_	1	obj	_	Gloss=month
+4	sa	sa	ADP	_	Case=Dat	7	case	_	_
+5	usa	usa	NUM	_	_	7	nummod	_	Gloss=one
+6	ka	ka	PART	_	_	5	mark	_	MGloss=LINK
+7	tuig	tuig	NOUN	_	_	3	nmod	_	Gloss=year|SpaceAfter=No
+8	?	?	PUNCT	_	_	1	punct	_	Gloss=?
+
+# sent_id = bunyeyap-31
+# text = Ang ting-init sa Pilipinas gikan sa Marso hangtud sa Mayo.
+# gloss = the hot.season in.the.Phlippines from March to May.
+# text_en = The hot season in the Philippines is from March to May.
+1	Ang	ang	ADP	_	Case=Nom	2	case	_	Gloss=the
+2	ting-init	init	NOUN	_	_	0	root	_	Gloss=hot.season
+3	sa	sa	ADP	_	Case=Dat	4	case	_	Gloss=in.the
+4	Pilipinas	Pilipinas	PROPN	_	_	2	obl	_	Gloss=Philippines
+5	gikan	gikan	ADP	_	_	7	case	_	Gloss=from
+6	sa	sa	ADP	_	Case=Dat	5	fixed	_	_
+7	Marso	Marso	PROPN	_	_	4	nmod	_	Gloss=March
+8	hangtud	hangtud	ADP	_	_	10	case	_	Gloss=to
+9	sa	sa	ADP	_	Case=Dat	8	fixed	_	_
+10	Mayo	Mayo	PROPN	_	_	4	nmod	_	Gloss=May|SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	Gloss=.
+
+# sent_id = bunyeyap-32
+# text = Salamat, ha. Mubalik lang ko unya.
+# gloss = Thanks ha. will.return just I later.
+# text_en = Thank you. I will just return later.
+1	Salamat	salamat	NOUN	_	_	0	root	_	Gloss=thanks|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	Gloss=,
+3	ha	ha	INTJ	_	_	1	discourse	_	Gloss=ha|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+5	Mubalik	balik	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	parataxis	_	Gloss=will.return
+6	lang	lang	PART	_	_	5	advmod	_	Gloss=just
+7	ko	ko	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	_	Gloss=I
+8	unya	unya	ADV	_	_	5	advmod	_	Gloss=later|SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	Gloss=.
+
+# sent_id = bunyeyap-33
+# text = Tagpila ang plete sa dyipni?
+# gloss = how.much the fare for.the jeepney?
+# text_en = How much is the fare for the jeepney?
+1	Tagpila	pila	ADV	_	_	0	root	_	Gloss=how.much
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	plete	plete	NOUN	_	_	1	obj	_	Gloss=fare
+4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=the
+5	dyipni	dyipni	NOUN	_	_	3	parataxis	_	Gloss=jeepney|SpaceAfter=No
+6	?	?	PUNCT	_	_	1	punct	_	Gloss=?
+
+# sent_id = bunyeyap-34
+# text = Pagdali kay hapon na.
+# gloss = Hurry because afternoon already.
+# text_en = Hurry because it's late in the afternoon already.
+1	Pagdali	dali	VERB	_	_	0	root	_	Gloss=hurry.up
+2	kay	kay	SCONJ	_	_	3	mark	_	Gloss=because
+3	hapon	hapon	NOUN	_	_	1	advcl	_	Gloss=afternoon
+4	na	na	ADV	_	_	3	advmod	_	Gloss=already|SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-35
+# text = Kadali ra sa panahon!
+# gloss = fast time!
+# text_en = (expression)How time flies!
+1	Kadali	dali	ADP	_	_	0	root	_	Gloss=fast
+2	ra	ra	PART	_	_	1	advmod	_	_
+3	sa	sa	ADP	_	Case=Dat	4	case	_	_
+4	panahon	panahon	NOUN	_	_	1	amod	_	Gloss=time|SpaceAfter=No
+5	!	!	PUNCT	_	_	1	punct	_	Gloss=!
+
+# sent_id = bunyeyap-36
+# text = Mulakaw si Pedro.
+# gloss = is.going.out. Pedro.
+# text_en = Pedro is going out.
+1	Mulakaw	lakaw	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=is.going.out
+2	si	si	ADP	_	Case=Nom	3	case	_	_
+3	Pedro	Pedro	PROPN	_	Gender=Masc	1	nsubj	_	Gloss=Pedro|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-37
+# text = Si Ana nitan-aw sa sine.
+# gloss = Ana is.watching at.the.cinema.
+# text_en = Ana is watching at the cinema.
+1	Si	si	ADP	_	Case=Nom	2	case	_	_
+2	Ana	Ana	PROPN	_	Gender=Fem	3	nsubj	_	Gloss=Ana
+3	nitan-aw	tan-aw	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=is.watching
+4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=at.the
+5	sine	sine	NOUN	_	_	3	obl	_	Gloss=cinema|SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	Gloss=.
+
+# sent_id = bunyeyap-38
+# text = Si Rolando muinom.
+# gloss = Rolando will.drink.
+# text_en = Rolando will drink something.
+1	Si	si	ADP	_	Case=Nom	2	case	_	_
+2	Rolando	Rolando	PROPN	_	Gender=Masc	3	nsubj	_	Gloss=Rolando
+3	muinom	inom	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=will.drink|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	Gloss=.
+
+# sent_id = bunyeyap-39
+# text = Nagkitaay si Pedro ug si Juan sa dalan.
+# gloss = meet.each.other Pedro and Juan in.the street.
+# text_en = Pedro and Juan meet each other in the street.
+1	Nagkitaay	kita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act|Neutral=Yes	0	root	_	Gloss=meet.each.other
+2	si	si	ADP	_	Case=Nom	3	case	_	_
+3	Pedro	Pedro	PROPN	_	Gender=Masc	1	nsubj	_	Gloss=Pedro
+4	ug	ug	CCONJ	_	_	6	cc	_	Gloss=and
+5	si	si	ADP	_	Case=Nom	6	case	_	_
+6	Juan	Juan	PROPN	_	Gender=Masc	1	nsubj	_	Gloss=Juan
+7	sa	sa	ADP	_	Case=Dat	8	case	_	Gloss=in.the
+8	dalan	dalan	NOUN	_	_	1	obl	_	Gloss=street|SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-40
+# text = Bay, mahimo bang mangutana?
+# gloss = Bay(buddy), could ask.question?
+# text_en = Bay, could I ask a question?
+1	Bay	Bay	PROPN	_	_	3	vocative	_	Gloss=Bay(buddy)|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	Gloss=,
+3	mahimo	himo	VERB	_	Aspect=Prosp|Mood=Ind|Voice=Act	0	root	_	Gloss=could
+4-5	bang	_	_	_	_	_	_	_	_
+4	ba	ba	PART	_	_	3	mark	_	_
+5	-ng	nga	PART	_	_	3	mark	_	MGloss=LINK
+6	mangutana	ngutana	VERB	_	Aspect=Prosp|Mood=Ind|Voice=Act	3	ccomp	_	Glass=ask.question|SpaceAfter=No
+7	?	?	PUNCT	_	_	3	punct	_	Gloss=?
+
+# sent_id = bunyeyap-41
+# text = Tua sa luyo sa simbahan.
+# gloss = it behind the church.
+# text_en = It's behind the church.
+1	Tua	tua	ADV	_	Deixis=Remt	0	root	_	Gloss=it
+2	sa	sa	ADP	_	Case=Dat	3	case	_	_
+3	luyo	luyo	ADV	_	_	1	advmod	_	Gloss=behind
+4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=the
+5	simbahan	simbahan	NOUN	_	_	1	obj	_	Gloss=church|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-42
+# text = Wala siya muadto sa opisina gahapon kay Sabado.
+# gloss = not he go to.the office yesterday because Saturday.
+# text_en = He didn't go to the office yesterday because it was a Saturday.
+1	Wala	wala	PART	_	Polarity=Neg	3	advmod	_	Gloss=no|MGloss=does+not+exist
+2	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=he
+3	muadto	adto	VERB	_	Mood=Ind|Voice=Act	0	root	_	Gloss=did.go
+4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=in.the
+5	opisina	opisina	NOUN	_	_	3	obl	_	Gloss=office
+6	gahapon	gahapon	ADV	_	_	3	advmod	_	Gloss=yesterday
+7	kay	kay	SCONJ	_	_	8	mark	_	Gloss=because
+8	Sabado	Sabado	PROPN	_	_	6	parataxis	_	Gloss=Saturday|SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	Gloss=.
+
+# sent_id = bunyeyap-43
+# text = Sa buntag, nikaon siya sa pamahaw ug nibasa siya sa peryodiko.
+# gloss = in.the morning, eats he breakfast and reads he the periodicals.
+# text_en = In the morning, he eats his breakfast and he reads the periodicals.
+1	Sa	sa	ADP	_	Case=Dat	2	case	_	Gloss=in.the
+2	buntag	buntag	NOUN	_	_	4	obl:tmod	_	Gloss=morning|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	Gloss=,
+4	nikaon	kaon	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=eats
+5	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Gloss=he
+6	sa	sa	ADP	_	Case=Gen	7	case	_	_
+7	pamahaw	pamahaw	NOUN	_	_	4	obj	_	Gloss=breakfast
+8	ug	ug	CCONJ	_	_	9	cc	_	Gloss=and
+9	nibasa	basa	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	4	ccomp	_	Gloss=reads
+10	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Gloss=he
+11	sa	sa	ADP	_	Case=Gen	12	case	_	_
+12	peryodiko	peryodiko	NOUN	_	_	9	obj	_	Gloss=periodicals|SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	Gloss=.
+
+# sent_id = bunyeyap-44
+# text = Si Lito, ang estudyante, hawod ug gwapo.
+# gloss = Lito, the student, skilled and handsome.
+# text_en = Lito, the student, is skilled and handsome.
+1	Si	si	ADP	_	Case=Nom	2	case	_	_
+2	Lito	Lito	PROPN	_	Gender=Masc	0	root	_	Gloss=Lito
+3	,	,	PUNCT	_	_	2	punct	_	Gloss=,
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	estudyante	estudyante	NOUN	_	_	2	appos	_	Gloss=student
+6	,	,	PUNCT	_	_	2	punct	_	Gloss=,
+7	hawod	hawod	ADJ	_	_	2	amod	_	Gloss=skilled
+8	ug	ug	CCONJ	_	_	9	cc	_	Gloss=and
+9	gwapo	gwapo	ADJ	_	Gender=Masc	7	conj	_	Gloss=handsome|SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	Gloss=.
+
+# sent_id = bunyeyap-45
+# text = Siya ba ang imong amiga?
+# gloss = She your friend?
+# text_en = Is she your friend? 
+1	Siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	0	root	_	Gloss=she
+2	ba	ba	PART	_	PartType=Int	1	advmod	_	MGloss=QUESTION
+3	ang	ang	ADP	_	Case=Nom	6	case	_	_
+4-5	imong	_	_	_	_	_	_	_	_
+4	imo	imo	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	nmod	_	Gloss=your
+5	-ng	nga	PART	_	_	4	mark	_	_
+6	amiga	amiga	NOUN	_	Gender=Fem	1	parataxis	_	Gloss=friend|SpaceAfter=No
+7	?	?	PUNCT	_	_	1	punct	_	Gloss=?
+
+# sent_id = bunyeyap-46
+# text = Gwapa ang babaye.
+# gloss = beautiful the woman.
+# text_en = The girl is woman.
+1	Gwapa	gwapa	ADJ	_	Gender=Fem	0	amod	_	Gloss=beautiful
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	babaye	babaye	NOUN	_	Gender=Fem	1	nsubj	_	Gloss=woman|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	Gloss=.
+
+# sent_id = bunyeyap-47
+# text = Ang babaye ang gwapa.
+# gloss = the girl beautiful.
+# text_en = The woman is beautiful.
+1	Ang	ang	ADP	_	Case=Nom	2	case	_	Gloss=the
+2	babaye	babaye	NOUN	_	_	0	root	_	Gloss=woman
+3	ang	ang	ADP	_	Case=Nom	4	case	_	_
+4	gwapa	gwapa	ADJ	_	_	2	amod	_	Gloss=beautiful|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	Gloss=.
+
+# sent_id = bunyeyap-48
+# text = Kini ang akong libro.
+# gloss = this my book.
+# text_en = This is my book.
+1	Kini	kini	PRON	_	Deixis=Prox|PronType=Dem	0	root	_	Gloss=this
+2	ang	ang	ADP	_	Case=Nom	5	case	_	_
+3-4	akong	_	_	_	_	_	_	_	_
+3	ako	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nmod	_	Gloss=my
+4	-ng	nga	PART	_	_	3	mark	_	MGloss=LINK
+5	libro	libro	NOUN	_	_	1	nmod	_	Gloss=book|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-49
+# text = Kini ang libro nako.
+# gloss = This book my.
+# text_en = This is my book.
+1	Kini	kini	PRON	_	Deixis=Prox|PronType=Dem	0	root	_	Gloss=this
+2	ang	ang	ADP	_	Case=Nom	3	case	_	_
+3	libro	libro	NOUN	_	_	1	nmod	_	Gloss=book
+4	nako	nako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nmod	_	Gloss=my|SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-51
+# text = Adunay libro sa lamesa.
+# gloss = has book on.the table.
+# text_en = There is a book on the table.
+1	Adunay	aduna	VERB	_	_	0	root	_	Gloss=has|MGloss=does+exist
+2	libro	libro	NOUN	_	_	1	obj	_	Gloss=book
+3	sa	sa	ADP	_	Case=Dat	4	case	_	Gloss=on.the
+4	lamesa	lamesa	NOUN	_	_	1	iobj	_	Gloss=table|SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-52
+# text = Nagtahi siya sa inyong pantalon ganina.
+# gloss = was.sewing he your pants earlier.
+# text_en = He was sewing your pants earlier.
+1	Nagtahi	tahi	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=was.sewing
+2	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	Gloss=he
+3	sa	sa	ADP	_	Case=Dat	6	case	_	_
+4-5	inyong	_	_	_	_	_	_	_	_
+4	inyo	inyo	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	6	nmod	_	Gloss=your
+5	-ng	nga	PART	_	_	4	mark	_	MGloss=LINK
+6	pantalon	pantalon	NOUN	_	_	1	obj	_	Gloss=pants
+7	ganina	ganina	ADV	_	1	1	advmod	_	Gloss=earlier|SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-53
+# text = Wala siyay katulganan.
+# gloss = there-is-no he place.to.sleep.at.
+# text_en = He does not have a place to sleep at.
+1	Wala	wala	VERB	_	Polarity=Neg	0	root	_	Gloss=there-is-no|MGloss=does+not+exist
+2	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	Gloss=he
+3	katulganan	tulog	NOUN	_	_	1	obj	_	Gloss=place.to-sleep.at|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-54
+# text = Wala kamiy lingkoranan sa kwarto.
+# gloss = there-is-no we chair in.the room.
+# text_en = We don't have a chair in the room
+1	Wala	wala	VERB	_	Polarity=Neg	0	root	_	Gloss=there-is-no|MGloss=does+not+exist
+2	kamiy	kami	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs|Clusivity=Ex|Neutral=Yes	1	nsubj	_	Gloss=We
+3	lingkoranan	lingkod	NOUN	_	_	1	obj	_	Gloss=chair
+4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=in.the
+5	kwarto	kwarto	NOUN	_	_	1	iobj	_	Gloss=room|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-55
+# text = May sundang siya.
+# gloss = has machete he.
+# text_en = He has a machete.
+1	May	may	VERB	_	Polarity=Pos	0	root	_	Gloss=has|MGloss=does+exist
+2	sundang	sundang	NOUN	_	_	1	obj	_	Gloss=machete
+3	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	Gloss=he|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-56
+# text = Humot kaayo ang pagkaon.
+# gloss = good really the food.
+# text_en = The food really smells good.
+1	Humot	humot	ADP	_	_	0	root	_	Gloss=good
+2	kaayo	kaayo	ADV	_	_	1	advmod	_	Gloss=really
+3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
+4	pagkaon	kaon	NOUN	_	_	1	nsubj	_	Gloss=food|SpaceAfter=no
+5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = bunyeyap-57
+# text = Palihog ipasa ang asin.
+# gloss = please pass the salt.
+# text_en = Please pass the salt.
+1	Palihog	palihog	PART	_	_	2	advmod	_	Gloss=please
+2	ipasa	pasa	VERB	_	Mood=Imp|Voice=Act	0	root	_	Gloss=pass
+3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
+4	asin	asin	NOUN	_	_	2	obj	_	Gloss=salt|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	Gloss=.
+
+# sent_id = bunyeyap-58
+# text = Ngano man?
+# gloss = Why?
+# text_en = What is it?
+1	Ngano	ngano	ADV	_	_	0	root	_	Gloss=Why
+2	man	man	PART	_	_	1	advmod	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	1	punct	_	Gloss=?
