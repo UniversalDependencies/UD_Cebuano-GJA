@@ -200,7 +200,7 @@
 5	nia	nia	ADV	_	Deixis=Prox 	1	advmod	_	Gloss=here
 6	ang	ang	ADP	_	Case=Nom	7	case	_	Gloss=the
 7	inahan	inahan	NOUN	_	_	5	nsubj	_	Gloss=mother|SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	Gloss.
+8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = bunyeyap-18
 # text = Paliton na lang kini nakog sayis pesos karon.
@@ -266,7 +266,7 @@
 # text = Niay imong bisita.
 # gloss = here your visitor.
 # text_en = Here is your visitor.
-1	Niay	nia	ADV	_	Deixis=Prox|Neutral=Yes		4	advmod	_	Gloss=here
+1	Niay	nia	ADV	_	Deixis=Prox|Neutral=Yes	4	advmod	_	Gloss=here
 2-3	imong	_	_	_	_	_	_	_	_
 2	imo	imo	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod	_	Gloss=your
 3	-ng	nga	PART	_	_	2	mark	_	MGloss=LINK
