@@ -266,7 +266,7 @@
 # text = Niay imong bisita.
 # gloss = here your visitor.
 # text_en = Here is your visitor.
-1	Niay	nia	ADV	_	Deixis=Prox|Neutral=Yes 	4	advmod	_	Gloss=here
+1	Niay	nia	ADV	_	Deixis=Prox|Neutral=Yes		4	advmod	_	Gloss=here
 2-3	imong	_	_	_	_	_	_	_	_
 2	imo	imo	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod	_	Gloss=your
 3	-ng	nga	PART	_	_	2	mark	_	MGloss=LINK
@@ -314,7 +314,7 @@
 3	Ben	Ben	PROPN	_	_	1	obj	_	Gloss=Ben
 4	sa	sa	ADP	_	Case=Dat	7	case	_	_
 5-6	iyang	_	_	_	_	_	_	_	_
-5	iya	iya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Pr	7	nmod	_	Gloss=his
+5	iya	iya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	nmod	_	Gloss=his
 6	-ng	nga	PART	_	_	5	mark	_	MGloss=LINK
 7	amigo	amigo	NOUN	_	_	1	nsubj	_	Gloss=friend
 8	kay	kay	SCONJ	_	_	9	mark	_	Gloss=because
@@ -529,10 +529,10 @@
 # gloss = Lito, the student, skilled and handsome.
 # text_en = Lito, the student, is skilled and handsome.
 1	Si	si	ADP	_	Case=Nom	2	case	_	_
-2	Lito	Lito	PROPN	_	Gender=Masc	0	root	_	Gloss=Lito
+2	Lito	Lito	PROPN	_	Gender=Masc	0	root	_	Gloss=Lito|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	Gloss=,
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
-5	estudyante	estudyante	NOUN	_	_	2	appos	_	Gloss=student
+5	estudyante	estudyante	NOUN	_	_	2	appos	_	Gloss=student|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	Gloss=,
 7	hawod	hawod	ADJ	_	_	2	amod	_	Gloss=skilled
 8	ug	ug	CCONJ	_	_	9	cc	_	Gloss=and
@@ -622,7 +622,7 @@
 # gloss = there-is-no he place.to.sleep.at.
 # text_en = He does not have a place to sleep at.
 1	Wala	wala	VERB	_	Polarity=Neg	0	root	_	Gloss=there-is-no|MGloss=does+not+exist
-2	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	Gloss=he
+2	siyay	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs|Neutral=Yes	1	nsubj	_	Gloss=he
 3	katulganan	tulog	NOUN	_	_	1	obj	_	Gloss=place.to-sleep.at|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
@@ -653,7 +653,7 @@
 1	Humot	humot	ADP	_	_	0	root	_	Gloss=good
 2	kaayo	kaayo	ADV	_	_	1	advmod	_	Gloss=really
 3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
-4	pagkaon	kaon	NOUN	_	_	1	nsubj	_	Gloss=food|SpaceAfter=no
+4	pagkaon	kaon	NOUN	_	_	1	nsubj	_	Gloss=food|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = bunyeyap-57
@@ -673,3 +673,4 @@
 1	Ngano	ngano	ADV	_	_	0	root	_	Gloss=Why
 2	man	man	PART	_	_	1	advmod	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	Gloss=?
+
