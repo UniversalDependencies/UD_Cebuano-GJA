@@ -614,7 +614,7 @@
 4	inyo	inyo	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	6	nmod	_	Gloss=your
 5	-ng	nga	PART	_	_	4	mark	_	MGloss=LINK
 6	pantalon	pantalon	NOUN	_	_	1	obj	_	Gloss=pants
-7	ganina	ganina	ADV	_	1	1	advmod	_	Gloss=earlier|SpaceAfter=No
+7	ganina	ganina	ADV	_	_	1	advmod	_	Gloss=earlier|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = bunyeyap-53
