@@ -340,7 +340,7 @@
 # gloss = has he plan to.have.a.party at their house.
 # text_en = He has a plan to have a party at their house.
 1	Aduna	aduna	VERB	_	_	0	root	_	Gloss=has|MGloss=does+exist
-2	siyay	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs|Neutral=Yes	1	nsubj	_	Gloss=he
+2	siyay	siya	PRON	_	Case=Gen|Neutral=Yes|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	Gloss=he
 3	plano	plano	NOUN	_	_	1	acl	_	Gloss=plan
 4	nga	nga	PART	_	_	5	mark	_	MGloss=LINK
 5	magparty	party	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	3	acl	_	Gloss=to.have.a.party
