@@ -622,7 +622,7 @@
 # gloss = there-is-no he place.to.sleep.at.
 # text_en = He does not have a place to sleep at.
 1	Wala	wala	VERB	_	Polarity=Neg	0	root	_	Gloss=there-is-no|MGloss=does+not+exist
-2	siyay	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs|Neutral=Yes	1	nsubj	_	Gloss=he
+2	siyay	siya	PRON	_	Case=Gen|Neutral=Yes|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	Gloss=he
 3	katulganan	tulog	NOUN	_	_	1	obj	_	Gloss=place.to-sleep.at|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
