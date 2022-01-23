@@ -458,7 +458,7 @@
 # text = Nagkitaay si Pedro ug si Juan sa dalan.
 # gloss = meet.each.other Pedro and Juan in.the street.
 # text_en = Pedro and Juan meet each other in the street.
-1	Nagkitaay	kita	VERB	_	Neutral=Yes|Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=meet.each.other
+1	Nagkitaay	kita	VERB	_	Aspect=Perf|Neutral=Yes|Mood=Ind|Voice=Act	0	root	_	Gloss=meet.each.other
 2	si	si	ADP	_	Case=Nom	3	case	_	_
 3	Pedro	Pedro	PROPN	_	Gender=Masc	1	nsubj	_	Gloss=Pedro
 4	ug	ug	CCONJ	_	_	6	cc	_	Gloss=and
