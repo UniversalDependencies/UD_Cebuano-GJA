@@ -245,7 +245,7 @@
 1	Mubo	mubo	ADJ	_	_	0	root	_	Gloss=short
 2	ang	ang	ADP	_	Case=Nom	5	case	_	_
 3-4	among	_	_	_	_	_	_	_	_
-3	amo	amo	PRON	_	Clusivity=In|Case=Gen|Number=Plur|Person=1|PronType=Prs	5	nmod	_	Gloss=our
+3	amo	amo	PRON	_	Case=Gen|Number=Plur|Person=1|Clusivity=In|PronType=Prs	5	nmod	_	Gloss=our
 4	-ng	nga	PART	_	_	3	mark	_	MGloss=LINK
 5	lapis	lapis	NOUN	_	_	1	amod	_	Gloss=pencil|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
