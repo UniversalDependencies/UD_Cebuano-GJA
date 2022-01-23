@@ -631,7 +631,7 @@
 # gloss = there-is-no we chair in.the room.
 # text_en = We don't have a chair in the room
 1	Wala	wala	VERB	_	Polarity=Neg	0	root	_	Gloss=there-is-no|MGloss=does+not+exist
-2	kamiy	kami	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs|Clusivity=Ex|Neutral=Yes	1	nsubj	_	Gloss=We
+2	kamiy	kami	PRON	_	Case=Nom|Clusivity=Ex|Neutral=Yes|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	Gloss=We
 3	lingkoranan	lingkod	NOUN	_	_	1	obj	_	Gloss=chair
 4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=in.the
 5	kwarto	kwarto	NOUN	_	_	1	iobj	_	Gloss=room|SpaceAfter=No
