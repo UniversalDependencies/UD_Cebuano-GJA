@@ -1,6 +1,6 @@
 # Summary
 
-UD_Cebuano_GJA is a collection of annotated Cebuano sample sentences randomly taken from three different sources: the website Tatoeba (https://tatoeba.org/en/), and Cebuano grammar books by Bunye & Yap (1971) and Tanangkinsing (2011). This project is currently work in progress.
+UD_Cebuano_GJA is a collection of annotated Cebuano sample sentences randomly taken from three different sources: the website Tatoeba (https://tatoeba.org/en/), a Cebuano grammar book by Bunye & Yap (1971) and Tanangkinsing's reference grammar on Cebuano (2011). This project is currently work in progress.
 
 
 # Introduction
