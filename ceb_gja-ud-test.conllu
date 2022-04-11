@@ -266,7 +266,7 @@
 # text = Niay imong bisita.
 # gloss = here your visitor.
 # text_en = Here is your visitor.
-1	Niay	nia	ADV	_	Deixis=Prox||PronType=Dem|Neutral=Yes	0	root	_	Gloss=here
+1	Niay	nia	ADV	_	Deixis=Prox|Neutral=Yes|PronType=Dem	0	root	_	Gloss=here
 2-3	imong	_	_	_	_	_	_	_	_
 2	imo	imo	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod	_	Gloss=your
 3	-ng	nga	PART	_	_	2	mark	_	Gloss=LINK
@@ -1675,7 +1675,7 @@
 # gloss = needed Tom the money.
 # text_en = Tom needed the money.
 # tatoeba_author = Josefwintzent
-1	Gikinahanglan	kinahanglan	VERB	_	Aspect=perf	0	root	_	Gloss=needed
+1	Gikinahanglan	kinahanglan	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=needed
 2	ni	ni	ADP	_	Case=Gen	3	case	_	_
 3	Tom	Tom	PROPN	_	_	1	obj	_	Gloss=Tom
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
@@ -2254,8 +2254,8 @@
 6	sa	sa	ADP	_	Case=Dat	7	case	_	Gloss=in.the
 7	balay	balay	NOUN	_	_	3	obl	_	Gloss=house
 8	nga	nga	ADP	_	_	9	mark	_	Gloss=LINK
-9	nasunog	sunog	ADJ	_	_	7	amod	_	Gloss=burning|SpaceAfter=No
-10	.	.	PUNCT	_	Aspect=Perf|Mood=Ind|Voice=Pass	3	punct	_	Gloss=.
+9	nasunog	sunog	ADJ	_	Aspect=Perf|Mood=Ind|Voice=Pass	7	amod	_	Gloss=burning|SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	Gloss=.
 
 # sent_id = tatoeba-72
 # text = Padayona nang inyong gibuhat.
@@ -2269,7 +2269,7 @@
 4-5	inyong	_	_	_	_	_	_	_	_
 4	inyo	inyo	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	6	nmod	_	Gloss=you
 5	-ng	nga	PART	_	_	4	mark	_	Gloss=LINK
-6	gibuhat	buhat	NOUN	_	Aspect=Perf|Mood=Ind|Voice=Pass	1	nsubj	_	Gloss=what.doing|SpaceAfter=No
+6	gibuhat	buhat	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	1	nsubj	_	Gloss=what.doing|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = tatoeba-73
@@ -2295,7 +2295,7 @@
 3	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = tatoeba-75
-# text = Tabangan taka na?
+# text = Tabangan taka ana?
 # gloss = help you.I(DUAL) that?
 # text_en = Should I help you with that?
 # tatoeba_author = Josefwintzent
@@ -2367,7 +2367,7 @@
 9	?	?	PUNCT	_	_	1	punct	_	Gloss=?
 
 # sent_id = tatoeba-81
-# text = Dili ko. makihinapon.
+# text = Dili ko. makahinapon.
 # gloss = not I speak.Japanese
 # text_en = I can't speak Japanese.
 # tatoeba_author = Josefwintzent
