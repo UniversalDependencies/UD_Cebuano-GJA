@@ -720,7 +720,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = tanangkinsing-04
-# text = Tigdala man siya diri ug mga tnt.
+# text = Tigdala man siya diri ug mga TNT.
 # gloss = one.who.takes he here illegal.workers.
 # text_en = He regularly takes illegal workers here.
 1	Tigdala	dala	NOUN	_	_	0	root	_	Gloss=one.who.takes
@@ -951,7 +951,7 @@
 2	man	man	PART	_	_	1	advmod	_	_
 3	sad	sad	PART	_	_	1	advmod	_	Gloss=then
 4-5	imohang	_	_	_	_	_	_	_	_
-4	imoha	imoha	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	nummod	_	Gloss=your
+4	imoha	imoha	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	nmod	_	Gloss=your
 5	-ng	nga	PART	_	_	4	mark	_	Gloss=LINK
 6	sweldo	sweldo	NOUN	_	_	1	nsubj	_	Gloss=salary|SpaceAfter=No
 7	?	?	PUNCT	_	_	1	punct	_	Gloss=?
@@ -1052,15 +1052,15 @@
 # text = Nagsabot mi sa among mga plano.
 # gloss = are.discussing we our plans.
 # text_en = We are discussing our plans.
-1	Nagsabot	sabot	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	0:root	Gloss=are.discussing
-2	mi	kami	PRON	_	Case=Nom|Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	1	nsubj	1:nsubj	Gloss=we
-3	sa	sa	ADP	_	Case=Dat	7	case	7:case	_
+1	Nagsabot	sabot	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=are.discussing
+2	mi	kami	PRON	_	Case=Nom|Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	Gloss=we
+3	sa	sa	ADP	_	Case=Dat	7	case	_	_
 4-5	among	_	_	_	_	_	_	_	_
-4	amo	amo	PRON	_	Case=Gen|Clusivity=In|Number=Plur|Person=1|PronType=Prs	7	nummod	7:nummod	Gloss=our
-5	-ng	nga	PART	_	_	4	mark	4:mark	Gloss=LINK
-6	mga	mga	DET	_	Number=Plur	7	det	7:det	Gloss=PLUR
-7	plano	plano	NOUN	_	_	1	obj	1:obj	Gloss=plans|SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	1:punct	Gloss=.
+4	amo	amo	PRON	_	Case=Gen|Clusivity=In|Number=Plur|Person=1|PronType=Prs	7	nmod	_	Gloss=our
+5	-ng	nga	PART	_	_	4	mark	_	Gloss=LINK
+6	mga	mga	DET	_	Number=Plur	7	det	_	Gloss=PLUR
+7	plano	plano	NOUN	_	_	1	obj	_	Gloss=plans|SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = tanangkinsing-27
 # text = Mohulat kag tulo ka bulan.
@@ -1199,7 +1199,7 @@
 5-6	iyang	_	_	_	_	_	_	_	_
 5	iya	iya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	nmod	_	Gloss=his
 6	-ng	nga	ADP	_	_	5	mark	_	Gloss=LINK
-7	baga	baga	NOUN	_	_	1	nsubj	_	Gloss=lungs|SpaceAfer=No
+7	baga	baga	NOUN	_	_	1	nsubj	_	Gloss=lungs|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = tanangkinsing-37
@@ -1364,7 +1364,7 @@
 # tatoeba_author = Josefwintzent
 1	Dili	dili	PART	_	Polarity=Neg	3	advmod	_	Gloss=not
 2	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=I
-3	gusto	gusto	VERB	_	Aspect=Hab	0	root	_	Gloss=like
+3	gusto	gusto	VERB	_	_	0	root	_	Gloss=like
 4-5	ning	_	_	_	_	_	_	_	_
 4	ni	ani	PRON	_	Deixis=Prox	6	nmod	_	Gloss=this
 5	-ng	nga	PART	_	_	4	mark	_	Gloss=LINK
@@ -1792,8 +1792,8 @@
 1	Gidungog	dungog	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=was.known
 2	nga	nga	PART	_	_	3	mark	_	Gloss=LINK
 3-5	adis-adis	_	_	_	_	_	_	_	_
-3	adis	adis	ADJ	_	Degree=Pos	5	compound:redup	_	Gloss=addict|SpaceAfter=No
-4	-	-	PUNCT	_	_	5	punct	_	Gloss=-|SpaceAfter=No
+3	adis	adis	ADJ	_	Degree=Pos	5	compound:redup	_	Gloss=addict
+4	-	-	PUNCT	_	_	5	punct	_	Gloss=-
 5	adis	adis	ADJ	_	Degree=Pos	1	amod	_	Gloss=addict
 6	si	si	ADP	_	Case=Nom	7	case	_	_
 7	Tom	Tom	PROPN	_	Gender=Masc	5	nsubj	_	Gloss=Tom|SpaceAfter=No
@@ -1842,7 +1842,7 @@
 # text_en = Tom masterminded his father's death.
 # tatoeba_author = Josefwintzent
 1	Si	si	ADP	_	Case=Nom	2	case	_	_
-2	Tom	Tom	PROPN	_	Case=Masc	4	nsubj	_	Gloss=Tom
+2	Tom	Tom	PROPN	_	Gender=Masc	4	nsubj	_	Gloss=Tom
 3	ang	ang	ADP	_	Case=Nom	4	case	_	_
 4-5	mipasiugdang	_	_	_	_	_	_	_	_
 4	mipasiugda	ugda	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=initiated
@@ -1908,7 +1908,7 @@
 2	ni	ni	ADP	_	Case=Gen	3	case	_	_
 3	Tom	Tom	PROPN	_	Gender=Masc	1	obj	_	Gloss=Tom
 4	si	si	ADP	_	Case=Nom	5	case	_	Gloss=to
-5	Mary	Mary	PROPN	_	Case=Fem	1	nsubj	_	Gloss=Mary
+5	Mary	Mary	PROPN	_	Gender=Fem	1	nsubj	_	Gloss=Mary
 6	bahin	bahin	ADP	_	_	8	case	_	Gloss=about
 7	sa	sa	ADP	_	Case=Dat	6	fixed	_	Gloss=the
 8	kawat	kawat	NOUN	_	_	1	obl	_	Gloss=robbery|SpaceAfter=No
@@ -1949,7 +1949,7 @@
 # gloss = what your name?
 # text_en = What is your name?
 # tatoeba_author = Josefwintzent
-1	Unsay	unsa	PRON	_	PronType=Int|Neutral=Yes	0	root	_	Gloss=what
+1	Unsay	unsa	PRON	_	Neutral=Yes|PronType=Int	0	root	_	Gloss=what
 2-3	imong	_	_	_	_	_	_	_	_
 2	imo	imo	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod	_	Gloss=your
 3	-ng	nga	PART	_	_	2	mark	_	Gloss=LINK
@@ -2010,7 +2010,7 @@
 # gloss = two my cats.
 # text_en = I have two cats.
 # tatoeba_author = Josefwintzent
-1	Duha	duha	NUM	_	_	4	nummod	_	Gloss=two
+1	Duhay	duha	NUM	_	Neutral=Yes	4	nummod	_	Gloss=two
 2-3	akong	_	_	_	_	_	_	_	_
 2	ako	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nmod	_	Gloss=my
 3	-ng	nga	PART	_	_	2	mark	_	Gloss=LINK
