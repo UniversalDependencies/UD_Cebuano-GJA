@@ -412,7 +412,7 @@
 1	Pagdali	dali	VERB	_	Mood=Imp|Voice=Act	0	root	_	Gloss=hurry.up
 2	kay	kay	SCONJ	_	_	3	mark	_	Gloss=because
 3	hapon	hapon	NOUN	_	_	1	advcl	_	Gloss=afternoon
-4	na	na	PART	_	_	3	advmod	_	Gloss=already|SpaceAfter=No
+4	na	na	ADV	_	_	3	advmod	_	Gloss=already|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = bunyeyap-35
@@ -847,7 +847,7 @@
 2	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	Gloss=he
 3	kay	kay	SCONJ	_	_	4	mark	_	Gloss=since
 4	wala	wala	VERB	_	Polarity=Neg	1	ccomp	_	Gloss=EXISTENTIAL.NEGATION
-5	na	na	PART	_	_	4	advmod	_	_
+5	na	na	ADV	_	_	4	advmod	_	_
 6	ang	ang	ADP	_	Case=Nom	9	case	_	_
 7-8	iyang	_	_	_	_	_	_	_	_
 7	iya	iya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	nmod	_	Gloss=his
@@ -863,7 +863,7 @@
 # text_en = When I'll be thirty, I won't get married anymore.
 1	Basta	basta	SCONJ	_	_	2	mark	_	Gloss=when
 2	mag-idad	edad	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=age.to
-3	na	_	PART	_	_	2	advmod	_	_
+3	na	_	ADV	_	_	2	advmod	_	_
 4-5	kog	_	_	_	_	_	_	_	_
 4	ko	ko	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Gloss=I
 5	-g	ug	ADP	_	_	6	case	_	_
@@ -924,7 +924,7 @@
 10	.	.	PUNCT	_	_	3	punct	_	Gloss=.
 
 # sent_id = tanangkinsing-17
-# text = Katong usa ka Taiwanese kaila pud silang Josie ato.
+# text = Katong usa ka Taiwanese, kaila pud silang Josie ato.
 # gloss = that one Taiwanese, know also they Josie that.
 # text_en = One of those Taiwanese people, Josie and the others they also know him.
 1-2	Katong	_	_	_	_	_	_	_	_
@@ -941,9 +941,7 @@
 10	-ng	nga	PART	_	_	9	mark	_	Gloss=LINK
 11	Josie	Josie	PROPN	_	Gender=Fem	7	nsubj	_	Gloss=Josie
 12	ato	kadto	PRON	_	Deixis=Remt|PronType=Dem	7	nmod	_	Gloss=that|SpaceAfter=No
-13	.	.	PUNCT	_	_	7	punct	_	Gloss=.
-
-# sent_id = tanangkinsing-18
+13	.	.	PUNCT	_	_	7	punct	_	Gloss=.# sent_id = tanangkinsing-18
 # text = Pila man sad imohang sweldo?
 # gloss = how.much then your salary?
 # text_en = How much then is your salary?
@@ -1241,8 +1239,8 @@
 3	tuig	tuig	NOUN	_	_	5	advcl	_	Gloss=years
 4	ang	ang	ADP	_	Case=Nom	5	case	_	_
 5	milabay	labay	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=passed
-6	sukad	sukad	SCONJ	_	_	7	mark	_	Gloss=since
-7	sa	sa	ADP	_	Case=Dat	10	case	_	_
+6	sukad	sukad	SCONJ	_	_	10	case	_	Gloss=since
+7	sa	sa	ADP	_	Case=Dat	6	fixed	_	_
 8-9	akong	_	_	_	_	_	_	_	_
 8	ako	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nmod	_	Gloss=my
 9	-ng	nga	PART	_	_	8	mark	_	Gloss=LINK
@@ -1545,7 +1543,7 @@
 # text_en = I don't like you anymore.
 # tatoeba_author = Josefwintzent
 1	Wala	wala	PART	_	Polarity=Neg	4	advmod	_	Gloss=not
-2	na	na	PART	_	_	1	advmod	_	Gloss=anymore
+2	na	na	ADV	_	_	1	advmod	_	Gloss=anymore
 3	koy	ako	PRON	_	Case=Nom|Neutral=Yes|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Gloss=I
 4	gusto	gusto	VERB	_	_	0	root	_	Gloss=like
 5	nimo	nimo.	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	obj	_	Gloss=you|SpaceAfter=No
@@ -1627,7 +1625,7 @@
 # text_en = I don’t know what to do anymore.
 # tatoeba_author = Josefwintzent
 1	Wala	wala	PART	_	Polarity=Neg	4	advmod	_	Gloss=not
-2	na	na	PART	_	_	1	advmod	_	Gloss=anymore
+2	na	na	ADV	_	_	1	advmod	_	Gloss=anymore
 3	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Gloss=I
 4	masayod	sayod	VERB	_	Aspect=Prosp|Mood=Ind|Voice=Act	0	root	_	Gloss=know
 5	unsa	unsa	PRON	_	_	7	nmod	_	Gloss=what
@@ -1920,7 +1918,7 @@
 # text_en = Christmas is already close, as said by the elders.
 # tatoeba_author = tarsier
 1	Hapit	hapit	ADJ	_	Degree=Pos	0	root	_	Gloss=close
-2	na	na	PART	_	_	1	advmod	_	Gloss=already
+2	na	na	ADV	_	_	1	advmod	_	Gloss=already
 3	man	man	PART	_	_	1	advmod	_	_
 4	diay	diay	PART	_	_	1	advmod	_	_
 5	Pasko	Pasko	PROPN	_	_	1	nsubj	_	Gloss=Christmas|SpaceAfter=No
@@ -1971,7 +1969,7 @@
 # text_en = What is it?
 # tatoeba_author = Josefwintzent
 1	Unsa	unsa	PRON	_	_	0	root	_	Gloss=What
-2	na	na	PART	_	_	1	advmod	_	_
+2	na	na	ADV	_	_	1	advmod	_	_
 3	man	man	PART	_	_	1	advmod	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	1	punct	_	Gloss=?
 
@@ -2145,7 +2143,7 @@
 # text_en = (expression)I have to go.
 # tatoeba_author = Josefwintzent
 1	Ari	ari	ADV	_	Deixis=Prox	0	root	_	Gloss=here
-2	na	na	PART	_	_	1	advmod	_	_
+2	na	na	ADV	_	_	1	advmod	_	_
 3	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	Gloss=I|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
@@ -2215,7 +2213,7 @@
 # text_en = (Expression)Having a nice body is not fashionable anymore, what is important is you have food to eat.
 # tatoeba_author = tarsier
 1	Wala	wala	VERB	_	Polarity=Neg	0	root	_	Gloss=EXISTENTIAL.NEGATION
-2	nay	na	PART	_	Neutral=Yes	1	advmod	_	_
+2	nay	na	ADV	_	Neutral=Yes	1	advmod	_	_
 3	uso	uso	NOUN	_	_	1	nsubj	_	Gloss=fashion
 4	panindotay	nindot	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	1	ccomp	_	Gloss=appearing.nice
 5	ug	ug	ADP	_	Case=Gen	6	case	_	_
@@ -2264,7 +2262,7 @@
 # tatoeba_author = Josefwintzent
 1	Padayona	dayon	VERB	_	Mood=Imp|Voice=Pass	0	root	_	Gloss=continue
 2-3	nang	_	_	_	_	_	_	_	_
-2	na	na	PART	_	_	1	advmod	_	_
+2	na	na	ADV	_	_	1	advmod	_	_
 3	-ng	ang	ADP	_	Case=Nom	6	case	_	_
 4-5	inyong	_	_	_	_	_	_	_	_
 4	inyo	inyo	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	6	nmod	_	Gloss=you
@@ -2402,7 +2400,7 @@
 # text_en = I don't have any money.
 # tatoeba_author = Josefwintzent
 1	Wala	wala	VERB	_	Polarity=Neg	0	root	_	Gloss=EXISTENTIAL.NEGATION
-2	na	na	PART	_	_	1	advmod	_	Gloss=now
+2	na	na	ADV	_	_	1	advmod	_	Gloss=now
 3	jud	gyud	PART	_	_	1	advmod	_	_
 4	koy	ko	PRON	_	Case=Nom|Neutral=Yes|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	Gloss=I
 5	kwarta	kwarta	NOUN	_	_	1	obj	_	Gloss=money|SpaceAfter=No
