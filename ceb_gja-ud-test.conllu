@@ -941,7 +941,9 @@
 10	-ng	nga	PART	_	_	9	mark	_	Gloss=LINK
 11	Josie	Josie	PROPN	_	Gender=Fem	7	nsubj	_	Gloss=Josie
 12	ato	kadto	PRON	_	Deixis=Remt|PronType=Dem	7	nmod	_	Gloss=that|SpaceAfter=No
-13	.	.	PUNCT	_	_	7	punct	_	Gloss=.# sent_id = tanangkinsing-18
+13	.	.	PUNCT	_	_	7	punct	_	Gloss=.
+
+# sent_id = tanangkinsing-18
 # text = Pila man sad imohang sweldo?
 # gloss = how.much then your salary?
 # text_en = How much then is your salary?
@@ -953,8 +955,6 @@
 5	-ng	nga	PART	_	_	4	mark	_	Gloss=LINK
 6	sweldo	sweldo	NOUN	_	_	1	nsubj	_	Gloss=salary|SpaceAfter=No
 7	?	?	PUNCT	_	_	1	punct	_	Gloss=?
-
-
 
 # sent_id = tanangkinsing-19
 # text = Gwapa baya to iyang uyab.
