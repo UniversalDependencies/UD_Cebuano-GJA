@@ -942,6 +942,8 @@
 11	Josie	Josie	PROPN	_	Gender=Fem	7	nsubj	_	Gloss=Josie
 12	ato	kadto	PRON	_	Deixis=Remt|PronType=Dem	7	nmod	_	Gloss=that|SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	Gloss=.# sent_id = tanangkinsing-18
+
+# sent_id = tanangkinsing-18
 # text = Pila man sad imohang sweldo?
 # gloss = how.much then your salary?
 # text_en = How much then is your salary?
