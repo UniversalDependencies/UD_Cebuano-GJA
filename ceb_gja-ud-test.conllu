@@ -223,7 +223,7 @@
 # gloss = you too.
 # text_en = You too.
 1	Ikaw	ikaw	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	0	root	_	Gloss=you
-2	sab	sab	PART	_	_	1	advmod	_	Gloss=too|SpaceAfter=No
+2	sab	sab	ADV	_	_	1	advmod	_	Gloss=too|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = bunyeyap-20
@@ -357,7 +357,7 @@
 # text_en = How many months in one year?
 1	Pila	pila	ADV	_	_	0	root	_	Gloss=how.many
 2	ka	ka	PART	_	_	3	mark	_	Gloss=LINK
-3	bulan	bulan	NOUN	_	_	1	advmod	_	Gloss=month
+3	bulan	bulan	NOUN	_	_	1	nmod	_	Gloss=month
 4	sa	sa	ADP	_	Case=Dat	7	case	_	_
 5	usa	usa	NUM	_	_	7	nummod	_	Gloss=one
 6	ka	ka	PART	_	_	5	mark	_	Gloss=LINK
@@ -503,7 +503,7 @@
 5	opisina	opisina	NOUN	_	_	3	obl	_	Gloss=office
 6	gahapon	gahapon	ADV	_	_	3	advmod	_	Gloss=yesterday
 7	kay	kay	SCONJ	_	_	8	mark	_	Gloss=because
-8	Sabado	Sabado	PROPN	_	_	6	advmod	_	Gloss=Saturday|SpaceAfter=No
+8	Sabado	Sabado	PROPN	_	_	6	nmod	_	Gloss=Saturday|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	Gloss=.
 
 # sent_id = bunyeyap-43
@@ -803,19 +803,19 @@
 # text = Pagkahuman nilabay siya sa katong tawo nga namupu ug bayabas.
 # gloss = then passed.by he that person was.picking guavas.
 # text_en = Then, he passed by that person who was picking guavas.
-1	Pagkahuman	human	ADV	_	_	2	advmod	_	_
-2	nilabay	labay	VERB	_	_	0	root	_	_
-3	siya	siya	PRON	_	_	2	nsubj	_	_
-4	sa	sa	ADP	_	_	7	case	_	_
+1	Pagkahuman	human	ADV	_	_	2	advmod	_	Gloss=then
+2	nilabay	labay	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=passed.by
+3	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Gloss=he
+4	sa	sa	ADP	_	Case=Dat	7	case	_	_
 5-6	katong	_	_	_	_	_	_	_	_
-5	kato	kadto	PRON	_	_	7	nmod	_	_
-6	-ng	nga	PART	_	_	5	mark	_	_
-7	tawo	tawo	NOUN	_	_	2	obj	_	_
-8	nga	nga	PART	_	_	9	mark	_	_
-9	namupu	pupu	VERB	_	_	7	acl	_	_
-10	ug	ug	ADP	_	_	11	case	_	_
-11	bayabas	bayabas	NOUN	_	_	9	obj	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	9	punct	_	_
+5	kato	kadto	PRON	_	Deixis=Remt	7	nmod	_	Gloss=that
+6	-ng	nga	PART	_	_	5	mark	_	Gloss=LINK
+7	tawo	tawo	NOUN	_	_	2	obj	_	Gloss=person
+8	nga	nga	PART	_	_	9	mark	_	Gloss=LINK
+9	namupu	pupu	VERB	_	Aspect=Prosp|Mood=Ind|Voice=Act	7	acl	_	Gloss=was.picking
+10	ug	ug	ADP	_	Case=Gen	11	case	_	_
+11	bayabas	bayabas	NOUN	_	_	9	obj	_	Gloss=guavas|SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	Gloss=.
 
 # sent_id = tanangkinsing-11
 # text = Tulo mi ka oras gatindog didto tungod sa TV nga second-hand nga akong gidala.
@@ -942,19 +942,19 @@
 11	Josie	Josie	PROPN	_	Gender=Fem	7	nsubj	_	Gloss=Josie
 12	ato	kadto	PRON	_	Deixis=Remt|PronType=Dem	7	nmod	_	Gloss=that|SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	Gloss=.# sent_id = tanangkinsing-18
-
-# sent_id = tanangkinsing-18
 # text = Pila man sad imohang sweldo?
 # gloss = how.much then your salary?
 # text_en = How much then is your salary?
 1	Pila	pila	ADV	_	_	0	root	_	Gloss=how.much
 2	man	man	PART	_	_	1	advmod	_	_
-3	sad	sad	PART	_	_	1	advmod	_	Gloss=then
+3	sad	sad	ADV	_	_	1	advmod	_	Gloss=then
 4-5	imohang	_	_	_	_	_	_	_	_
 4	imoha	imoha	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	nmod	_	Gloss=your
 5	-ng	nga	PART	_	_	4	mark	_	Gloss=LINK
 6	sweldo	sweldo	NOUN	_	_	1	nsubj	_	Gloss=salary|SpaceAfter=No
 7	?	?	PUNCT	_	_	1	punct	_	Gloss=?
+
+
 
 # sent_id = tanangkinsing-19
 # text = Gwapa baya to iyang uyab.
@@ -962,7 +962,7 @@
 # text_en = His girlfriend is pretty.
 1	Gwapa	gwapa	ADJ	_	Degree=Pos|Gender=Fem	0	root	_	Gloss=beautiful
 2	baya	baya	ADV	_	_	1	advmod	_	_
-3	to	kadto	PRON	_	Deixis=Remt|PronType=Dem	6	advmod	_	_
+3	to	kadto	PRON	_	Deixis=Remt|PronType=Dem	6	nmod	_	_
 4-5	iyang	_	_	_	_	_	_	_	_
 4	iya	iya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	nmod	_	Gloss=his
 5	-ng	nga	PART	_	_	4	fixed	_	Gloss=LINK
@@ -1225,7 +1225,7 @@
 # text_en = I don't know what their plans are.
 1	Ambot	ambot	PART	_	Polarity=Neg	0	root	_	Gloss=do.not.know
 2	lang	lang	ADV	_	_	1	advmod	_	_
-3	unsa	unsa	PRON	_	_	1	advmod	_	Gloss=what
+3	unsa	unsa	PRON	_	_	1	nmod	_	Gloss=what
 4-5	ilang	_	_	_	_	_	_	_	_
 4	ila	ila	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	nmod	_	Gloss=their
 5	-ng	nga	PART	_	_	4	mark	_	Gloss=LINK
