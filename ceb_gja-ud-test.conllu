@@ -803,19 +803,19 @@
 # text = Pagkahuman nilabay siya sa katong tawo nga namupu ug bayabas.
 # gloss = then passed.by he that person was.picking guavas.
 # text_en = Then, he passed by that person who was picking guavas.
-1	Pagkahuman	human	ADV	_	_	2	advmod	_	Gloss=then|SpaceAfter=No
-2	nilabay	labay	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=passed.by
-3	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Gloss=he
-4	sa	sa	ADP	_	Case=Dat	7	case	_	_
+1	Pagkahuman	human	ADV	_	_	2	advmod	_	_
+2	nilabay	labay	VERB	_	_	0	root	_	_
+3	siya	siya	PRON	_	_	2	nsubj	_	_
+4	sa	sa	ADP	_	_	7	case	_	_
 5-6	katong	_	_	_	_	_	_	_	_
-5	kato	kadto	PRON	_	Deixis=Remt	7	nmod	_	Gloss=that
-6	-ng	nga	PART	_	_	5	mark	_	Gloss=LINK
-7	tawo	tawo	NOUN	_	_	2	obj	_	Gloss=person
-8	nga	nga	PART	_	_	9	mark	_	Gloss=LINK
-9	namupu	pupu	VERB	_	Aspect=Prosp|Mood=Ind|Voice=Act	7	acl	_	Gloss=was.picking
-10	ug	ug	ADP	_	Case=Gen	11	case	_	_
-11	bayabas	bayabas	NOUN	_	_	9	obj	_	Gloss=guavas|SpaceAfter=No
-12	.	.	PUNCT	_	_	9	punct	_	Gloss=.
+5	kato	kadto	PRON	_	_	7	nmod	_	_
+6	-ng	nga	PART	_	_	5	mark	_	_
+7	tawo	tawo	NOUN	_	_	2	obj	_	_
+8	nga	nga	PART	_	_	9	mark	_	_
+9	namupu	pupu	VERB	_	_	7	acl	_	_
+10	ug	ug	ADP	_	_	11	case	_	_
+11	bayabas	bayabas	NOUN	_	_	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = tanangkinsing-11
 # text = Tulo mi ka oras gatindog didto tungod sa TV nga second-hand nga akong gidala.
