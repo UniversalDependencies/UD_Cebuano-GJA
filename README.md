@@ -1,16 +1,14 @@
 # Summary
 
-UD_Cebuano_GJA is a collection of  annotated Cebuano sample sentences randomly taken from three different sources: community-contributed samples from the website Tatoeba, a Cebuano grammar book by Bunye & Yap (1971) and Tanangkinsing's reference grammar on Cebuano (2011). This project is currently work in progress.
+UD_Cebuano_GJA is a collection of annotated Cebuano sample sentences randomly taken from three different sources: community-contributed samples from the website Tatoeba, a Cebuano grammar book by Bunye & Yap (1971) and Tanangkinsing's reference grammar on Cebuano (2011). This project is currently work in progress.
 
 
 # Introduction
-This treebank is composed of 188 sample sentences across three corpora: 58 sentences from Bunye and Yap's book, 46 sentences from Tanangkinsing's books, and 84 sentences taken from Tatoeba. Annotation was done manually by Glyd Jun Arañes as part of his MA Thesis at the University of Eastern Finland for his Master's Degree in Linguistic Data Sciences. 
+This treebank is composed of 188 sample sentences across three corpora: 58 sentences from Bunye and Yap's book, 46 sentences from Tanangkinsing's books, and 84 sentences taken from Tatoeba. Annotation was done manually by Glyd Jun Arañes as part of his MA Thesis at the University of Eastern Finland for his Master's Degree in Linguistic Data Sciences.
 
 For suggestions on the treebank, you can contact Glyd through this email: glyd.aranes@gmail.com
 
 # Acknowledgments
-
-...
 
 ## References
 
