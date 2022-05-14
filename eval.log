@@ -1,0 +1,40 @@
+Running the following version of UD tools:
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
+Evaluating the following revision of UD_Cebuano-GJA:
+commit ef6570b33e305c73841259e4a88c6f854467f8f2
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat May 14 12:20:43 2022 +0200
+Size: counted 1295 of 1295 words (nodes).
+Size: min(0, log((N/1000)**2)) = 0.517021390303002.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 14 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 646 out of 1295 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 26 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi:
+               TOTAL        216
+Udapi: found 216 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 1295 words.
+Genres: found 1 out of 17 known.
+validate.py --lang ceb --max-err=10 UD_Cebuano-GJA/ceb_gja-ud-test.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.0374232561390902) = 0.00959570670233082
+(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.823529411764706) = 0.0633484162895928
+(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
+(weight=0.0769230769230769) * (score{udeprels}=0.702702702702703) = 0.0540540540540541
+(TOTAL score=0.250497422898165) * (availability=1) * (validity=1) = 0.250497422898165
+STARS = 1.5
+UD_Cebuano-GJA	0.250497422898165	1.5
