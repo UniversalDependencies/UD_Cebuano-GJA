@@ -25,7 +25,7 @@
 # sent_id = bunyeyap-03
 # text = Pilay gibayad nimo?
 # gloss = how.much. did.pay you?
-# text_en = How much did you pay? 
+# text_en = How much did you pay?
 1	Pilay	pila	ADV	_	Neutral=Yes|PronType=Int	2	advmod	_	Gloss=how.much
 2	gibayad	bayad	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=did.pay
 3	nimo	nimo	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Gloss=you|SpaceAfter=No
@@ -542,7 +542,7 @@
 # sent_id = bunyeyap-45
 # text = Siya ba ang imong amiga?
 # gloss = She your friend?
-# text_en = Is she your friend? 
+# text_en = Is she your friend?
 1	Siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	0	root	_	Gloss=she
 2	ba	ba	PART	_	PartType=Int	1	advmod	_	Gloss=QUESTION
 3	ang	ang	ADP	_	Case=Nom	6	case	_	_
@@ -1109,7 +1109,7 @@
 # text_en = The frog got away from the container.
 1	Nawala	wala	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=got.away
 2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
-3	baki	baki	NOUN	_	_	1	nsubj	_	GLoss=frog
+3	baki	baki	NOUN	_	_	1	nsubj	_	Gloss=frog
 4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=the
 5	garapon	garapon	NOUN	_	_	1	obl	_	Gloss=container|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
@@ -2089,10 +2089,10 @@
 # gloss = envied I you
 # text_en = envied you.
 # tatoeba_author = mikazuki
-1	Naibog	ibog	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	gloss=envied
-2	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	gloss=I
-3	nimo	nimo	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	obj	_	gloss=of-you|SpaceAfter=No
-4	.	.	PUNCT	_	_	1	punct	_	gloss=.
+1	Naibog	ibog	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=envied
+2	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	Gloss=I
+3	nimo	nimo	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	obj	_	Gloss=of-you|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = tatoeba-59
 # text = Maayong pag-abot!
@@ -2290,8 +2290,8 @@
 # gloss = am-thirsty I.
 # text_en = I am thirsty.
 # tatoeba_author = Josefwintzent
-1	Giuhaw	uhaw	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	gloss=am-thirsty
-2	ko	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	gloss=I|SpaceAfter=No
+1	Giuhaw	uhaw	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	Gloss=am-thirsty
+2	ko	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	Gloss=I|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = tatoeba-75
@@ -2357,13 +2357,13 @@
 # tatoeba_author = Josefwintzent
 1	Mag-unsa	unsa	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=what.would.do
 2	ka	ikaw	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	Gloss=you
-3	kon	kon	SCONJ	_	_	4	mark	_	Gloss=if
-4	ikaw	ikaw	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	Gloss=you
+3	kon	kon	SCONJ	_	_	8	mark	_	Gloss=if
+4	ikaw	ikaw	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	Gloss=you
 5	sa	sa	ADP	_	Case=Dat	8	case	_	_
 6-7	akong	_	_	_	_	_	_	_	_
 6	ako	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nmod	_	Gloss=my
 7	-ng	nga	PART	_	_	6	mark	_	Gloss=LINK
-8	sitwasyon	sitwasyon	NOUN	_	_	4	nmod	_	Gloss=situation|SpaceAfter=No
+8	sitwasyon	sitwasyon	NOUN	_	_	1	advcl	_	Gloss=situation|SpaceAfter=No
 9	?	?	PUNCT	_	_	1	punct	_	Gloss=?
 
 # sent_id = tatoeba-81
@@ -2392,8 +2392,8 @@
 # gloss = was-aware I
 # text_en = I was aware.
 # tatoeba_author = tarsier
-1	Nakabantay	bantay	VERB	_	Aspect=Perf|Mood=Pot|Voice=Pass	0	root	_	gloss=was.aware
-2	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	gloss=I|SpaceAfter=No
+1	Nakabantay	bantay	VERB	_	Aspect=Perf|Mood=Pot|Voice=Pass	0	root	_	Gloss=was.aware
+2	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	Gloss=I|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = tatoeba-84
