@@ -20,6 +20,9 @@ For suggestions on the treebank, you can contact Glyd through this email: glyd.a
 
 # Changelog
 
+* 2023-05-15 v2.12
+  * Fixed typos in glosses.
+  * Fixed predicate with multiple subjects.
 * 2022-05-15 v2.10
   * Initial release in Universal Dependencies.
 
@@ -37,6 +40,6 @@ Features: manual native
 Relations: manual native
 Contributors: Aranes, Glyd
 Contributing: here
-Contact: glyd.aranes@uef.fi
+Contact: glyd.aranes@gmail.com
 ===============================================================================
 </pre>

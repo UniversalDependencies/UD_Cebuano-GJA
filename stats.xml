@@ -71,7 +71,7 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="27">
     <dep name="acl">9</dep>
-    <dep name="advcl">9</dep>
+    <dep name="advcl">10</dep>
     <dep name="advmod">135</dep>
     <dep name="amod">21</dep>
     <dep name="appos">2</dep>
@@ -88,7 +88,7 @@
     <dep name="flat">1</dep>
     <dep name="iobj">1</dep>
     <dep name="mark">105</dep>
-    <dep name="nmod">82</dep>
+    <dep name="nmod">81</dep>
     <dep name="nsubj">154</dep>
     <dep name="nummod">11</dep>
     <dep name="obj">77</dep>
