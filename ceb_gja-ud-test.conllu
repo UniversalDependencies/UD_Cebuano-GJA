@@ -28,7 +28,7 @@
 # text_en = How much did you pay?
 1	Pilay	pila	ADV	_	Neutral=Yes|PronType=Int	2	advmod	_	Gloss=how.much
 2	gibayad	bayad	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=did.pay
-3	nimo	nimo	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Gloss=you|SpaceAfter=No
+3	nimo	nimo	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	Gloss=you|SpaceAfter=No
 4	?	?	PUNCT	_	_	2	punct	_	Gloss=?
 
 # sent_id = bunyeyap-04
@@ -706,7 +706,7 @@
 1	Gimaotan	maot	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=see.ugly
 2	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	Gloss=I
 3	sa	sa	ADP	_	Case=Dat	4	case	_	_
-4	babayi	babayi	NOUN	_	_	1	obj	_	Gloss=woman|SpaceAfter=No
+4	babayi	babayi	NOUN	_	Gender=Fem	1	obj	_	Gloss=woman|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = tanangkinsing-03
@@ -716,7 +716,7 @@
 1	Namaotan	maot	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=see.ugly
 2	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	Gloss=I
 3	sa	sa	ADP	_	Case=Dat	4	case	_	_
-4	babayi	babayi	NOUN	_	_	1	obj	_	Gloss=woman|SpaceAfter=No
+4	babayi	babayi	NOUN	_	Gender=Fem	1	obj	_	Gloss=woman|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = tanangkinsing-04
@@ -831,7 +831,7 @@
 8	sa	sa	ADP	_	Case=Dat	7	fixed	_	Gloss=the
 9	TV	TV	NOUN	_	_	5	obl	_	Gloss=TV.set
 10	nga	nga	PART	_	_	11	mark	_	_
-11	second-hand	second-hand	ADJ	_	_	9	amod	_	Gloss=second-hand
+11	second-hand	second-hand	ADJ	_	Degree:Pos	9	amod	_	Gloss=second-hand
 12	nga	nga	PART	_	_	15	mark	_	Gloss=that
 13-14	akong	_	_	_	_	_	_	_	_
 13	ako	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nmod	_	Gloss=I
@@ -1004,8 +1004,8 @@
 # text_en = Mother Dionesia forgot to eat and drink water.
 1	Nakalimtan	limot	VERB	_	Aspect=Prosp|Mood=Pot|Voice=Pass	0	root	_	Gloss=forgot
 2	ni	ni	ADP	_	Case=Gen	4	case	_	_
-3	Nanay	nanay	PROPN	_	_	4	compound	_	Gloss=Mother
-4	Dionesia	Dionesia	PROPN	_	_	1	nsubj	_	Gloss=Dionesia
+3	Nanay	nanay	PROPN	_	Gender=Fem	4	compound	_	Gloss=Mother
+4	Dionesia	Dionesia	PROPN	_	Gender=Fem	1	nsubj	_	Gloss=Dionesia
 5	nga	nga	PART	_	_	6	mark	_	Gloss=LINK
 6	mokaon	kaon	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	ccomp	_	Gloss=to.eat
 7	ug	ug	CCONJ	_	_	8	cc	_	Gloss=and
@@ -1548,7 +1548,7 @@
 2	na	na	ADV	_	_	1	advmod	_	Gloss=anymore
 3	koy	ako	PRON	_	Case=Nom|Neutral=Yes|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Gloss=I
 4	gusto	gusto	VERB	_	_	0	root	_	Gloss=like
-5	nimo	nimo.	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	obj	_	Gloss=you|SpaceAfter=No
+5	nimo	nimo.	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	4	obj	_	Gloss=you|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	Gloss=.
 
 # sent_id = tatoeba-18
@@ -2091,7 +2091,7 @@
 # tatoeba_author = mikazuki
 1	Naibog	ibog	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=envied
 2	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	Gloss=I
-3	nimo	nimo	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	obj	_	Gloss=of-you|SpaceAfter=No
+3	nimo	nimo	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	1	obj	_	Gloss=of-you|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = tatoeba-59
@@ -2202,7 +2202,7 @@
 3	-ng	nga	PART	_	_	2	mark	_	Gloss=LINK
 4	kasabot	sabot	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	Gloss=to.undestand
 5	kay	kay	SCONJ	_	_	6	mark	_	Gloss=because
-6	mabaw	mabaw	ADJ	_	_	4	advcl	_	Gloss=shallow
+6	mabaw	mabaw	ADJ	_	Degree:Pos	4	advcl	_	Gloss=shallow
 7-8	rag	_	_	_	_	_	_	_	_
 7	ra	ra	PART	_	_	6	advmod	_	_
 8	-g	ug	ADP	_	_	9	case	_	_
@@ -2324,7 +2324,7 @@
 1	Imo	imo	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Gloss=you
 2	ba	ba	PART	_	PartType=Int	5	advmod	_	Gloss=QUESTION
 3-4	kong	_	_	_	_	_	_	_	_
-3	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	iobj	_	Gloss=me
+3	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	obj	_	Gloss=me
 4	-ng	nga	PART	_	_	3	mark	_	Gloss=Link
 5	gihigugma	gugma	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=love|SpaceAfter=No
 6	?	?	PUNCT	_	_	5	punct	_	Gloss=?
