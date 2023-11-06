@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Cebuano-GJA:
-commit 44ae6cb71412dae13e109fa61c88aaf5537871af
-Merge: 8cee0d3 0d3331a
+commit 5ef101f7e2d4e07c12e29d826a7d1c4a4d7c5e79
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 09:36:33 2023 +0200
 Size: counted 1295 of 1295 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.517021390303002.
 Size: maximum value 13.815511 is for 1000000 words or more.
