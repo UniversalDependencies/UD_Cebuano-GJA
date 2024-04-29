@@ -1182,7 +1182,7 @@
 # text_en = You have to make somebody leave something for yourself.
 1	Magpabilin	bilin	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=leave
 2	gyud	gyud	PART	_	_	1	advmod	_	_
-3	ka	ikaw	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	Gloss=you
+3	ka	ikaw	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	Gloss=you
 4	para	para	ADP	_	_	6	case	_	Gloss=for
 5	sa	sa	ADP	_	Case=Dat	4	fixed	_	_
 6	imoha	imo	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	3	nmod	_	Gloss=yourself|SpaceAfter=No
