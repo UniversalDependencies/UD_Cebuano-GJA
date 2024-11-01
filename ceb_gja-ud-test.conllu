@@ -2439,7 +2439,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-3
-# text = Gisulayan niya nga mohunong og panigarilyo og tagay.
+# text = Gisulayan niya nga mohunong ug panigarilyo ug tagay.
 # gloss = tried he to.stop smoking and drinking.
 # text_en = He tried to stop smoking and drinking.
 1	Gisulayan	sulay	VERB	_	_	0	root	_	Gloss=tried
