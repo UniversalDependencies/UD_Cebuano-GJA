@@ -2412,7 +2412,7 @@
 # text = Nagsulat ang batang babae ug sulat para sa iyang amigo.
 # gloss = wrote the young girl a letter to her friend.
 # text_en = The girl wrote a letter to her friend.
-1	Nagsulat	sulat	VERB	_	_	0	_	_	Gloss=wrote
+1	Nagsulat	sulat	VERB	_	_	0	root	_	Gloss=wrote
 2	ang	ang	ADP	_	_	5	case	_	Gloss=the
 3-4	batang	_	_	_	_	_	_	_	_
 3	bata	bata	ADJ	_	_	5	amod	_	Gloss=young
@@ -2433,7 +2433,7 @@
 # gloss = like raining.
 # text_en = I think that it is raining.
 1-2	Mura'g	_	_	_	_	_	_	_	_
-1	mura	mura	_	_	_	3	advmod	_	Gloss=like
+1	mura	mura	ADV	_	_	3	advmod	_	Gloss=like
 2	og	og	ADP	_	_	1	mark	_	_
 3	naga-ulan	ulan	VERB	_	_	0	root	_	Gloss=raining|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	Gloss=.
