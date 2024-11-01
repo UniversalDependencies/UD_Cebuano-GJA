@@ -2492,20 +2492,19 @@
 11	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-7
-# text = Ang silingan ni Peter kay gipinturahan ang koral ug pula.
-# gloss = neighbor of Peter painted the fence red.
+# text = Gipinturahan sa silingan ni Peter ang koral og pula.
+# gloss = painted neighbor of Peter the fence red.
 # text_en = Peter's neighbor painted the fence red.
-1	Ang	ang	ADP	_	_	2	case	_	_
-2	silingan	silingan	NOUN	_	_	6	nsubj	_	Gloss=neighbor
-3	ni	kani	ADP	_	_	4	case	_	_
-4	Peter	Peter	NOUN	_	_	6	obj	_	Gloss=Peter
-5	kay	kay	PART	_	_	6	mark	_	_
-6	gipinturahan	pintura	VERB	_	_	0	root	_	Gloss=painted
-7	ang	ang	ADP	_	_	8	case	_	Gloss=the
-8	koral	koral	NOUN	_	_	6	nsubj	_	Gloss=fence
-9	ug	ug	ADP	_	_	10	case	_	_
-10	pula	pula	ADJ	_	_	6	obj	_	Gloss=red|SpaceAfter=No
-11	.	.	PUNCT	_	_	6	punct	_	Gloss=.
+1	Gipinturahan	pintura	VERB	_	_	0	root	_	Gloss=painted
+2	sa	sa	ADP	_	_	3	case	_	_
+3	silingan	silingan	NOUN	_	_	1	obj	_	Gloss=neighbor
+4	ni	kani	ADP	_	_	5	case	_	_
+5	Peter	Peter	PROPN	_	_	1	obl	_	Gloss=Peter
+6	ang	ang	ADP	_	_	7	case	_	_
+7	koral	koral	NOUN	_	_	1	nsubj	_	Gloss=fence
+8	og	og	ADP	_	_	9	amod	_	_
+9	pula	pula	ADJ	_	_	1	obl	_	Gloss=red|SpaceAfter=no
+10	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-8
 # text = Ang akong amahan kay mas kuyaw kaysa sa imong amahan.
