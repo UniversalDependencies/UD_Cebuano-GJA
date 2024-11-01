@@ -2408,3 +2408,158 @@
 5	kwarta	kwarta	NOUN	_	_	1	obj	_	Gloss=money|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
+# sent_id = cairo-ceb-1
+# text = Nagsulat ang batang babae ug sulat para sa iyang amigo.
+# gloss = wrote the young girl a letter to her friend.
+# text_en = The girl wrote a letter to her friend.
+1	Nagsulat	sulat	VERB	_	_	0	_	_	Gloss=wrote
+2	ang	ang	ADP	_	_	5	case	_	Gloss=the
+3-4	batang	_	_	_	_	_	_	_	_
+3	bata	bata	ADJ	_	_	5	amod	_	Gloss=young
+4	-ng	nga	PART	_	_	3	mark	_	_
+5	babae	babae	NOUN	_	_	1	nsubj	_	Gloss=girl
+6	ug	ug	ADP	_	_	7	case	_	Gloss=a
+7	sulat	sulat	NOUN	_	_	1	obj	_	Gloss=letter
+8	para	para	ADP	_	_	12	case	_	_
+9	sa	sa	ADP	_	_	8	fixed	_	Gloss=to
+10-11	iyang	_	_	_	_	_	_	_	_
+10	iya	iya	PRON	_	_	12	nmod	_	Gloss=her
+11	-ng	nga	PART	_	_	10	mark	_	Gloss=LINK
+12	amigo	amigo	NOUN	_	_	1	obl	_	Gloss=friend|SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-2
+# text = Mura'g naga-ulan.
+# gloss = like raining.
+# text_en = I think that it is raining.
+1-2	Mura'g	_	_	_	_	_	_	_	_
+1	mura	mura	_	_	_	3	advmod	_	Gloss=like
+2	og	og	ADP	_	_	1	mark	_	_
+3	naga-ulan	ulan	VERB	_	_	0	root	_	Gloss=raining|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-3
+# text = Gisulayan niya nga mohunong og panigarilyo og tagay.
+# gloss = tried he to.stop smoking and drinking.
+# text_en = He tried to stop smoking and drinking.
+1	Gisulayan	sulay	VERB	_	_	0	root	_	Gloss=tried
+2	niya	siya	PRON	_	_	1	nsubj	_	Gloss=he
+3	nga	ug	ADP	_	_	4	mark	_	_
+4	mohunong	hunong	VERB	_	_	1	ccomp	_	Gloss=to.stop
+5	ug	ug	ADP	_	_	6	case	_	_
+6	panigarilyo	sigarilyo	NOUN	_	_	4	obj	_	Gloss=smoking
+7	ug	ug	CCONJ	_	_	8	cc	_	Gloss=and
+8	tagay	tagay	NOUN	_	_	6	obj	_	Gloss=drinking|SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-4
+# text = Gusto nimo molakaw na ta?
+# gloss = want you to go already us?
+# text_en = Do you want to go?
+1	Gusto	gusto	VERB	_	_	0	root	_	Gloss=want
+2	nimo	ikaw	PRON	_	_	1	nsubj	_	Gloss=you
+3	molakaw	lakaw	VERB	_	_	1	ccomp	_	Gloss=to.go
+4	na	na	ADV	_	_	3	advmod	_	_
+5	ta	kita	PRON	_	_	3	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	1	punct	_	Gloss=?
+
+# sent_id = cairo-ceb-5
+# text = Sam, abrihi ang bintana!
+# gloss = Sam, open the window
+# text_en = Sam, abrihi ang bintana!
+1	Sam	Sam	PROPN	_	_	3	vocative	_	Gloss=Sam|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	Gloss=,
+3	abrihi	abri	VERB	_	_	0	root	_	Gloss=open
+4	ang	ang	ADP	_	_	5	case	_	Gloss=the
+5	bintana	bintana	NOUN	_	_	3	nsubj	_	Gloss=window|SpaceAfter=No
+6	!	!	PUNCT	_	_	3	punct	_	Gloss=!
+
+# sent_id = cairo-ceb-6
+# text = Gisugo niya ang iyang bana na limpyohon ang kotse.
+# gloss = commanded she her husband to.clean the car.
+# text_en = She made her husband wash the car.
+1	Gisugo	sugo	VERB	_	_	0	root	_	Gloss=made
+2	niya	siya	PRON	_	_	1	nmod	_	Gloss=she
+3	ang	ang	ADP	_	_	6	case	_	_
+4-5	iyang	_	_	_	_	_	_	_	_
+4	iya	iya	PRON	_	_	6	nmod	_	Gloss=her
+5	-ng	nga	PART	_	_	4	mark	_	Gloss=LINK
+6	bana	bana	NOUN	_	_	1	nsubj	_	Gloss=husband
+7	nga	nga	PART	_	_	8	mark	_	Gloss=LINK
+8	limpyohon	limpyo	VERB	_	_	1	ccomp	_	Gloss=wash
+9	ang	ang	ADP	_	_	10	_	_	Gloss=the
+10	kotse	kotse	NOUN	_	_	8	nsubj	_	Gloss=car|SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-7
+# text = Ang silingan ni Peter kay gipinturahan ang koral ug pula .
+# gloss = neighbor of Peter painted the fence red.
+# text_en = Peter's neighbor painted the fence red.
+1	Ang	ang 	ADP	_	_	2	case	_	_
+2	silingan	silingan	NOUN	_	_	6	nsubj	_	Gloss=neighbor
+3	ni	kani	ADP	_	_	4	case	_	_
+4	Peter	Peter	NOUN	_	_	6	obj	_	Gloss=Peter
+5	kay	kay	PART	_	_	6	mark	_	_
+6	gipinturahan	pintura	VERB	_	_	0	root	_	Gloss=painted
+7	ang	ang	ADP	_	_	8	case	_	Gloss=the
+8	koral	koral	NOUN	_	_	6	nsubj	_	Gloss=fence
+9	ug	ug	ADP	_	_	10	case	_	_
+10	pula	pula	ADJ	_	_	6	obj	_	Gloss=red|SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-8
+# text = Ang akong amahan kay mas kuyaw kaysa sa imong amahan.
+# gloss = my dad is cooler than your dad.
+# text_en = My dad is cooler than yours.
+1	Ang	ang	ADP	_	_	4	case	_	_
+2-3	akong	_	_	_	_	_	_	_	_
+2	ako	ako	PRON	_	_	4	nmod	_	Gloss=my
+3	-ng	nga	PART	_	_	2	mark	_	Gloss=LINK
+4	amahan	amahan	NOUN	_	_	0	root	_	Gloss=dad
+5	kay	kay	PART	_	_	4	mark	_	Gloss=is
+6	mas	mas	PART	_	_	7	advmod	_	_
+7	kuyaw	kuyaw	ADJ	_	_	4	amod	_	Gloss=cool
+8	kaysa	kaysa	SCONJ	_	_	12	mark	_	Gloss=than
+9	sa	sa	ADP	_	_	12	case	_	_
+10-11	imong	_	_	_	_	_	_	_	_
+10	imo	imo	PRON	_	_	12	nmod	_	Gloss=your
+11	-ng	nga	PART	_	_	10	mark	_	Gloss=LINK
+12	amahan	amahan	NOUN	_	_	4	ccomp	_	Gloss=dad|SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-9
+# text = Nakadaog si Mary og bronze, si Peter og silver, og si Jane og gold.
+# gloss = Won Mary bronze, Peter silver, and Jane gold.
+# text_en = Mary won bronze, Peter silver, and Jane gold.
+1	Nakadaog	daog	VERB	_	_	0	root	_	Gloss=won
+2	si	si	PRON	_	_	3	case	_	_
+3	Mary	Mary	PROPN	_	_	1	nsubj	_	Gloss=Mary
+4	og	og	ADP	_	_	5	case	_	_
+5	bronze	bronze	NOUN	_	_	1	obj	_	Gloss=bronze|SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	Gloss=,
+7	si	si	ADP	_	_	8	case	_	_
+8	Peter	Peter	PROPN	_	_	5	nsubj	_	Gloss=Peter
+9	og	og	ADP	_	_	10	case	_	_
+10	silver	silver	NOUN	_	_	8	obj	_	Gloss=silver|SpaceAfter=No
+11	,	,	PUNCT	_	_	1	punct	_	Gloss=,
+12	og	og	CCONJ	_	_	14	cc	_	Gloss=and
+13	si	si	ADP	_	_	14	case	_	_
+14	Jane	Jane	PROPN	_	_	10	nsubj	_	Gloss=Jane
+15	og	og	ADP	_	_	16	case	_	_
+16	gold	gold	NOUN	_	_	14	obj	_	Gloss=gold|SpaceAfter=no
+17	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-10
+# text = Ang Iguazo ba kay dako o gamay na nasod?
+# gloss = Iguazo big or small country?
+# text_en = Is Iguazo a big or a small country?
+1	Ang	ang	ADP	_	_	2	case	_	_
+2	Iguazo	Iguazo	NOUN	_	_	0	root	_	Gloss=Iguazo
+3	ba	ba	PART	_	_	2	advmod	_	Gloss=QUESTION
+4	kay	kay	PART	_	_	5	mark	_	_
+5	dako	dako	ADJ	_	_	2	amod	_	Gloss=big
+6	o	o	CCONJ	_	_	7	cc	_	Gloss=or
+7	gamay	gamay	ADJ	_	_	5	conj	_	Gloss=smals
+8	nga	nga	PART	_	_	9	mark	_	_
+9	nasod	nasod	NOUN	_	_	7	amod	_	Gloss=country|SpaceAfter=No
+10	?	?	PUNCT	_	_	2	punct	_	Gloss=?
