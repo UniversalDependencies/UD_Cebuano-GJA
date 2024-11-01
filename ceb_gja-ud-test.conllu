@@ -2475,7 +2475,7 @@
 6	!	!	PUNCT	_	_	3	punct	_	Gloss=!
 
 # sent_id = cairo-ceb-6
-# text = Gisugo niya ang iyang bana na limpyohon ang kotse.
+# text = Gisugo niya ang iyang bana nga limpyohon ang kotse.
 # gloss = commanded she her husband to.clean the car.
 # text_en = She made her husband wash the car.
 1	Gisugo	sugo	VERB	_	_	0	root	_	Gloss=made
