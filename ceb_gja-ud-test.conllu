@@ -2531,7 +2531,7 @@
 # gloss = Won Mary bronze, Peter silver, and Jane gold.
 # text_en = Mary won bronze, Peter silver, and Jane gold.
 1	Nakadaog	daog	VERB	_	_	0	root	_	Gloss=won
-2	si	si	PRON	_	_	3	case	_	_
+2	si	si	ADP	_	_	3	case	_	_
 3	Mary	Mary	PROPN	_	_	1	nsubj	_	Gloss=Mary
 4	og	og	ADP	_	_	5	case	_	_
 5	bronze	bronze	NOUN	_	_	1	obj	_	Gloss=bronze|SpaceAfter=No
@@ -2545,7 +2545,7 @@
 13	si	si	ADP	_	_	14	case	_	_
 14	Jane	Jane	PROPN	_	_	10	nsubj	_	Gloss=Jane
 15	og	og	ADP	_	_	16	case	_	_
-16	gold	gold	NOUN	_	_	14	obj	_	Gloss=gold|SpaceAfter=no
+16	gold	gold	NOUN	_	_	14	obj	_	Gloss=gold|SpaceAfter=No
 17	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-10
