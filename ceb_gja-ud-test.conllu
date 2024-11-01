@@ -2549,7 +2549,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-10
-# text = Ang Iguazo ba kay dako o gamay na nasod?
+# text = Ang Iguazo ba kay dako o gamay nga nasod?
 # gloss = Iguazo big or small country?
 # text_en = Is Iguazo a big or a small country?
 1	Ang	ang	ADP	_	_	2	case	_	_
