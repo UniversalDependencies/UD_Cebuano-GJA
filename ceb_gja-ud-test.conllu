@@ -2487,7 +2487,7 @@
 6	bana	bana	NOUN	_	_	1	nsubj	_	Gloss=husband
 7	nga	nga	PART	_	_	8	mark	_	Gloss=LINK
 8	limpyohon	limpyo	VERB	_	_	1	ccomp	_	Gloss=wash
-9	ang	ang	ADP	_	_	10	_	_	Gloss=the
+9	ang	ang	ADP	_	_	10	case	_	Gloss=the
 10	kotse	kotse	NOUN	_	_	8	nsubj	_	Gloss=car|SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
