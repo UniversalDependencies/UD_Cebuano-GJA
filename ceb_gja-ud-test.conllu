@@ -2537,16 +2537,16 @@
 5	bronze	bronze	NOUN	_	_	1	obj	_	Gloss=bronze|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	Gloss=,
 7	si	si	ADP	_	_	8	case	_	_
-8	Peter	Peter	PROPN	_	_	5	nsubj	_	Gloss=Peter
+8	Peter	Peter	PROPN	_	_	5	parataxis	_	Gloss=Peter
 9	og	og	ADP	_	_	10	case	_	_
 10	silver	silver	NOUN	_	_	8	obj	_	Gloss=silver|SpaceAfter=No
-11	,	,	PUNCT	_	_	8	punct	_	Gloss=,
+11	,	,	PUNCT	_	_	1	punct	_	Gloss=,
 12	og	og	CCONJ	_	_	14	cc	_	Gloss=and
 13	si	si	ADP	_	_	14	case	_	_
-14	Jane	Jane	PROPN	_	_	10	nsubj	_	Gloss=Jane
+14	Jane	Jane	PROPN	_	_	10	parataxis	_	Gloss=Jane
 15	og	og	ADP	_	_	16	case	_	_
 16	gold	gold	NOUN	_	_	14	obj	_	Gloss=gold|SpaceAfter=No
-17	.	.	PUNCT	_	_	14	punct	_	Gloss=.
+17	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-10
 # text = Ang Iguazo ba kay dako o gamay nga nasod?
