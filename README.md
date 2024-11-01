@@ -19,7 +19,8 @@ For suggestions on the treebank, you can contact Glyd through this email: glyd.a
 
 
 # Changelog
-
+* 2024-11-01 v2.14
+  * Added new 9 sentences. Morphological features to be added later.
 * 2023-05-15 v2.12
   * Fixed typos in glosses.
   * Fixed predicate with multiple subjects.
