@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Cebuano-GJA:
-commit 791cad4a0584283dc86ac29cd9409f3c3039de4a
-Merge: 8b85b5b efd8d44
+commit 214f411175ca72a505c13a2b251d3cb88bf6a5d5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 11 15:05:48 2024 +0100
 Size: counted 1377 of 1377 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.639814439493036.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,21 +20,33 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 25 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        229
-Udapi: found 229 bugs.
+               TOTAL        226
+Udapi: found 226 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 1377 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ceb --max-err=10 UD_Cebuano-GJA/ceb_gja-ud-test.conllu
+[Line 20 Sent bunyeyap-02 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'ako -ng' does not have the 'ExtPos' feature
+[Line 84 Sent bunyeyap-08 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'alang kang' does not have the 'ExtPos' feature
+[Line 98 Sent bunyeyap-09 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'para ni' does not have the 'ExtPos' feature
+[Line 112 Sent bunyeyap-10 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'para sa' does not have the 'ExtPos' feature
+[Line 375 Sent bunyeyap-31 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'gikan sa' does not have the 'ExtPos' feature
+[Line 378 Sent bunyeyap-31 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'hangtud sa' does not have the 'ExtPos' feature
+[Line 830 Sent tanangkinsing-11 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'tungod sa' does not have the 'ExtPos' feature
+[Line 967 Sent tanangkinsing-19 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'iya -ng' does not have the 'ExtPos' feature
+[Line 1186 Sent tanangkinsing-35 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'para sa' does not have the 'ExtPos' feature
+[Line 1244 Sent tanangkinsing-39 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'sukad sa' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 13
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.0463113134189746) = 0.011874695748455
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.823529411764706) = 0.0633484162895928
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.675675675675676) = 0.051975051975052
-(TOTAL score=0.250697409865287) * (availability=1) * (validity=1) = 0.250697409865287
+(TOTAL score=0.250446027260963) * (availability=1) * (validity=1) = 0.250446027260963
 STARS = 1.5
-UD_Cebuano-GJA	0.250697409865287	1.5
+UD_Cebuano-GJA	0.250446027260963	1.5
