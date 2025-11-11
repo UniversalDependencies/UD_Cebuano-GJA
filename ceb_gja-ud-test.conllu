@@ -2409,6 +2409,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-1
+# parallel_id = cairo/1
 # text = Nagsulat ang batang babae ug sulat para sa iyang amigo.
 # gloss = wrote the young girl a letter to her friend.
 # text_en = The girl wrote a letter to her friend.
@@ -2429,6 +2430,7 @@
 13	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-2
+# parallel_id = cairo/2
 # text = Mura'g naga-ulan.
 # gloss = like raining.
 # text_en = I think that it is raining.
@@ -2439,6 +2441,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-3
+# parallel_id = cairo/3
 # text = Gisulayan niya nga mohunong ug panigarilyo ug tagay.
 # gloss = tried he to.stop smoking and drinking.
 # text_en = He tried to stop smoking and drinking.
@@ -2453,6 +2456,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-4
+# parallel_id = cairo/4
 # text = Gusto nimo molakaw na ta?
 # gloss = want you to go already us?
 # text_en = Do you want to go?
@@ -2464,6 +2468,7 @@
 6	?	?	PUNCT	_	_	1	punct	_	Gloss=?
 
 # sent_id = cairo-ceb-5
+# parallel_id = cairo/5
 # text = Sam, abrihi ang bintana!
 # gloss = Sam, open the window
 # text_en = Sam, abrihi ang bintana!
@@ -2475,6 +2480,7 @@
 6	!	!	PUNCT	_	_	3	punct	_	Gloss=!
 
 # sent_id = cairo-ceb-6
+# parallel_id = cairo/6
 # text = Gisugo niya ang iyang bana nga limpyohon ang kotse.
 # gloss = commanded she her husband to.clean the car.
 # text_en = She made her husband wash the car.
@@ -2492,6 +2498,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-7
+# parallel_id = cairo/7
 # text = Gipinturahan sa silingan ni Peter ang koral og pula.
 # gloss = painted neighbor of Peter the fence red.
 # text_en = Peter's neighbor painted the fence red.
@@ -2507,6 +2514,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-8
+# parallel_id = cairo/8
 # text = Ang akong amahan kay mas kuyaw kaysa sa imong amahan.
 # gloss = my dad is cooler than your dad.
 # text_en = My dad is cooler than yours.
@@ -2527,6 +2535,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-10
+# parallel_id = cairo/10
 # text = Ang Iguazo ba kay dako o gamay nga nasod?
 # gloss = Iguazo big or small country?
 # text_en = Is Iguazo a big or a small country?
