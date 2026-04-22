@@ -2540,7 +2540,7 @@
 # gloss = Iguazo big or small country?
 # text_en = Is Iguazo a big or a small country?
 1	Ang	ang	ADP	_	_	2	case	_	_
-2	Iguazo	Iguazo	NOUN	_	_	0	root	_	Gloss=Iguazo
+2	Iguazo	Iguazo	PROPN	_	_	0	root	_	Gloss=Iguazo
 3	ba	ba	PART	_	_	2	advmod	_	Gloss=QUESTION
 4	kay	kay	PART	_	_	5	mark	_	_
 5	dako	dako	ADJ	_	_	2	amod	_	Gloss=big
