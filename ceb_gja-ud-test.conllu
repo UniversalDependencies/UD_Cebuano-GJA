@@ -2313,7 +2313,7 @@
 2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
 3	libro	libro	NOUN	_	_	1	nsubj	_	Gloss=book
 4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=on.the
-5	lamesa	lamesa	NOUN	_	_	3	obl	_	Gloss=table|SpaceAfter=No
+5	lamesa	lamesa	NOUN	_	_	1	obl	_	Gloss=table|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = tatoeba-77
@@ -2552,7 +2552,7 @@
 11	,	,	PUNCT	_	_	1	punct	_	Gloss=,
 12	og	ug	CCONJ	_	_	14	cc	_	Gloss=and
 13	si	si	ADP	_	_	14	case	_	_
-14	Jane	Jane	PROPN	_	_	_	_	_	Gloss=Jane
+14	Jane	Jane	PROPN	_	_	3	conj	_	Gloss=Jane
 15	og	ug	ADP	_	_	16	case	_	Gloss=the
 16	gold	gold	NOUN	_	_	14	obj	_	Gloss=gold|SpaceAfter=No
 17	.	.	PUNCT	_	_	1	punct	_	Gloss=.
@@ -2572,3 +2572,4 @@
 8	nga	nga	PART	_	_	9	mark	_	_
 9	nasod	nasod	NOUN	_	_	7	amod	_	Gloss=country|SpaceAfter=No
 10	?	?	PUNCT	_	_	2	punct	_	Gloss=?
+
