@@ -2548,13 +2548,13 @@
 7	si	si	ADP	_	_	8	case	_	_
 8	Peter	Peter	PROPN	_	_	1	conj	_	Gloss=Peter
 9	og	ug	ADP	_	_	10	case	_	Gloss=the
-10	silver	silver	NOUN	_	_	8	orphan	_	Gloss=silver
+10	silver	silver	NOUN	_	_	8	obj	_	Gloss=silver
 11	,	,	PUNCT	_	_	14	punct	_	Gloss=,
 12	og	ug	CCONJ	_	_	14	cc	_	Gloss=and
 13	si	si	ADP	_	_	14	case	_	_
 14	Jane	Jane	PROPN	_	_	1	conj	_	Gloss=Jane
 15	og	ug	ADP	_	_	16	case	_	Gloss=the
-16	gold	gold	NOUN	_	_	14	orphan	_	Gloss=gold|SpaceAfter=No
+16	gold	gold	NOUN	_	_	14	obj	_	Gloss=gold|SpaceAfter=No
 17	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-10
