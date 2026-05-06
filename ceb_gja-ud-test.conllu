@@ -2313,7 +2313,7 @@
 2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
 3	libro	libro	NOUN	_	_	1	nsubj	_	Gloss=book
 4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=on.the
-5	lamesa	lamesa	NOUN	_	_	3	obl	_	Gloss=table|SpaceAfter=No
+5	lamesa	lamesa	NOUN	_	_	1	obl	_	Gloss=table|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = tatoeba-77
@@ -2534,13 +2534,36 @@
 12	amahan	amahan	NOUN	_	_	4	ccomp	_	Gloss=dad|SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	Gloss=.
 
+# sent_id = cairo-ceb-9
+# parallel_id = cairo/9
+# text = Nakadaog si Mary og bronze , si Peter og silver , og si Jane og gold.
+# text_gloss = won Mary the bronze, Peter the silver, and Jane the gold.
+# text_en = Mary won bronze, Peter silver, and Jane gold.
+1	Nakadaog	daug	VERB	_	_	0	root	_	Gloss=won
+2	si	si	ADP	_	_	3	case	_	_
+3	Mary	Mary	PROPN	_	_	1	nsubj	_	Gloss=Mary
+4	og	ug	ADP	_	_	5	case	_	Gloss=the
+5	bronze	bronze	NOUN	_	_	1	obj	_	Gloss=bronze
+6	,	,	PUNCT	_	_	8	punct	_	Gloss=,
+7	si	si	ADP	_	_	8	case	_	_
+8	Peter	Peter	PROPN	_	_	1	conj	_	Gloss=Peter
+9	og	ug	ADP	_	_	10	case	_	Gloss=the
+10	silver	silver	NOUN	_	_	8	orphan	_	Gloss=silver
+11	,	,	PUNCT	_	_	14	punct	_	Gloss=,
+12	og	ug	CCONJ	_	_	14	cc	_	Gloss=and
+13	si	si	ADP	_	_	14	case	_	_
+14	Jane	Jane	PROPN	_	_	1	conj	_	Gloss=Jane
+15	og	ug	ADP	_	_	16	case	_	Gloss=the
+16	gold	gold	NOUN	_	_	14	orphan	_	Gloss=gold|SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
 # sent_id = cairo-ceb-10
 # parallel_id = cairo/10
 # text = Ang Iguazo ba kay dako o gamay nga nasod?
 # gloss = Iguazo big or small country?
 # text_en = Is Iguazo a big or a small country?
 1	Ang	ang	ADP	_	_	2	case	_	_
-2	Iguazo	Iguazo	NOUN	_	_	0	root	_	Gloss=Iguazo
+2	Iguazo	Iguazo	PROPN	_	_	0	root	_	Gloss=Iguazo
 3	ba	ba	PART	_	_	2	advmod	_	Gloss=QUESTION
 4	kay	kay	PART	_	_	5	mark	_	_
 5	dako	dako	ADJ	_	_	2	amod	_	Gloss=big
