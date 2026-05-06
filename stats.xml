@@ -5,30 +5,30 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>197</sentences><tokens>1278</tokens><words>1377</words><fused>97</fused></total>
+    <total><sentences>198</sentences><tokens>1295</tokens><words>1394</words><fused>97</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>197</sentences><tokens>1278</tokens><words>1377</words><fused>97</fused></test>
+    <test><sentences>198</sentences><tokens>1295</tokens><words>1394</words><fused>97</fused></test>
   </size>
-  <lemmas unique="400" /><!-- ., nga, ako, sa, ang, ug, ikaw, siya, ?, si, wala, ,, ni, Tom, na -->
-  <forms unique="491" /><!-- ., -ng, sa, ang, ko, ?, ka, si, ug, -g, nga, ni, siya, ,, wala -->
+  <lemmas unique="405" /><!-- ., nga, ako, sa, ang, ug, ikaw, siya, ?, si, ,, wala, ni, Tom, na -->
+  <forms unique="496" /><!-- ., -ng, sa, ang, ko, ?, si, ka, ug, -g, nga, ni, ,, siya, wala -->
   <fusions unique="51" /><!-- akong, iyang, imong, Nganong, among, Daghang, anang, bag-ong, ilang, inyong, kag, kanang, katong, kog, silang -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="14">
     <tag name="ADJ">39</tag><!-- gwapa, taas, adis, ayo, bag-o, dako, hawod, bata, busog, buutan -->
-    <tag name="ADP">209</tag><!-- sa, ang, ug, si, ni, para, kang, nga, og, alang -->
+    <tag name="ADP">215</tag><!-- sa, ang, ug, si, ni, para, kang, nga, og, alang -->
     <tag name="ADV">76</tag><!-- na, karon, pila, ngano, wala, kaayo, tua, didto, dugay, labi -->
-    <tag name="CCONJ">11</tag><!-- ug, apan, o, pero -->
+    <tag name="CCONJ">12</tag><!-- ug, apan, o, pero -->
     <tag name="DET">11</tag><!-- mga, daghan -->
     <tag name="INTJ">3</tag><!-- be, ha, oi -->
-    <tag name="NOUN">175</tag><!-- libro, bata, balay, kwarta, tubig, amahan, bisita, iro, plano, sulat -->
+    <tag name="NOUN">177</tag><!-- libro, bata, balay, kwarta, tubig, amahan, bisita, iro, plano, sulat -->
     <tag name="NUM">12</tag><!-- tulo, duha, usa, sayis, thirty, tres -->
     <tag name="PART">172</tag><!-- nga, dili, man, ka, ba, gyud, lang, ra, wala, ayaw -->
     <tag name="PRON">189</tag><!-- ako, ikaw, siya, kami, unsa, sila, kini, kadto, ana, ani -->
-    <tag name="PROPN">59</tag><!-- Tom, Mary, Pedro, Juan, Cebu, Ditang, Maria, Adot, Alicia, Ana -->
-    <tag name="PUNCT">216</tag><!-- ., ?, ,, !, -, _ -->
+    <tag name="PROPN">63</tag><!-- Tom, Mary, Pedro, Juan, Cebu, Ditang, Maria, Peter, Adot, Alicia -->
+    <tag name="PUNCT">219</tag><!-- ., ?, ,, !, -, _ -->
     <tag name="SCONJ">18</tag><!-- kay, nga, apan, basta, kaysa, kon, sukad, suma, tungod -->
-    <tag name="VERB">187</tag><!-- wala, adto, buhat, gusto, may, palit, sabot, abot, aduna, gana -->
+    <tag name="VERB">188</tag><!-- wala, adto, buhat, gusto, may, palit, sabot, abot, aduna, gana -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="36">
@@ -70,18 +70,18 @@
     <feat name="Voice" value="Pass" upos="VERB">72</feat><!-- ganahan, gibuhat, tabangan, Gitawag, Kinahanglan, Liguon, Silhigan, gihigugma, kasabot, Gi-hold -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="26">
+  <deps unique="27">
     <dep name="acl">9</dep>
     <dep name="advcl">10</dep>
     <dep name="advmod">139</dep>
     <dep name="amod">26</dep>
     <dep name="appos">2</dep>
-    <dep name="case">195</dep>
-    <dep name="cc">11</dep>
+    <dep name="case">201</dep>
+    <dep name="cc">12</dep>
     <dep name="ccomp">27</dep>
     <dep name="compound">3</dep>
     <dep name="compound:redup">3</dep>
-    <dep name="conj">6</dep>
+    <dep name="conj">8</dep>
     <dep name="csubj">2</dep>
     <dep name="det">11</dep>
     <dep name="discourse">3</dep>
@@ -89,13 +89,14 @@
     <dep name="flat">1</dep>
     <dep name="mark">117</dep>
     <dep name="nmod">87</dep>
-    <dep name="nsubj">161</dep>
+    <dep name="nsubj">162</dep>
     <dep name="nummod">11</dep>
-    <dep name="obj">82</dep>
+    <dep name="obj">83</dep>
     <dep name="obl">37</dep>
+    <dep name="orphan">2</dep>
     <dep name="parataxis">6</dep>
-    <dep name="punct">216</dep>
-    <dep name="root">197</dep>
+    <dep name="punct">219</dep>
+    <dep name="root">198</dep>
     <dep name="vocative">2</dep>
   </deps>
 </treebank>
