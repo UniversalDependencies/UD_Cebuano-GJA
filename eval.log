@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Cebuano-GJA:
-commit 799da390d15b2dc24bfba57e23558500fd01c22a
-Merge: 9f308cb fe0f674
+commit 874e7afe5114027b730b677c7c3d8374225821e1
+Merge: ededb17 a9f6e0b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ceb_gja'
 Language code (from CoNLL-U file name) = 'ceb'
 Found the following data files: ceb_gja-ud-test.conllu
-Size: counted 1377 of 1377 words (nodes).
-Size: min(0, log((N/1000)**2)) = 0.639814439493036.
+Size: counted 1394 of 1394 words (nodes).
+Size: min(0, log((N/1000)**2)) = 0.664354624676664.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -19,33 +19,44 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 650 out of 1377 total words have one or more features.
+Features: 650 out of 1394 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
-Universal relations: 25 out of 37 found in the corpus.
+Universal relations: 26 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ceb --max-err=10 UD_Cebuano-GJA/ceb_gja-ud-test.conllu
-[Line 20 Sent bunyeyap-02]: [L3 Warning fixed-without-extpos] Fixed expression 'ako -ng' does not have the 'ExtPos' feature
-[Line 84 Sent bunyeyap-08]: [L3 Warning fixed-without-extpos] Fixed expression 'alang kang' does not have the 'ExtPos' feature
-[Line 98 Sent bunyeyap-09]: [L3 Warning fixed-without-extpos] Fixed expression 'para ni' does not have the 'ExtPos' feature
-[Line 112 Sent bunyeyap-10]: [L3 Warning fixed-without-extpos] Fixed expression 'para sa' does not have the 'ExtPos' feature
-[Line 280 Sent bunyeyap-24]: [L3 Warning pron-det-without-prontype] The word 'Asa' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 289 Sent bunyeyap-25]: [L3 Warning pron-det-without-prontype] The word 'Mga' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 375 Sent bunyeyap-31]: [L3 Warning fixed-without-extpos] Fixed expression 'gikan sa' does not have the 'ExtPos' feature
-[Line 378 Sent bunyeyap-31]: [L3 Warning fixed-without-extpos] Fixed expression 'hangtud sa' does not have the 'ExtPos' feature
-[Line 601 Sent bunyeyap-50]: [L3 Warning pron-det-without-prontype] The word 'mga' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 731 Sent tanangkinsing-04]: [L3 Warning pron-det-without-prontype] The word 'mga' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 41
+[Line 20 Sent bunyeyap-02]: [L3 WARNING fixed-without-extpos] Fixed expression 'ako -ng' does not have the 'ExtPos' feature
+[Line 84 Sent bunyeyap-08]: [L3 WARNING fixed-without-extpos] Fixed expression 'alang kang' does not have the 'ExtPos' feature
+[Line 98 Sent bunyeyap-09]: [L3 WARNING fixed-without-extpos] Fixed expression 'para ni' does not have the 'ExtPos' feature
+[Line 112 Sent bunyeyap-10]: [L3 WARNING fixed-without-extpos] Fixed expression 'para sa' does not have the 'ExtPos' feature
+[Line 280 Sent bunyeyap-24]: [L3 WARNING pron-det-without-prontype] The word 'Asa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 289 Sent bunyeyap-25]: [L3 WARNING pron-det-without-prontype] The word 'Mga' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 375 Sent bunyeyap-31]: [L3 WARNING fixed-without-extpos] Fixed expression 'gikan sa' does not have the 'ExtPos' feature
+[Line 378 Sent bunyeyap-31]: [L3 WARNING fixed-without-extpos] Fixed expression 'hangtud sa' does not have the 'ExtPos' feature
+[Line 601 Sent bunyeyap-50]: [L3 WARNING pron-det-without-prontype] The word 'mga' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 731 Sent tanangkinsing-04]: [L3 WARNING pron-det-without-prontype] The word 'mga' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 811 Sent tanangkinsing-10]: [L3 WARNING pron-det-without-prontype] The word 'kato' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 830 Sent tanangkinsing-11]: [L3 WARNING fixed-without-extpos] Fixed expression 'tungod sa' does not have the 'ExtPos' feature
+[Line 967 Sent tanangkinsing-19]: [L3 WARNING fixed-without-extpos] Fixed expression 'iya -ng' does not have the 'ExtPos' feature
+[Line 1061 Sent tanangkinsing-26]: [L3 WARNING pron-det-without-prontype] The word 'mga' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1096 Sent tanangkinsing-29]: [L3 WARNING pron-det-without-prontype] The word 'Daghan' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1186 Sent tanangkinsing-35]: [L3 WARNING fixed-without-extpos] Fixed expression 'para sa' does not have the 'ExtPos' feature
+[Line 1228 Sent tanangkinsing-38]: [L3 WARNING pron-det-without-prontype] The word 'unsa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1244 Sent tanangkinsing-39]: [L3 WARNING fixed-without-extpos] Fixed expression 'sukad sa' does not have the 'ExtPos' feature
+[Line 1318 Sent tanangkinsing-45]: [L3 WARNING pron-det-without-prontype] The word 'mga' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1369 Sent tatoeba-03]: [L3 WARNING pron-det-without-prontype] The word 'ni' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 40
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
-(weight=0.37037037037037) * (score{size}=0.0463113134189746) = 0.0171523383033239
+(weight=0.37037037037037) * (score{size}=0.0480875912539969) = 0.0178102189829618
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.823529411764706) = 0.0915032679738562
-(weight=0.111111111111111) * (score{udeprels}=0.675675675675676) = 0.0750750750750751
-(TOTAL score=0.357310928265835) * (availability=1) * (validity=1) = 0.357310928265835
+(weight=0.111111111111111) * (score{udeprels}=0.702702702702703) = 0.0780780780780781
+(TOTAL score=0.360971811948476) * (availability=1) * (validity=1) = 0.360971811948476
 STARS = 2
-UD_Cebuano-GJA	0.357310928265835	2
+UD_Cebuano-GJA	0.360971811948476	2
