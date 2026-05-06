@@ -2573,3 +2573,197 @@
 9	nasod	nasod	NOUN	_	_	7	amod	_	Gloss=country|SpaceAfter=No
 10	?	?	PUNCT	_	_	2	punct	_	Gloss=?
 
+# sent_id = cairo-ceb-11
+# parallel_id = cairo/11
+# text = Si Peter Smith og si Mary Brown kay dili pwedeng mapili.
+# gloss = Peter Smith and Mary Brown not could.be selected.
+# text_en = Neither Peter Smith nor Mary Brown could be selected.
+1	Si	si	ADP	_	_	2	case	_	_
+2	Peter	Peter	PROPN	_	_	12	nsubj	_	Gloss=Peter
+3	Smith	Smith	PROPN	_	_	2	flat	_	Gloss=Smith
+4	og	ug	CCONJ	_	_	6	cc	_	Gloss=and
+5	si	si	ADP	_	_	6	case	_	_
+6	Mary	Mary	PROPN	_	_	2	conj	_	Gloss=Mary
+7	Brown	Brown	PROPN	_	_	6	flat	_	Gloss=Brown
+8	kay	kay	SCONJ	_	_	12	mark	_	_
+9	dili	dili	ADV	_	_	12	advmod	_	Gloss=not
+10-11	pwedeng	_	_	_	_	_	_	_	_
+10	pwede	pwede	ADV	_	_	12	advmod	_	Gloss=could.be
+11	-ng	nga	PART	_	_	10	mark	_	Gloss=LINK
+12	mapili	pili	VERB	_	_	0	_	_	Gloss=selected|SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-12
+# parallel_id = cairo/12
+# text = Wala silay alinghuna kung kinsa nagsulat niadto.
+# text_gloss = no they idea who wrote it.
+# text_en = They have no idea who wrote it.
+1	Wala	wala	VERB	_	_	0	_	_	Gloss=have.no
+2	silay	sila	PRON	_	_	1	nsubj	_	Gloss=they
+3	alinghuna	alinghuna	NOUN	_	_	1	obj	_	Gloss=idea
+4	kung	kung	SCONJ	_	_	6	mark	_	_
+5	kinsa	kinsa	PRON	_	_	6	nmod	_	Gloss=who
+6	nagsulat	sulat	VERB	_	_	1	advcl	_	wrote
+7	niadto	kadto	PRON	_	_	6	nmod	_	Gloss=it|SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-13
+# parallel_id = cairo/13
+# text = Unsa man ang imong ginatan-awan?
+# gloss = what you looking?
+# text_en = What are you looking at?
+1	Unsa	unsa	PRON	_	_	6	nmod	_	Gloss=what
+2	man	man	PART	_	_	6	advmod	_	_
+3	ang	ang	ADP	_	_	6	case	_	_
+4-5	imong	_	PRON	_	_	_	_	_	_
+4	imo	ikaw	PRON	_	_	6	nmod	_	Gloss=you
+5	-ng	nga	PRON	_	_	4	mark	_	Gloss=LINK
+6	ginatan-awan	tan-aw	VERB	_	_	_	obj	_	Gloss=looking|SpaceAfter=No
+7	?	?	PUNCT	_	_	6	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-14
+# parallel_id = cairo/14
+# text = Kanus-a man diay kang pwede makaadto didto?
+# gloss = When you can come there?
+# text_en = When do you think you can come?
+1	Kanus-a	kanus-a	ADV	_	_	7	advmod	_	Gloss=when
+2	man	man	PART	_	_	7	advmod	_	_
+3	diay	diay	PART	_	_	7	advmod	_	_
+4-5	kang	_	_	_	_	_	_	_	_
+4	ka	ikaw	PRON	_	_	7	subj	_	Gloss=you
+5	-ng	nga	PART	_	_	4	mark	_	Gloss=LINK
+6	pwede	pwede	ADV	_	_	7	advmod	_	Gloss=can
+7	makaadto	adto	VERB	_	_	0	advmod	_	Gloss=come
+8	didto	didto	ADV	_	_	7	advmod	_	Gloss=there|SpaceAfter=No
+9	?	?	PUNCT	_	_	7	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-15
+# parallel_id = cairo/15
+# text = Nagpalit siya og kotse pero ang gipalit lang sa iyang igsoon kay bisikleta.
+# gloss = bought he a car but bought his brother bike.
+# text_en = He bought a car but his brother just a bike.
+1	Nagpalit	palit	VERB	_	_	0	_	_	Gloss=bought
+2	siya	siya	PRON	_	_	1	nsubj	_	Gloss=he
+3	og	ug	ADP	_	_	4	case	_	Gloss=a
+4	kotse	kotse	NOUN	_	_	1	obj	_	Gloss=car
+5	pero	pero	CCONJ	_	_	7	cc	_	Gloss=but
+6	ang	ang	ADP	_	_	7	case	_	_
+7	gipalit	palit	VERB	_	_	1	advcl	_	Gloss=bought
+8	lang	lang	PART	_	_	7	advmod	_	Gloss=just
+9	sa	sa	ADP	_	_	12	case	_	_
+10-11	iyang	_	_	_	_	_	_	_	_
+10	iya	siya	PRON	_	_	12	nmod	_	Gloss=his
+11	-ng	nga	PART	_	_	10	mark	_	Gloss=LINK
+12	igsoon	igsoon	NOUN	_	_	7	obj	_	Gloss=brother
+13	kay	kay	PART	_	_	14	case	_	_
+14	bisikleta	bisikleta	NOUN	_	_	12	obl	_	Gloss=bicycle|SpaceAfter=No
+15	.	.	PUNCT	_	_	12	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-16
+# parallel_id = cairo/16
+# text = Si Peter og si Mary kay naggakos og pagkahuman nibiya sila sa kwarto.
+# gloss = Peter and Mary hugged.each.other and then left they the room.
+# text_en = Peter and Mary hugged each other and then left the room.
+1	Si	si	ADP	_	_	2	case	_	_
+2	Peter	Peter	PROPN	_	_	5	conj	_	Gloss=Peter
+3	og	ug	CCONJ	_	_	5	cc	_	Gloss=and
+4	si	si	ADP	_	_	5	case	_	_
+5	Mary	Mary	PROPN	_	_	7	nsubj	_	Gloss=Mary
+6	kay	kay	PART	_	_	7	mark	_	_
+7	naggakos	gakos	VERB	_	_	0	_	_	_
+8	og	ug	CCONJ	_	_	10	cc	_	Gloss=and
+9	pagkahuman	human	ADV	_	_	10	advmod	_	Gloss=then
+10	nibiya	biya	VERB	_	_	7	advcl	_	Gloss=left
+11	sila	sila	PRON	_	_	10	nsubj	_	Gloss=they
+12	sa	sa	ADP	_	_	13	case	_	Gloss=the
+13	kwarto	kwarto	NOUN	_	_	10	obj	_	Gloss=room|SpaceAfter=No
+14	.	.	PUNCT	_	_	10	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-17
+# parallel_id = cairo/17
+# text = Dapat ginatarong niya ang iyang buhok pero sa pipila ka rason dili niya gusto himuon niini sa niadtong adlawa .
+# gloss = should.have.been doing she her hair but for some reason not she would do that this in.that day.
+# text_en = She should have been doing her hair but for some reason she wouldn't that day.
+1	Dapat	dapat	ADV	_	_	2	advmod	_	Gloss=should.have.been
+2	ginatarong	tarong	VERB	_	_	16	advcl	_	Gloss=doing
+3	niya	siya	PRON	_	_	2	obj	_	Gloss=she
+4	ang	ang	ADP	_	_	7	case	_	_
+5-6	iyang	_	_	_	_	_	_	_	_
+5	iya	siya	PRON	_	_	7	nmod	_	Gloss=her
+6	-ng	nga	PART	_	_	5	mark	_	Gloss=LINK
+7	buhok	buhok	NOUN	_	_	2	nsubj	_	Gloss=hair
+8	pero	pero	CCONJ	_	_	12	cc	_	Gloss=but
+9	sa	sa	ADP	_	_	12	case	_	Gloss=for
+10	pipila	pila	ADV	_	_	12	mark	_	Gloss=some
+11	ka	ka	PART	_	_	10	fixed	_	_
+12	rason	rason	NOUN	_	_	16	advcl	_	Gloss=reason
+13	dili	dili	ADV	_	_	16	advmod	_	Gloss=not
+14	niya	siya	PRON	_	_	16	nsubj	_	Gloss=she
+15	gusto	gusto	VERB	_	_	16	advmod	_	_
+16	himuon	himo	VERB	_	_	_	_	_	Gloss=would.do
+17	niini	kani	PRON	_	_	16	nmod	_	Gloss=that
+18	sa	sa	ADP	_	_	21	case	_	Gloss=in
+19-20	niadtong	_	_	_	_	_	_	_	_
+19	niadto	kadto	PRON	_	_	21	nmod	_	Gloss=that
+20	-ng	nga	PART	_	_	19	mark	_	Gloss=LINK
+21	adlawa	adlawa	NOUN	_	_	16	obl	_	Gloss=day|SpaceAfter=No
+22	.	.	PUNCT	_	_	16	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-18
+# parallel_id = cairo/18
+# text = Wala nako nakaya nga mogukod sa iya kay paspas kaayo siya modagan .
+# gloss = was.not I able to.keep.up because fast too he ran.
+# text_en = I wasn't able to keep up, because he ran too fast.
+1	Wala	wala	ADV	_	_	3	advmod	_	Gloss=was.not
+2	nako	ako	PRON	_	_	3	nsubj	_	Gloss=I
+3	nakaya	kaya	VERB	_	_	0	_	_	Gloss=able
+4	nga	nga	PART	_	_	5	mark	_	_
+5	mogukod	gukod	VERB	_	_	3	ccomp	_	Gloss=keep.up
+6	sa	sa	ADP	_	_	7	case	_	_
+7	iya	siya	PRON	_	_	5	obj	_	Gloss=he
+8	kay	kay	SCONJ	_	_	12	mark	_	Gloss=because
+9	paspas	paspas	ADV	_	_	12	advmod	_	Gloss=fast
+10	kaayo	kaayo	ADV	_	_	9	advmod	_	Gloss=too
+11	siya	siya	PRON	_	_	12	nsubj	_	_
+12	modagan	dagan	VERB	_	_	5	advcl	_	Gloss=fast|SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-19
+# parallel_id = cairo/19
+# text = Ang kaning sulat kay gikan kay Peter og gihatod ni gahapon.
+# gloss = this letter is from Peter and was.delivered it yesterday.
+# text_en = This letter is from Peter and it was delivered yesterday.
+1	Ang	ang	ADP	_	_	4	case	_	_
+2-3	kaning	_	_	_	_	_	_	_	_
+2	kani	kani	PRON	_	_	4	nmod	_	Gloss=this
+3	-ng	nga	PRON	_	_	2	mark	_	Gloss=LINK
+4	sulat	sulat	NOUN	_	_	0	_	_	Gloss=letter
+5	kay	kay	PART	_	_	8	mark	_	_
+6	gikan	gikan	VERB	_	_	8	nmod	_	Gloss=from
+7	kay	kay	ADP	_	_	8	case	_	_
+8	Peter	Peter	PROPN	_	_	4	obl	_	Gloss=Peter
+9	og	ug	CCONJ	_	_	10	cc	_	Gloss=and
+10	gihatod	hatod	VERB	_	_	8	conj	_	Gloss=was.delivered
+11	ni	kani	PRON	_	_	10	nmod	_	Gloss=it
+12	gahapon	gahapon	ADV	_	_	10	advmod	_	Gloss=yesterday|SpaceAfter=No
+13	.	.	PUNCT	_	_	10	punct	_	Gloss=.
+
+# sent_id = cairo-ceb-20
+# parallel_id = cairo/20
+# text = Nidako siya sa Paris, ang kaulohan sa France.
+# gloss = Grew.up she in Paris, the capital of France.
+# text_en = She grew up in Paris, the capital of France.
+1	Nidako	dako	VERB	_	_	0	_	_	Gloss=grew.up
+2	siya	siya	PRON	_	_	1	nsubj	_	Gloss=she
+3	sa	sa	ADP	_	_	4	case	_	Gloss=in
+4	Paris	Paris	PROPN	_	_	1	obj	_	Gloss=Paris|SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	Gloss=,
+6	ang	ang	ADP	_	_	7	case	_	Gloss=the
+7	kaulohan	ulo	NOUN	_	_	4	parataxis	_	Gloss=capital
+8	sa	sa	ADP	_	_	9	case	_	Gloss=of
+9	France	France	PROPN	_	_	7	obj	_	Gloss=France|SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	Gloss=.
+
+
+
+
