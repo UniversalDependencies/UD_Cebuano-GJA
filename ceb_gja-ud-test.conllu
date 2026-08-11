@@ -2635,7 +2635,7 @@
 6	pwede	pwede	ADV	_	_	7	advmod	_	Gloss=can
 7	makaadto	adto	VERB	_	_	0	advmod	_	Gloss=come
 8	didto	didto	ADV	_	_	7	advmod	_	Gloss=there|SpaceAfter=No
-9	?	?	PUNCT	_	_	7	punct	_	Gloss=.
+9	?	?	PUNCT	_	_	7	punct	_	Gloss=?
 
 # sent_id = cairo-ceb-15
 # parallel_id = cairo/15
