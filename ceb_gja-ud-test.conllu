@@ -2725,7 +2725,7 @@
 9	paspas	paspas	ADV	_	_	12	advmod	_	Gloss=fast
 10	kaayo	kaayo	ADV	_	_	9	advmod	_	Gloss=too
 11	siya	siya	PRON	_	_	12	nsubj	_	_
-12	modagan	dagan	VERB	_	_	5	advcl	_	Gloss=fast|SpaceAfter=No
+12	modagan	dagan	VERB	_	_	5	advcl	_	Gloss=ran|SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-19
