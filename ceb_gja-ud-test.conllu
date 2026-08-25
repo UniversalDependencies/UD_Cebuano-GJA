@@ -2509,7 +2509,7 @@
 5	Peter	Peter	PROPN	_	_	1	obl	_	Gloss=Peter
 6	ang	ang	ADP	_	_	7	case	_	_
 7	koral	koral	NOUN	_	_	1	nsubj	_	Gloss=fence
-8	og	og	ADP	_	_	9	amod	_	_
+8	og	ug	ADP	_	_	9	amod	_	_
 9	pula	pula	ADJ	_	_	1	obl	_	Gloss=red|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
