@@ -2436,7 +2436,7 @@
 # text_en = I think that it is raining.
 1-2	Mura'g	_	_	_	_	_	_	_	_
 1	mura	mura	ADV	_	_	3	advmod	_	Gloss=like
-2	og	og	ADP	_	_	1	mark	_	_
+2	og	ug	ADP	_	_	1	mark	_	_
 3	naga-ulan	ulan	VERB	_	_	0	root	_	Gloss=raining|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	Gloss=.
 
