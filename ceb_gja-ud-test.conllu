@@ -2447,7 +2447,7 @@
 # text_en = He tried to stop smoking and drinking.
 1	Gisulayan	sulay	VERB	_	_	0	root	_	Gloss=tried
 2	niya	siya	PRON	_	_	1	nsubj	_	Gloss=he
-3	nga	ug	ADP	_	_	4	mark	_	_
+3	nga	nga	ADP	_	_	4	mark	_	_
 4	mohunong	hunong	VERB	_	_	1	ccomp	_	Gloss=to.stop
 5	ug	ug	ADP	_	_	6	case	_	_
 6	panigarilyo	sigarilyo	NOUN	_	_	4	obj	_	Gloss=smoking
