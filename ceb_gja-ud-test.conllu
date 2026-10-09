@@ -2413,20 +2413,20 @@
 # text = Nagsulat ang batang babae ug sulat para sa iyang amigo.
 # gloss = wrote the young girl a letter to her friend.
 # text_en = The girl wrote a letter to her friend.
-1	Nagsulat	sulat	VERB	_	_	0	root	_	Gloss=wrote
-2	ang	ang	ADP	_	_	5	case	_	Gloss=the
+1	Nagsulat	sulat	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=wrote
+2	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
 3-4	batang	_	_	_	_	_	_	_	_
 3	bata	bata	ADJ	_	_	5	amod	_	Gloss=young
 4	-ng	nga	PART	_	_	3	mark	_	_
-5	babae	babae	NOUN	_	_	1	nsubj	_	Gloss=girl
-6	ug	ug	ADP	_	_	7	case	_	Gloss=a
+5	babae	babae	NOUN	_	Gender=Fem	1	nsubj	_	Gloss=girl
+6	ug	ug	ADP	_	Case=Gen	7	case	_	Gloss=a
 7	sulat	sulat	NOUN	_	_	1	obj	_	Gloss=letter
-8	para	para	ADP	_	_	12	case	_	_
-9	sa	sa	ADP	_	_	8	fixed	_	Gloss=to
+8	para	para	ADP	_	ExtPos=ADP	12	case	_	_
+9	sa	sa	ADP	_	Case=Dat	8	fixed	_	Gloss=to
 10-11	iyang	_	_	_	_	_	_	_	_
-10	iya	iya	PRON	_	_	12	nmod	_	Gloss=her
+10	iya	iya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	nmod	_	Gloss=her
 11	-ng	nga	PART	_	_	10	mark	_	Gloss=LINK
-12	amigo	amigo	NOUN	_	_	1	obl	_	Gloss=friend|SpaceAfter=No
+12	amigo	amigo	NOUN	_	Gender=Masc	1	obl	_	Gloss=friend|SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-2
