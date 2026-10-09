@@ -2461,10 +2461,10 @@
 # gloss = want you to go already us?
 # text_en = Do you want to go?
 1	Gusto	gusto	VERB	_	_	0	root	_	Gloss=want
-2	nimo	ikaw	PRON	_	_	1	nsubj	_	Gloss=you
-3	molakaw	lakaw	VERB	_	_	1	ccomp	_	Gloss=to.go
+2	nimo	ikaw	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	Gloss=you
+3	molakaw	lakaw	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	ccomp	_	Gloss=to.go
 4	na	na	ADV	_	_	3	advmod	_	_
-5	ta	kita	PRON	_	_	3	nmod	_	SpaceAfter=No
+5	ta	kita	PRON	_	Case=Nom|Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nmod	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	1	punct	_	Gloss=?
 
 # sent_id = cairo-ceb-5
