@@ -2618,7 +2618,7 @@
 4-5	imong	_	PRON	_	_	_	_	_	_
 4	imo	ikaw	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	nmod	_	Gloss=you
 5	-ng	nga	PRON	_	_	4	mark	_	Gloss=LINK
-6	ginatan-awan	tan-aw	VERB	_	_	Aspect=Imp|Mood=Ind|Voice=Pass	obj	_	Gloss=looking|SpaceAfter=No
+6	ginatan-awan	tan-aw	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	Gloss=looking|SpaceAfter=No
 7	?	?	PUNCT	_	_	6	punct	_	Gloss=?
 
 # sent_id = cairo-ceb-14
