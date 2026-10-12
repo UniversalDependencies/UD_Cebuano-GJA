@@ -2578,19 +2578,19 @@
 # text = Si Peter Smith og si Mary Brown kay dili pwedeng mapili.
 # gloss = Peter Smith and Mary Brown not could.be selected.
 # text_en = Neither Peter Smith nor Mary Brown could be selected.
-1	Si	si	ADP	_	_	2	case	_	_
-2	Peter	Peter	PROPN	_	_	12	nsubj	_	Gloss=Peter
+1	Si	si	ADP	_	Case=Nom	2	case	_	_
+2	Peter	Peter	PROPN	_	Gender=Masc	12	nsubj	_	Gloss=Peter
 3	Smith	Smith	PROPN	_	_	2	flat	_	Gloss=Smith
 4	og	ug	CCONJ	_	_	6	cc	_	Gloss=and
-5	si	si	ADP	_	_	6	case	_	_
-6	Mary	Mary	PROPN	_	_	2	conj	_	Gloss=Mary
+5	si	si	ADP	_	Case=Nom	6	case	_	_
+6	Mary	Mary	PROPN	_	Gender=Fem	2	conj	_	Gloss=Mary
 7	Brown	Brown	PROPN	_	_	6	flat	_	Gloss=Brown
 8	kay	kay	SCONJ	_	_	12	mark	_	_
-9	dili	dili	ADV	_	_	12	advmod	_	Gloss=not
+9	dili	dili	ADV	_	Polarity=Neg	12	advmod	_	Gloss=not
 10-11	pwedeng	_	_	_	_	_	_	_	_
 10	pwede	pwede	ADV	_	_	12	advmod	_	Gloss=could.be
 11	-ng	nga	PART	_	_	10	mark	_	Gloss=LINK
-12	mapili	pili	VERB	_	_	0	_	_	Gloss=selected|SpaceAfter=No
+12	mapili	pili	VERB	_	Aspect=Prosp|Mood=Ind|Voice=Act	0	_	_	Gloss=selected|SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-12
