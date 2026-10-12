@@ -2633,7 +2633,7 @@
 4	ka	ikaw	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	Gloss=you
 5	-ng	nga	PART	_	_	4	mark	_	Gloss=LINK
 6-7	pwedeng	_	_	_	_	_	_	_	_
-6	pwede	pwede	ADV	_	Polarity=Pos	8	advmod	_	Gloss=can
+6	pwede	pwede	ADV	_	_	8	advmod	_	Gloss=can
 7	-ng	nga	ADV	_	_	6	mark	_	Gloss=LINK
 8	makaadto	adto	VERB	_	Aspect=Prosp|Mood=Pot|Voice=Act	0	root	_	Gloss=come
 9	didto	didto	ADV	_	Deixis=Remt	8	advmod	_	Gloss=there|SpaceAfter=No
