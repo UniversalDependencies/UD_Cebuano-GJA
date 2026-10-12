@@ -2657,7 +2657,7 @@
 10	iya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	nmod	_	Gloss=his
 11	-ng	nga	PART	_	_	10	mark	_	Gloss=LINK
 12	igsoon	igsoon	NOUN	_	_	7	obj	_	Gloss=brother
-13	kay	kay	PART	_	_	14	case	_	_
+13	kay	kay	PART	_	_	14	mark	_	_
 14	bisikleta	bisikleta	NOUN	_	_	12	obj	_	Gloss=bicycle|SpaceAfter=No
 15	.	.	PUNCT	_	_	12	punct	_	Gloss=.
 
