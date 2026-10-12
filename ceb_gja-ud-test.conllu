@@ -2644,17 +2644,17 @@
 # text = Nagpalit siya og kotse pero ang gipalit lang sa iyang igsoon kay bisikleta.
 # gloss = bought he a car but bought his brother bike.
 # text_en = He bought a car but his brother just a bike.
-1	Nagpalit	palit	VERB	_	_	0	_	_	Gloss=bought
-2	siya	siya	PRON	_	_	1	nsubj	_	Gloss=he
-3	og	ug	ADP	_	_	4	case	_	Gloss=a
+1	Nagpalit	palit	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	_	_	Gloss=bought
+2	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	Gloss=he
+3	og	ug	ADP	_	Case=Gen	4	case	_	Gloss=a
 4	kotse	kotse	NOUN	_	_	1	obj	_	Gloss=car
 5	pero	pero	CCONJ	_	_	7	cc	_	Gloss=but
-6	ang	ang	ADP	_	_	7	case	_	_
-7	gipalit	palit	VERB	_	_	1	advcl	_	Gloss=bought
+6	ang	ang	ADP	_	Case=Nom	7	case	_	_
+7	gipalit	palit	NOUN	_	_	1	advcl	_	Gloss=bought
 8	lang	lang	PART	_	_	7	advmod	_	Gloss=just
-9	sa	sa	ADP	_	_	12	case	_	_
+9	sa	sa	ADP	_	Case=Dat	12	case	_	_
 10-11	iyang	_	_	_	_	_	_	_	_
-10	iya	siya	PRON	_	_	12	nmod	_	Gloss=his
+10	iya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	nmod	_	Gloss=his
 11	-ng	nga	PART	_	_	10	mark	_	Gloss=LINK
 12	igsoon	igsoon	NOUN	_	_	7	obj	_	Gloss=brother
 13	kay	kay	PART	_	_	14	case	_	_
