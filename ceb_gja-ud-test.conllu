@@ -2484,16 +2484,16 @@
 # text = Gisugo niya ang iyang bana nga limpyohon ang kotse.
 # gloss = commanded she her husband to.clean the car.
 # text_en = She made her husband wash the car.
-1	Gisugo	sugo	VERB	_	_	0	root	_	Gloss=made
-2	niya	siya	PRON	_	_	1	nmod	_	Gloss=she
-3	ang	ang	ADP	_	_	6	case	_	_
+1	Gisugo	sugo	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=made
+2	niya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	obj	_	Gloss=she
+3	ang	ang	ADP	_	Case=Nom	6	case	_	_
 4-5	iyang	_	_	_	_	_	_	_	_
-4	iya	iya	PRON	_	_	6	nmod	_	Gloss=her
+4	iya	iya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	nmod	_	Gloss=her
 5	-ng	nga	PART	_	_	4	mark	_	Gloss=LINK
 6	bana	bana	NOUN	_	_	1	nsubj	_	Gloss=husband
 7	nga	nga	PART	_	_	8	mark	_	Gloss=LINK
 8	limpyohon	limpyo	VERB	_	_	1	ccomp	_	Gloss=wash
-9	ang	ang	ADP	_	_	10	case	_	Gloss=the
+9	ang	ang	ADP	_	Case=Nom	10	case	_	Gloss=the
 10	kotse	kotse	NOUN	_	_	8	nsubj	_	Gloss=car|SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
