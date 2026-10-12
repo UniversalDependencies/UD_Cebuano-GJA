@@ -2672,7 +2672,7 @@
 4	si	si	ADP	_	Case=Nom	5	case	_	_
 5	Mary	Mary	PROPN	_	Gender=Fem	2	conj	_	Gloss=Mary
 6	kay	kay	PART	_	_	7	mark	_	_
-7	naggakos	gakos	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	_	_	_
+7	naggakos	gakos	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=hugged.each.other
 8	og	ug	CCONJ	_	_	10	cc	_	Gloss=and
 9	pagkahuman	human	ADV	_	_	10	advmod	_	Gloss=then
 10	nibiya	biya	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	7	advcl	_	Gloss=left
