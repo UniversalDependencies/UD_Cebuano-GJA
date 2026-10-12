@@ -277,7 +277,7 @@
 # text = Asa ka padulong?
 # gloss = Where you heading.to?
 # text_en = Where are you heading to?
-1	Asa	asa	PRON	_	_	3	nmod	_	Gloss=where
+1	Asa	asa	ADV	_	PronType=Int	3	nmod	_	Gloss=where
 2	ka	ikaw	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	Gloss=you
 3	padulong	dulong	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	Gloss=heading.to|SpaceAfter=No
 4	?	?	PUNCT	_	_	3	punct	_	Gloss=?
