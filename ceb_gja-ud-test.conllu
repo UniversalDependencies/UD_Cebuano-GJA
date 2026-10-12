@@ -2598,7 +2598,7 @@
 # text = Wala silay alinghuna kung kinsa nagsulat niadto.
 # text_gloss = no they idea who wrote it.
 # text_en = They have no idea who wrote it.
-1	Wala	wala	VERB	_	Polarity=Neg	0	_	_	Gloss=have.no
+1	Wala	wala	VERB	_	Polarity=Neg	0	root	_	Gloss=have.no
 2	silay	sila	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	Gloss=they
 3	alinghuna	alinghuna	NOUN	_	_	1	obj	_	Gloss=idea
 4	kung	kung	SCONJ	_	_	6	mark	_	_
