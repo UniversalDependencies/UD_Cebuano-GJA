@@ -2518,18 +2518,18 @@
 # text = Ang akong amahan kay mas kuyaw kaysa sa imong amahan.
 # gloss = my dad is cooler than your dad.
 # text_en = My dad is cooler than yours.
-1	Ang	ang	ADP	_	_	4	case	_	_
+1	Ang	ang	ADP	_	Case=Nom	4	case	_	_
 2-3	akong	_	_	_	_	_	_	_	_
-2	ako	ako	PRON	_	_	4	nmod	_	Gloss=my
+2	ako	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nmod	_	Gloss=my
 3	-ng	nga	PART	_	_	2	mark	_	Gloss=LINK
 4	amahan	amahan	NOUN	_	_	0	root	_	Gloss=dad
 5	kay	kay	PART	_	_	4	mark	_	Gloss=is
 6	mas	mas	PART	_	_	7	advmod	_	_
-7	kuyaw	kuyaw	ADJ	_	_	4	amod	_	Gloss=cool
+7	kuyaw	kuyaw	ADJ	_	Degree=Pos	4	amod	_	Gloss=cool
 8	kaysa	kaysa	SCONJ	_	_	12	mark	_	Gloss=than
-9	sa	sa	ADP	_	_	12	case	_	_
+9	sa	sa	ADP	_	Case=Gen	12	case	_	_
 10-11	imong	_	_	_	_	_	_	_	_
-10	imo	imo	PRON	_	_	12	nmod	_	Gloss=your
+10	imo	imo	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	12	nmod	_	Gloss=your
 11	-ng	nga	PART	_	_	10	mark	_	Gloss=LINK
 12	amahan	amahan	NOUN	_	_	4	ccomp	_	Gloss=dad|SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	Gloss=.
