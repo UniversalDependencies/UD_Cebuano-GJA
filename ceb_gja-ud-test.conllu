@@ -2568,7 +2568,7 @@
 4	kay	kay	PART	_	_	5	mark	_	_
 5	dako	dako	ADJ	_	Degree=Pos	2	amod	_	Gloss=big
 6	o	o	CCONJ	_	_	7	cc	_	Gloss=or
-7	gamay	gamay	ADJ	_	Degree=Pos	5	conj	_	Gloss=smals
+7	gamay	gamay	ADJ	_	Degree=Pos	5	conj	_	Gloss=small
 8	nga	nga	PART	_	_	9	mark	_	_
 9	nasod	nasod	NOUN	_	_	7	amod	_	Gloss=country|SpaceAfter=No
 10	?	?	PUNCT	_	_	2	punct	_	Gloss=?
