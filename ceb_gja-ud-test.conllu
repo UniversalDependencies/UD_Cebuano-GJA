@@ -2598,13 +2598,13 @@
 # text = Wala silay alinghuna kung kinsa nagsulat niadto.
 # text_gloss = no they idea who wrote it.
 # text_en = They have no idea who wrote it.
-1	Wala	wala	VERB	_	_	0	_	_	Gloss=have.no
-2	silay	sila	PRON	_	_	1	nsubj	_	Gloss=they
+1	Wala	wala	VERB	_	Polarity=Neg	0	_	_	Gloss=have.no
+2	silay	sila	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	Gloss=they
 3	alinghuna	alinghuna	NOUN	_	_	1	obj	_	Gloss=idea
 4	kung	kung	SCONJ	_	_	6	mark	_	_
-5	kinsa	kinsa	PRON	_	_	6	nmod	_	Gloss=who
-6	nagsulat	sulat	VERB	_	_	1	advcl	_	wrote
-7	niadto	kadto	PRON	_	_	6	nmod	_	Gloss=it|SpaceAfter=No
+5	kinsa	kinsa	PRON	_	PronType=Int	6	nmod	_	Gloss=who
+6	nagsulat	sulat	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	advcl	_	wrote
+7	niadto	kadto	PRON	_	Deixis=Remt|PronType=Dem	6	nmod	_	Gloss=it|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-13
