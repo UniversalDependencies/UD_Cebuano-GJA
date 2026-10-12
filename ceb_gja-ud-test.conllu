@@ -2701,7 +2701,7 @@
 12	rason	rason	NOUN	_	_	16	advcl	_	Gloss=reason
 13	dili	dili	ADV	_	_	16	advmod	_	Gloss=not
 14	niya	siya	PRON	_	_	16	nsubj	_	Gloss=she
-15	gusto	gusto	VERB	_	_	16	advmod	_	_
+15	gusto	gusto	VERB	_	_	16	xcomp	_	_
 16	himuon	himo	VERB	_	_	_	_	_	Gloss=would.do
 17	niini	kani	PRON	_	_	16	nmod	_	Gloss=that
 18	sa	sa	ADP	_	_	21	case	_	Gloss=in
