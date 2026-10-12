@@ -2644,7 +2644,7 @@
 # text = Nagpalit siya og kotse pero ang gipalit lang sa iyang igsoon kay bisikleta.
 # gloss = bought he a car but bought his brother bike.
 # text_en = He bought a car but his brother just a bike.
-1	Nagpalit	palit	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	_	_	Gloss=bought
+1	Nagpalit	palit	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=bought
 2	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	Gloss=he
 3	og	ug	ADP	_	Case=Gen	4	case	_	Gloss=a
 4	kotse	kotse	NOUN	_	_	1	obj	_	Gloss=car
