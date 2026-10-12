@@ -2666,19 +2666,19 @@
 # text = Si Peter og si Mary kay naggakos og pagkahuman nibiya sila sa kwarto.
 # gloss = Peter and Mary hugged.each.other and then left they the room.
 # text_en = Peter and Mary hugged each other and then left the room.
-1	Si	si	ADP	_	_	2	case	_	_
-2	Peter	Peter	PROPN	_	_	5	conj	_	Gloss=Peter
+1	Si	si	ADP	_	Case=Nom	2	case	_	_
+2	Peter	Peter	PROPN	_	Gender=Masc	7	nsubj	_	Gloss=Peter
 3	og	ug	CCONJ	_	_	5	cc	_	Gloss=and
-4	si	si	ADP	_	_	5	case	_	_
-5	Mary	Mary	PROPN	_	_	7	nsubj	_	Gloss=Mary
+4	si	si	ADP	_	Case=Nom	5	case	_	_
+5	Mary	Mary	PROPN	_	Gender=Fem	2	conj	_	Gloss=Mary
 6	kay	kay	PART	_	_	7	mark	_	_
-7	naggakos	gakos	VERB	_	_	0	_	_	_
+7	naggakos	gakos	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	_	_	_
 8	og	ug	CCONJ	_	_	10	cc	_	Gloss=and
 9	pagkahuman	human	ADV	_	_	10	advmod	_	Gloss=then
-10	nibiya	biya	VERB	_	_	7	advcl	_	Gloss=left
-11	sila	sila	PRON	_	_	10	nsubj	_	Gloss=they
-12	sa	sa	ADP	_	_	13	case	_	Gloss=the
-13	kwarto	kwarto	NOUN	_	_	10	obj	_	Gloss=room|SpaceAfter=No
+10	nibiya	biya	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	7	advcl	_	Gloss=left
+11	sila	sila	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	Gloss=they
+12	sa	sa	ADP	_	Case=Dat	13	case	_	Gloss=the
+13	kwarto	kwarto	NOUN	_	_	10	obl	_	Gloss=room|SpaceAfter=No
 14	.	.	PUNCT	_	_	10	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-17
