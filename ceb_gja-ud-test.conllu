@@ -808,7 +808,7 @@
 3	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Gloss=he
 4	sa	sa	ADP	_	Case=Dat	7	case	_	_
 5-6	katong	_	_	_	_	_	_	_	_
-5	kato	kadto	PRON	_	Deixis=Remt	7	nmod	_	Gloss=that
+5	kato	kadto	PRON	_	Deixis=Remt|PronType=Dem	7	nmod	_	Gloss=that
 6	-ng	nga	PART	_	_	5	mark	_	Gloss=LINK
 7	tawo	tawo	NOUN	_	_	2	obj	_	Gloss=person
 8	nga	nga	PART	_	_	9	mark	_	Gloss=LINK
