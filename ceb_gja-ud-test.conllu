@@ -2683,7 +2683,7 @@
 
 # sent_id = cairo-ceb-17
 # parallel_id = cairo/17
-# text = Dapat ginatarong niya ang iyang buhok pero sa pipila ka rason dili niya gusto himuon niini sa niadtong adlawa .
+# text = Dapat ginatarong niya ang iyang buhok pero sa pipila ka rason dili niya gusto himuon niini sa niadtong adlawa.
 # gloss = should.have.been doing she her hair but for some reason not she would do that this in.that day.
 # text_en = She should have been doing her hair but for some reason she wouldn't that day.
 1	Dapat	dapat	ADV	_	_	2	advmod	_	Gloss=should.have.been
@@ -2713,7 +2713,7 @@
 
 # sent_id = cairo-ceb-18
 # parallel_id = cairo/18
-# text = Wala nako nakaya nga mogukod sa iya kay paspas kaayo siya modagan .
+# text = Wala nako nakaya nga mogukod sa iya kay paspas kaayo siya modagan.
 # gloss = was.not I able to.keep.up because fast too he ran.
 # text_en = I wasn't able to keep up, because he ran too fast.
 1	Wala	wala	ADV	_	Polarity=Neg	3	advmod	_	Gloss=was.not
