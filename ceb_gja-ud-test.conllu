@@ -2724,7 +2724,7 @@
 6	sa	sa	ADP	_	Case=Gen	7	case	_	_
 7	iya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	obj	_	Gloss=he
 8	kay	kay	SCONJ	_	_	12	mark	_	Gloss=because
-9	paspas	paspas	ADV	_	Degree=Pos	12	advmod	_	Gloss=fast
+9	paspas	paspas	ADV	_	_	12	advmod	_	Gloss=fast
 10	kaayo	kaayo	ADV	_	_	9	advmod	_	Gloss=too
 11	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	modagan	dagan	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	5	advcl	_	Gloss=ran|SpaceAfter=No
