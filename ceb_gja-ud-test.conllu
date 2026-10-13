@@ -286,7 +286,7 @@
 # text = Mga tres pesos, tingali.
 # gloss = around three pesos, perhaps.
 # text_en = Around three pesos, perhaps.
-1	Mga	mga	DET	_	Number=Plur	3	det	_	Gloss=around
+1	Mga	mga	DET	_	Number=Plur|PronType=Ind	3	det	_	Gloss=around
 2	tres	tres	NUM	_	_	3	nummod	_	Gloss=three
 3	pesos	pesos	NOUN	_	_	0	root	_	Gloss=pesos|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	Gloss=,
@@ -598,7 +598,7 @@
 # gloss = The children his going.to.dance.
 # text_en = His children are going to dance.
 1	Ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=The
-2	mga	mga	DET	_	Number=Plur	3	det	_	Gloss=PLUR
+2	mga	mga	DET	_	Number=Plur|PronType=Ind	3	det	_	Gloss=PLUR
 3	bata	bata	NOUN	_	_	6	csubj	_	Gloss=children
 4	niya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod	_	Gloss=his
 5	ang	ang	ADP	_	Case=Nom	6	case	_	_
@@ -728,7 +728,7 @@
 3	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	nmod	_	Gloss=he
 4	diri	diri	ADV	_	_	1	advmod	_	Gloss=here
 5	ug	ug	ADP	_	Case=Gen	7	case	_	_
-6	mga	mga	DET	_	Number=Plur	7	det	_	Gloss=PLUR
+6	mga	mga	DET	_	Number=Plur|PronType=Ind	7	det	_	Gloss=PLUR
 7	TNT	TNT	NOUN	_	_	1	obj	_	Gloss=illegal.workers|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
@@ -1058,7 +1058,7 @@
 4-5	among	_	_	_	_	_	_	_	_
 4	amo	kami	PRON	_	Case=Gen|Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	7	nmod	_	Gloss=our
 5	-ng	nga	PART	_	_	4	mark	_	Gloss=LINK
-6	mga	mga	DET	_	Number=Plur	7	det	_	Gloss=PLUR
+6	mga	mga	DET	_	Number=Plur|PronType=Ind	7	det	_	Gloss=PLUR
 7	plano	plano	NOUN	_	_	1	obj	_	Gloss=plans|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
@@ -1315,7 +1315,7 @@
 2	ka	ikaw	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	Gloss=you
 3	magsakay	sakay	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=ride
 4	ug	ug	ADP	_	Case=Gen	6	case	_	_
-5	mga	mga	DET	_	Number=Plur	6	det	_	Gloss=PLUR
+5	mga	mga	DET	_	Number=Plur|PronType=Ind	6	det	_	Gloss=PLUR
 6	ferry	ferry	NOUN	_	_	3	obj	_	Gloss=ferry|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	Gloss=.
 
@@ -1394,7 +1394,7 @@
 # text_en = Some people thought Mary was poisoned.
 # tatoeba_author = Josefwintzent
 1	May	may	ADV	_	_	3	advmod	_	Gloss=there.are
-2	mga	mga	DET	_	Number=Plur	3	det	_	Gloss=PLUR
+2	mga	mga	DET	_	Number=Plur|PronType=Ind	3	det	_	Gloss=PLUR
 3-4	nagtuong	_	_	_	_	_	_	_	_
 3	nagtuo	tuo	NOUN	_	_	0	root	_	Gloss=people.who.thought
 4	-ng	nga	PART	_	_	3	mark	_	Gloss=LINK
@@ -1895,7 +1895,7 @@
 5	kuwarto	kuwarto	NOUN	_	_	1	nsubj	_	Gloss=room
 6	para	para	ADP	_	_	9	case	_	Gloss=for
 7	sa	sa	ADP	_	Case=Dat	6	fixed	_	Gloss=the
-8	mga	mga	DET	_	Number=Plur	9	det	_	Gloss=PLUR
+8	mga	mga	DET	_	Number=Plur|PronType=Ind	9	det	_	Gloss=PLUR
 9	bisita	bisita	NOUN	_	_	1	obl	_	Gloss=guests|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
