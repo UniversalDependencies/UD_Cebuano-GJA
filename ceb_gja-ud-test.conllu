@@ -1970,7 +1970,7 @@
 # gloss = what?
 # text_en = What is it?
 # tatoeba_author = Josefwintzent
-1	Unsa	unsa	PRON	_	_	0	root	_	Gloss=What
+1	Unsa	unsa	PRON	_	PronType=Int	0	root	_	Gloss=What
 2	na	na	ADV	_	_	1	advmod	_	_
 3	man	man	PART	_	_	1	advmod	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	1	punct	_	Gloss=?
@@ -2277,7 +2277,7 @@
 # gloss = what want you to.give.meaning.to?
 # text_en = What are you trying to say?
 # tatoeba_author = Josefwintzent
-1	Unsay	unsa	PRON	_	Neutral=Yes	5	acl	_	Gloss=what
+1	Unsay	unsa	PRON	_	PronType=Dem|Neutral=Yes	5	acl	_	Gloss=what
 2	buot	buot	NOUN	_	_	5	nmod	_	Gloss=want
 3-4	mong	_	_	_	_	_	_	_	_
 3	mo	ikaw	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	5	nmod	_	Gloss=you
