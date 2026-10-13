@@ -372,7 +372,7 @@
 2	ting-init	init	NOUN	_	_	0	root	_	Gloss=hot.season
 3	sa	sa	ADP	_	Case=Dat	4	case	_	Gloss=in.the
 4	Pilipinas	Pilipinas	PROPN	_	_	2	obl	_	Gloss=Philippines
-5	gikan	gikan	ADP	_	_	7	case	_	Gloss=from
+5	gikan	gikan	ADP	_	ExtPos=ADP	7	case	_	Gloss=from
 6	sa	sa	ADP	_	Case=Dat	5	fixed	_	_
 7	Marso	Marso	PROPN	_	_	4	nmod	_	Gloss=March
 8	hangtud	hangtud	ADP	_	_	10	case	_	Gloss=to
