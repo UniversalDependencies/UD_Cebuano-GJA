@@ -2277,7 +2277,7 @@
 # gloss = what want you to.give.meaning.to?
 # text_en = What are you trying to say?
 # tatoeba_author = Josefwintzent
-1	Unsay	unsa	PRON	_	PronType=Dem|Neutral=Yes	5	acl	_	Gloss=what
+1	Unsay	unsa	PRON	_	Neutral=Yes|PronType=Dem	5	acl	_	Gloss=what
 2	buot	buot	NOUN	_	_	5	nmod	_	Gloss=want
 3-4	mong	_	_	_	_	_	_	_	_
 3	mo	ikaw	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	5	nmod	_	Gloss=you
