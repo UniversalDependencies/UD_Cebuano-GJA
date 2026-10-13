@@ -2718,7 +2718,7 @@
 # text_en = I wasn't able to keep up, because he ran too fast.
 1	Wala	wala	ADV	_	Polarity=Neg	3	advmod	_	Gloss=was.not
 2	nako	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=I
-3	nakaya	kaya	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	_	_	Gloss=able
+3	nakaya	kaya	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=able
 4	nga	nga	PART	_	_	5	mark	_	_
 5	mogukod	gukod	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	3	ccomp	_	Gloss=keep.up
 6	sa	sa	ADP	_	Case=Gen	7	case	_	_
