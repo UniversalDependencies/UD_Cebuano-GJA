@@ -1093,7 +1093,7 @@
 # text = Daghan kuno nawad-an ug trabaho karon sa Manila.
 # gloss = many lost jobs now in Manila.
 # text_en = They say many people lost their jobs now in Manila.
-1	Daghan	daghan	DET	_	_	3	det	_	Gloss=many
+1	Daghan	daghan	DET	_	Number=Plur|PronType=Ind	3	det	_	Gloss=many
 2	kuno	kuno	PART	_	_	3	advmod	_	_
 3	nawad-an	wala	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=lost
 4	ug	ug	ADP	_	Case=Gen	5	case	_	_
@@ -1377,7 +1377,7 @@
 # text_en = Many people influenced that kind of thinking.
 # tatoeba_author = Josefwintzent
 1-2	Daghang	_	_	_	_	_	_	_	_
-1	Daghan	daghan	DET	_	_	3	det	_	Gloss=many
+1	Daghan	daghan	DET	_	Number=Plur|PronType=Ind	3	det	_	Gloss=many
 2	-g	ang	ADP	_	Case=Nom	3	case	_	_
 3	nagalgal	galgal	VERB	_	Aspect=Prosp|Mood=Pot|Voice=Pass	0	root	_	Gloss=influenced
 4-5	anang	_	_	_	_	_	_	_	_
@@ -1512,7 +1512,7 @@
 # text_en = (Expression)Many people are older but not wiser.
 # tatoeba_author = Josefwintzent
 1-2	Daghang	_	_	_	_	_	_	_	_
-1	Daghan	daghan	DET	_	_	3	det	_	Gloss=many
+1	Daghan	daghan	DET	_	Number=Plur|PronType=Ind	3	det	_	Gloss=many
 2	-g	ang	ADP	_	Case=Nom	3	case	_	_
 3	mitigulang	tigulang	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=become.old
 4	apan	apan	CCONJ	_	_	6	cc	_	Gloss=but
