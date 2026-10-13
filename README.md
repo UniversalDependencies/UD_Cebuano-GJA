@@ -20,7 +20,7 @@ For suggestions on the treebank, you can contact Glyd through this email: glyd.a
 
 # Changelog
 * 2026-10-13
-  * Completed annotation of 20 Cairo sntences.
+  * Completed annotation of 20 Cairo sentences.
   * Added ExtPos feature.
 * 2024-11-01 v2.14
   * Added new 9 sentences (from Cairo). Morphological features to be added later.
