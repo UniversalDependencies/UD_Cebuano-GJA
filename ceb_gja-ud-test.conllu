@@ -1468,7 +1468,7 @@
 # tatoeba_author = Josefwintzent
 1	Ayaw	ayaw	PART	_	Polarity=Neg	4	advmod	_	Gloss=do.not
 2	intawon	tawon	PART	_	_	4	advmod	_	_
-3	ko	ako	PRON	_	_	4	nsubj	_	Gloss=me
+3	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Gloss=me
 4	pasakiti	sakit	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	Gloss=hurt|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	Gloss=.
 
