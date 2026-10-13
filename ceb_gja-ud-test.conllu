@@ -2735,18 +2735,18 @@
 # text = Ang kaning sulat kay gikan kay Peter og gihatod ni gahapon.
 # gloss = this letter is from Peter and was.delivered it yesterday.
 # text_en = This letter is from Peter and it was delivered yesterday.
-1	Ang	ang	ADP	_	_	4	case	_	_
+1	Ang	ang	ADP	_	Case=Nom	4	case	_	_
 2-3	kaning	_	_	_	_	_	_	_	_
-2	kani	kani	PRON	_	_	4	nmod	_	Gloss=this
+2	kani	kani	PRON	_	Deixis=Prox|PronType=Dem	4	nmod	_	Gloss=this
 3	-ng	nga	PRON	_	_	2	mark	_	Gloss=LINK
 4	sulat	sulat	NOUN	_	_	0	_	_	Gloss=letter
 5	kay	kay	PART	_	_	8	mark	_	_
 6	gikan	gikan	VERB	_	_	8	nmod	_	Gloss=from
-7	kay	kay	ADP	_	_	8	case	_	_
-8	Peter	Peter	PROPN	_	_	4	obl	_	Gloss=Peter
+7	kay	kay	ADP	_	Case=Dat	8	case	_	_
+8	Peter	Peter	PROPN	_	Gender=Masc	4	obl	_	Gloss=Peter
 9	og	ug	CCONJ	_	_	10	cc	_	Gloss=and
-10	gihatod	hatod	VERB	_	_	8	conj	_	Gloss=was.delivered
-11	ni	kani	PRON	_	_	10	nmod	_	Gloss=it
+10	gihatod	hatod	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	8	conj	_	Gloss=was.delivered
+11	ni	kani	PRON	_	Deixis=Prox|PronType=Dem	10	nmod	_	Gloss=it
 12	gahapon	gahapon	ADV	_	_	10	advmod	_	Gloss=yesterday|SpaceAfter=No
 13	.	.	PUNCT	_	_	10	punct	_	Gloss=.
 
