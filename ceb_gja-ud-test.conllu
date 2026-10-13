@@ -827,7 +827,7 @@
 4	oras	oras	NOUN	_	_	5	nmod	_	Gloss=hours
 5	gatindog	tindog	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=standing
 6	didto	didto	ADV	_	Deixis=Remt	5	advmod	_	Gloss=there
-7	tungod	tungod	SCONJ	_	_	9	case	_	Gloss=because
+7	tungod	tungod	SCONJ	_	ExtPos=SCONJ	9	case	_	Gloss=because
 8	sa	sa	ADP	_	Case=Dat	7	fixed	_	Gloss=the
 9	TV	TV	NOUN	_	_	5	obl	_	Gloss=TV.set
 10	nga	nga	PART	_	_	11	mark	_	_
