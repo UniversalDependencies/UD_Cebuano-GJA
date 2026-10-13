@@ -2703,10 +2703,10 @@
 14	niya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	Gloss=she
 15	gusto	gusto	VERB	_	_	2	advcl	_	_
 16	himuon	himo	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	15	xcomp	_	Gloss=would.do
-17	niini	kani	PRON	_	_	16	nmod	_	Gloss=that
+17	niini	kani	PRON	_	Deixis=Prox|PronType=Dem	16	nmod	_	Gloss=that
 18	sa	sa	ADP	_	Case=Dat	21	case	_	Gloss=in
 19-20	niadtong	_	_	_	_	_	_	_	_
-19	niadto	kadto	PRON	_	Deixis=Remt	21	nmod	_	Gloss=that
+19	niadto	kadto	PRON	_	Deixis=Remt|PronType=Dem	21	nmod	_	Gloss=that
 20	-ng	nga	PART	_	_	19	mark	_	Gloss=LINK
 21	adlawa	adlawa	NOUN	_	_	16	obl	_	Gloss=day|SpaceAfter=No
 22	.	.	PUNCT	_	_	16	punct	_	Gloss=.
