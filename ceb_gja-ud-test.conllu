@@ -2716,18 +2716,18 @@
 # text = Wala nako nakaya nga mogukod sa iya kay paspas kaayo siya modagan .
 # gloss = was.not I able to.keep.up because fast too he ran.
 # text_en = I wasn't able to keep up, because he ran too fast.
-1	Wala	wala	ADV	_	_	3	advmod	_	Gloss=was.not
-2	nako	ako	PRON	_	_	3	nsubj	_	Gloss=I
-3	nakaya	kaya	VERB	_	_	0	_	_	Gloss=able
+1	Wala	wala	ADV	_	Polarity=Neg	3	advmod	_	Gloss=was.not
+2	nako	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=I
+3	nakaya	kaya	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	_	_	Gloss=able
 4	nga	nga	PART	_	_	5	mark	_	_
-5	mogukod	gukod	VERB	_	_	3	ccomp	_	Gloss=keep.up
-6	sa	sa	ADP	_	_	7	case	_	_
-7	iya	siya	PRON	_	_	5	obj	_	Gloss=he
+5	mogukod	gukod	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	3	ccomp	_	Gloss=keep.up
+6	sa	sa	ADP	_	Case=Gen	7	case	_	_
+7	iya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	obj	_	Gloss=he
 8	kay	kay	SCONJ	_	_	12	mark	_	Gloss=because
-9	paspas	paspas	ADV	_	_	12	advmod	_	Gloss=fast
+9	paspas	paspas	ADV	_	Degree=Pos	12	advmod	_	Gloss=fast
 10	kaayo	kaayo	ADV	_	_	9	advmod	_	Gloss=too
-11	siya	siya	PRON	_	_	12	nsubj	_	_
-12	modagan	dagan	VERB	_	_	5	advcl	_	Gloss=ran|SpaceAfter=No
+11	siya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	modagan	dagan	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	5	advcl	_	Gloss=ran|SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	Gloss=.
 
 # sent_id = cairo-ceb-19
