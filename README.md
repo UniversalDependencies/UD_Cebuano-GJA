@@ -45,6 +45,6 @@ Features: manual native
 Relations: manual native
 Contributors: Aranes, Glyd
 Contributing: here
-Contact: glyd.aranes@gmail.com
+Contact: glyd.aranes@helsinki.fi, glyd.aranes@gmail.com
 ===============================================================================
 </pre>
