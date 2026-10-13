@@ -2738,7 +2738,7 @@
 1	Ang	ang	ADP	_	Case=Nom	4	case	_	_
 2-3	kaning	_	_	_	_	_	_	_	_
 2	kani	kani	PRON	_	Deixis=Prox|PronType=Dem	4	nmod	_	Gloss=this
-3	-ng	nga	PRON	_	_	2	mark	_	Gloss=LINK
+3	-ng	nga	PART	_	_	2	mark	_	Gloss=LINK
 4	sulat	sulat	NOUN	_	_	0	root	_	Gloss=letter
 5	kay	kay	PART	_	_	8	mark	_	_
 6	gikan	gikan	VERB	_	_	8	nmod	_	Gloss=from
