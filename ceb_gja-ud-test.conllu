@@ -1928,7 +1928,7 @@
 7	ingon	ingon	VERB	_	_	1	parataxis	_	Gloss=said
 8	pa	pa	PART	_	_	7	advmod	_	_
 9	sa	sa	ADP	_	Case=Dat	11	case	_	Gloss=by.the
-10	mga	mga	DET	_	Number=Plur	11	det	_	Gloss=PLUR
+10	mga	mga	DET	_	Number=Plur|PronType=Ind	11	det	_	Gloss=PLUR
 11	tiguwang	tiguwang	NOUN	_	_	7	obj	_	Gloss=elders|SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	_	Gloss=.
 
