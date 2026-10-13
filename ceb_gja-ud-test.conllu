@@ -1366,7 +1366,7 @@
 2	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=I
 3	gusto	gusto	VERB	_	_	0	root	_	Gloss=like
 4-5	ning	_	_	_	_	_	_	_	_
-4	ni	ani	PRON	_	Deixis=Prox	6	nmod	_	Gloss=this
+4	ni	ani	PRON	_	Deixis=Prox|PronType=Dem	6	nmod	_	Gloss=this
 5	-ng	nga	PART	_	_	4	mark	_	Gloss=LINK
 6	lenggwahea	lenggwahe	NOUN	_	Definitizer=Yes	3	obj	_	Gloss=language|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	Gloss=.
@@ -1630,7 +1630,7 @@
 2	na	na	ADV	_	_	1	advmod	_	Gloss=anymore
 3	ko	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Gloss=I
 4	masayod	sayod	VERB	_	Aspect=Prosp|Mood=Ind|Voice=Act	0	root	_	Gloss=know
-5	unsa	unsa	PRON	_	_	7	nmod	_	Gloss=what
+5	unsa	unsa	PRON	_	PronType=Int	7	nmod	_	Gloss=what
 6	pay	pa	PART	_	Neutral=Yes	7	advmod	_	_
 7	buhaton	buhat	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	4	ccomp	_	Gloss=to.do|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	Gloss=.
@@ -1909,7 +1909,7 @@
 3	Tom	Tom	PROPN	_	Gender=Masc	1	obj	_	Gloss=Tom
 4	si	si	ADP	_	Case=Nom	5	case	_	Gloss=to
 5	Mary	Mary	PROPN	_	Gender=Fem	1	nsubj	_	Gloss=Mary
-6	bahin	bahin	ADP	_	_	8	case	_	Gloss=about
+6	bahin	bahin	ADP	_	ExtPos=ADP	8	case	_	Gloss=about
 7	sa	sa	ADP	_	Case=Dat	6	fixed	_	Gloss=the
 8	kawat	kawat	NOUN	_	_	1	obl	_	Gloss=robbery|SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	Gloss=.
