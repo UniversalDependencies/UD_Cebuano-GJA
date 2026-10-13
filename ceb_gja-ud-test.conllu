@@ -2696,7 +2696,7 @@
 7	buhok	buhok	NOUN	_	_	2	nsubj	_	Gloss=hair
 8	pero	pero	CCONJ	_	_	15	cc	_	Gloss=but
 9	sa	sa	ADP	_	Case=Dat	12	case	_	Gloss=for
-10	pipila	pila	ADV	_	_	12	mark	_	Gloss=some
+10	pipila	pila	ADV	_	ExtPos=ADV	12	mark	_	Gloss=some
 11	ka	ka	PART	_	_	10	fixed	_	_
 12	rason	rason	NOUN	_	_	15	advcl	_	Gloss=reason
 13	dili	dili	ADV	_	Polarity=Neg	15	advmod	_	Gloss=not
