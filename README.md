@@ -4,7 +4,7 @@ UD_Cebuano_GJA is a collection of annotated Cebuano sample sentences randomly ta
 
 
 # Introduction
-This treebank is composed of 208 sample sentences across three corpora: 58 sentences from Bunye and Yap's book, 46 sentences from Tanangkinsing's books, 84 sentences taken from Tatoeba, and 20 sentences which are translations of the Cairo sentences. Annotation was done manually by Glyd Jun Arañes as part of his MA Thesis at the University of Eastern Finland for his Master's Degree in Linguistic Data Sciences.
+This treebank is composed of 208 sample sentences across various sources: 58 sentences from Bunye and Yap's book, 46 sentences from Tanangkinsing's books, 84 sentences taken from Tatoeba, and 20 sentences which are translations of the Cairo sentences. Annotation was done manually by Glyd Jun Arañes as part of his MA Thesis at the University of Eastern Finland for his Master's Degree in Linguistic Data Sciences.
 
 For suggestions on the treebank, you can contact Glyd through this email: glyd.aranes@helsinki.fi; glyd.aranes@gmail.com
 
