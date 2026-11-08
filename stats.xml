@@ -5,98 +5,102 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>198</sentences><tokens>1295</tokens><words>1394</words><fused>97</fused></total>
+    <total><sentences>208</sentences><tokens>1412</tokens><words>1519</words><fused>105</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>198</sentences><tokens>1295</tokens><words>1394</words><fused>97</fused></test>
+    <test><sentences>208</sentences><tokens>1412</tokens><words>1519</words><fused>105</fused></test>
   </size>
-  <lemmas unique="405" /><!-- ., nga, ako, sa, ang, ug, ikaw, siya, ?, si, ,, wala, ni, Tom, na -->
-  <forms unique="496" /><!-- ., -ng, sa, ang, ko, ?, si, ka, ug, -g, nga, ni, ,, siya, wala -->
-  <fusions unique="51" /><!-- akong, iyang, imong, Nganong, among, Daghang, anang, bag-ong, ilang, inyong, kag, kanang, katong, kog, silang -->
+  <lemmas unique="422" /><!-- ., nga, sa, ako, ang, ug, siya, ikaw, ?, si, wala, ,, kay, ni, dili -->
+  <forms unique="528" /><!-- ., -ng, sa, ang, ko, ?, si, ka, ug, -g, siya, nga, ni, ,, iya -->
+  <fusions unique="55" /><!-- iyang, akong, imong, Nganong, among, Daghang, anang, bag-ong, ilang, inyong, kag, kanang, katong, kog, pwedeng -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="14">
-    <tag name="ADJ">39</tag><!-- gwapa, taas, adis, ayo, bag-o, dako, hawod, bata, busog, buutan -->
-    <tag name="ADP">215</tag><!-- sa, ang, ug, si, ni, para, kang, nga, og, alang -->
-    <tag name="ADV">76</tag><!-- na, karon, pila, ngano, wala, kaayo, tua, didto, dugay, labi -->
-    <tag name="CCONJ">12</tag><!-- ug, apan, o, pero -->
+    <tag name="ADJ">38</tag><!-- gwapa, taas, adis, ayo, bag-o, dako, hawod, bata, busog, buutan -->
+    <tag name="ADP">231</tag><!-- sa, ang, ug, si, ni, para, kang, kay, nga, alang -->
+    <tag name="ADV">91</tag><!-- na, pila, karon, wala, kaayo, ngano, didto, tua, asa, dili -->
+    <tag name="CCONJ">18</tag><!-- ug, pero, apan, o -->
     <tag name="DET">11</tag><!-- mga, daghan -->
     <tag name="INTJ">3</tag><!-- be, ha, oi -->
-    <tag name="NOUN">177</tag><!-- libro, bata, balay, kwarta, tubig, amahan, bisita, iro, plano, sulat -->
+    <tag name="NOUN">190</tag><!-- libro, bata, balay, kwarta, sulat, tubig, amahan, bisita, iro, plano -->
     <tag name="NUM">12</tag><!-- tulo, duha, usa, sayis, thirty, tres -->
-    <tag name="PART">172</tag><!-- nga, dili, man, ka, ba, gyud, lang, ra, wala, ayaw -->
-    <tag name="PRON">189</tag><!-- ako, ikaw, siya, kami, unsa, sila, kini, kadto, ana, ani -->
-    <tag name="PROPN">63</tag><!-- Tom, Mary, Pedro, Juan, Cebu, Ditang, Maria, Peter, Adot, Alicia -->
-    <tag name="PUNCT">219</tag><!-- ., ?, ,, !, -, _ -->
-    <tag name="SCONJ">18</tag><!-- kay, nga, apan, basta, kaysa, kon, sukad, suma, tungod -->
-    <tag name="VERB">188</tag><!-- wala, adto, buhat, gusto, may, palit, sabot, abot, aduna, gana -->
+    <tag name="PART">189</tag><!-- nga, man, dili, ka, lang, ba, gyud, kay, ra, wala -->
+    <tag name="PRON">208</tag><!-- ako, siya, ikaw, kami, unsa, sila, kadto, kini, ana, kani -->
+    <tag name="PROPN">72</tag><!-- Tom, Mary, Peter, Pedro, Juan, Cebu, Ditang, Maria, Adot, Alicia -->
+    <tag name="PUNCT">230</tag><!-- ., ?, ,, !, -, _ -->
+    <tag name="SCONJ">22</tag><!-- kay, nga, apan, basta, kaysa, kon, kung, sukad, suma, tungod -->
+    <tag name="VERB">204</tag><!-- wala, adto, buhat, gusto, palit, may, sabot, abot, aduna, gana -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="36">
-    <feat name="Aspect" value="Imp" upos="VERB">59</feat><!-- moadto, ganahan, tabangan, Kinahanglan, Liguon, Silhigan, kasabot, Gigutom, Giuhaw, Limpyohan -->
-    <feat name="Aspect" value="Perf" upos="VERB">60</feat><!-- gibuhat, Gitawag, gihigugma, Gi-hold, Gibilanggo, Gibutang, Gidungog, Gikinahanglan, Gikuha, Gimaotan -->
-    <feat name="Aspect" value="Prosp" upos="VERB">20</feat><!-- masayod, Maka-iningles, Mamalit, Nakahukom, Nakalimtan, Nakamedalya, Nasuka, himo-an, mahimo, mahimuot -->
-    <feat name="Case" value="Dat" upos="ADP">58</feat><!-- sa, kang, ug, -g -->
-    <feat name="Case" value="Gen" upos="ADP,PRON">115</feat><!-- siya, ni, iya, -g, ug, imo, sa, nako, ko, nimo -->
-    <feat name="Case" value="Nom" upos="ADP,PRON">159</feat><!-- ang, ko, si, ka, ako, mi, sila, koy, -g, ikaw -->
+  <feats unique="40">
+    <feat name="Aspect" value="Imp" upos="VERB">67</feat><!-- moadto, ganahan, tabangan, Kinahanglan, Liguon, Silhigan, kasabot, Gigutom, Giuhaw, Limpyohan -->
+    <feat name="Aspect" value="Perf" upos="VERB">71</feat><!-- gibuhat, Gisulayan, Gitawag, gihigugma, nagsulat, Gi-hold, Gibilanggo, Gibutang, Gidungog, Gikinahanglan -->
+    <feat name="Aspect" value="Prosp" upos="VERB">22</feat><!-- masayod, Maka-iningles, Mamalit, Nakahukom, Nakalimtan, Nakamedalya, Nasuka, himo-an, mahimo, mahimuot -->
+    <feat name="Case" value="Dat" upos="ADP">68</feat><!-- sa, kang, ug, -g, kay, og -->
+    <feat name="Case" value="Gen" upos="ADP,PRON">140</feat><!-- siya, iya, ni, ug, -g, imo, sa, nako, ko, nimo -->
+    <feat name="Case" value="Nom" upos="ADP,PRON">184</feat><!-- ang, ko, si, ka, ako, mi, sila, koy, -g, ikaw -->
     <feat name="Clusivity" value="Ex" upos="PRON">12</feat><!-- mi, amo, kamiy, miy -->
-    <feat name="Clusivity" value="In" upos="PRON">5</feat><!-- taka, tika, ta -->
+    <feat name="Clusivity" value="In" upos="PRON">6</feat><!-- ta, taka, tika -->
     <feat name="Definitizer" value="Yes" upos="ADJ,NOUN">3</feat><!-- Samoka, kadugaya, lenggwahea -->
-    <feat name="Degree" value="Pos" upos="ADJ">27</feat><!-- gwapa, Maayo, adis, bag-o, hawod, taas, Buutan, Dako, Duol, Guwapa -->
+    <feat name="Degree" value="Pos" upos="ADJ">30</feat><!-- gwapa, Maayo, adis, bag-o, dako, hawod, taas, Buutan, Duol, Guwapa -->
     <feat name="Degree" value="Sup" upos="ADJ">1</feat><!-- pinakataas -->
     <feat name="Deixis" value="Med" upos="PRON">4</feat><!-- ana, kana -->
-    <feat name="Deixis" value="Prox" upos="ADV,PRON">13</feat><!-- kini, Ari, Dira, Niay, ana, ani, dinhi, ni, nia -->
-    <feat name="Deixis" value="Remt" upos="ADV,PRON">10</feat><!-- Tua, didto, kato, to, Toa, ato -->
-    <feat name="Foreign" value="Yes" upos="NOUN,NUM">4</feat><!-- frog, orange, pet, thirty -->
-    <feat name="Gender" value="Fem" upos="ADJ,NOUN,PROPN">20</feat><!-- Mary, gwapa, Ditang, Maria, babaye, Alicia, Ana, Carmen, Guwapa, Inday -->
-    <feat name="Gender" value="Masc" upos="ADJ,NOUN,PROPN">30</feat><!-- Tom, Pedro, Juan, Adot, Lito, Rolando, Ruben, Tonying, Toto, Undo -->
-    <feat name="Mood" value="Imp" upos="VERB">10</feat><!-- Ipalit, Padayona, Pag-ayo, Pagdali, Pakitaa, ipasa, kaguol, pagpataka, paliti, patoo -->
-    <feat name="Mood" value="Ind" upos="VERB">125</feat><!-- moadto, ganahan, gibuhat, tabangan, Gitawag, Kinahanglan, Liguon, Silhigan, gihigugma, kasabot -->
-    <feat name="Mood" value="Pot" upos="VERB">15</feat><!-- Maka-iningles, Nakabantay, Nakahukom, Nakalimtan, Nakamedalya, Nasuka, himo-an, mahimo, mainitan, makahinapon -->
+    <feat name="Deixis" value="Prox" upos="ADV,PRON">16</feat><!-- kini, ni, Ari, Dira, Niay, ana, ani, dinhi, kani, nia -->
+    <feat name="Deixis" value="Remt" upos="ADV,PRON">13</feat><!-- didto, Tua, kato, niadto, to, Toa, ato -->
+    <feat name="ExtPos" value="ADP" upos="ADP">9</feat><!-- para, alang, bahin, gikan, hangtud -->
+    <feat name="ExtPos" value="ADV" upos="ADV">1</feat><!-- pipila -->
+    <feat name="ExtPos" value="SCONJ" upos="SCONJ">2</feat><!-- sukad, tungod -->
+    <feat name="Foreign" value="Yes" upos="NOUN,NUM">7</feat><!-- bronze, frog, gold, orange, pet, silver, thirty -->
+    <feat name="Gender" value="Fem" upos="ADJ,NOUN,PROPN">23</feat><!-- Mary, gwapa, Ditang, Maria, babaye, Alicia, Ana, Carmen, Guwapa, Inday -->
+    <feat name="Gender" value="Masc" upos="ADJ,NOUN,PROPN">35</feat><!-- Tom, Pedro, Peter, Juan, Adot, Lito, Rolando, Ruben, Tonying, Toto -->
+    <feat name="Mood" value="Imp" upos="VERB">11</feat><!-- Ipalit, Padayona, Pag-ayo, Pagdali, Pakitaa, abrihi, ipasa, kaguol, pagpataka, paliti -->
+    <feat name="Mood" value="Ind" upos="VERB">145</feat><!-- moadto, ganahan, gibuhat, tabangan, Gisulayan, Gitawag, Kinahanglan, Liguon, Silhigan, gihigugma -->
+    <feat name="Mood" value="Pot" upos="VERB">16</feat><!-- Maka-iningles, Nakabantay, Nakahukom, Nakalimtan, Nakamedalya, Nasuka, himo-an, mahimo, mainitan, makaadto -->
     <feat name="Neutral" value="Yes" upos="ADV,NUM,PART,PRON,VERB">19</feat><!-- Unsay, koy, Pilay, siyay, Akoy, Duhay, Nagkitaay, Niay, kamiy, may -->
     <feat name="Number" value="Dual" upos="PRON">4</feat><!-- taka, tika -->
-    <feat name="Number" value="Plur" upos="DET,NOUN,PRON">30</feat><!-- mga, mi, sila, amo, ila, inyo, kaislahan, kamiy, miy, ta -->
-    <feat name="Number" value="Sing" upos="PRON">129</feat><!-- ko, siya, ka, ako, iya, imo, nako, nimo, imoha, koy -->
-    <feat name="PartType" value="Int" upos="PART">3</feat><!-- ba -->
-    <feat name="Person" value="1" upos="PRON">79</feat><!-- ko, ako, mi, nako, amo, koy, taka, tika, Akoy, kamiy -->
-    <feat name="Person" value="2" upos="PRON">36</feat><!-- ka, imo, nimo, imoha, ikaw, inyo, mo -->
-    <feat name="Person" value="3" upos="PRON">39</feat><!-- siya, iya, sila, ila, siyay, iyaha, niya -->
-    <feat name="Polarity" value="Neg" upos="ADV,PART,VERB">32</feat><!-- wala, dili, ayaw, di, Ambot -->
-    <feat name="PronType" value="Dem" upos="ADV,PRON">19</feat><!-- kini, ana, kana, to, Kato, Niay, Toa, Tua, ani, ato -->
-    <feat name="PronType" value="Int" upos="ADV,PRON">13</feat><!-- Ngano, Pilay, Unsa, Unsay, Asa, Kinsa, Tagpila -->
-    <feat name="PronType" value="Prs" upos="PRON">154</feat><!-- ko, siya, ka, ako, iya, imo, mi, nako, nimo, sila -->
-    <feat name="Voice" value="Act" upos="VERB">72</feat><!-- moadto, masayod, Mag-unsa, Magpabilin, Magtigom, Maka-iningles, Mamalit, Moabot, Mobalik, Mohulat -->
-    <feat name="Voice" value="Ifoc" upos="VERB">3</feat><!-- Ipalit, Pakitaa, ipasa -->
+    <feat name="Number" value="Plur" upos="DET,NOUN,PRON">36</feat><!-- mga, mi, sila, Daghan, amo, ila, inyo, ta, kaislahan, kamiy -->
+    <feat name="Number" value="Sing" upos="PRON">148</feat><!-- ko, siya, iya, ka, ako, imo, nako, nimo, niya, imoha -->
+    <feat name="PartType" value="Int" upos="PART">4</feat><!-- ba -->
+    <feat name="Person" value="1" upos="PRON">83</feat><!-- ko, ako, mi, nako, amo, koy, ta, taka, tika, Akoy -->
+    <feat name="Person" value="2" upos="PRON">40</feat><!-- ka, imo, nimo, imoha, ikaw, inyo, mo -->
+    <feat name="Person" value="3" upos="PRON">53</feat><!-- siya, iya, niya, sila, ila, siyay, iyaha, silay -->
+    <feat name="Polarity" value="Neg" upos="ADV,PART,VERB">36</feat><!-- wala, dili, ayaw, di, Ambot -->
+    <feat name="PronType" value="Dem" upos="ADV,PRON">27</feat><!-- kini, ana, kana, kato, ni, niadto, to, Niay, Toa, Tua -->
+    <feat name="PronType" value="Ind" upos="DET">11</feat><!-- mga, Daghan -->
+    <feat name="PronType" value="Int" upos="ADV,PRON">20</feat><!-- unsa, Ngano, Asa, Pilay, Unsay, kinsa, Kanus-a, Tagpila -->
+    <feat name="PronType" value="Prs" upos="PRON">176</feat><!-- ko, siya, iya, ka, ako, imo, mi, nako, nimo, niya -->
+    <feat name="Voice" value="Act" upos="VERB">86</feat><!-- moadto, masayod, nagsulat, Mag-unsa, Magpabilin, Magtigom, Maka-iningles, Mamalit, Moabot, Mobalik -->
+    <feat name="Voice" value="Ifoc" upos="VERB">4</feat><!-- Ipalit, Pakitaa, abrihi, ipasa -->
     <feat name="Voice" value="Lfoc" upos="VERB">3</feat><!-- Limpyohan, himo-an, paliti -->
-    <feat name="Voice" value="Pass" upos="VERB">72</feat><!-- ganahan, gibuhat, tabangan, Gitawag, Kinahanglan, Liguon, Silhigan, gihigugma, kasabot, Gi-hold -->
+    <feat name="Voice" value="Pass" upos="VERB">79</feat><!-- ganahan, gibuhat, tabangan, Gisulayan, Gitawag, Kinahanglan, Liguon, Silhigan, gihigugma, kasabot -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="27">
     <dep name="acl">9</dep>
-    <dep name="advcl">10</dep>
-    <dep name="advmod">139</dep>
+    <dep name="advcl">16</dep>
+    <dep name="advmod">155</dep>
     <dep name="amod">26</dep>
     <dep name="appos">2</dep>
-    <dep name="case">201</dep>
-    <dep name="cc">12</dep>
-    <dep name="ccomp">27</dep>
+    <dep name="case">219</dep>
+    <dep name="cc">18</dep>
+    <dep name="ccomp">28</dep>
     <dep name="compound">3</dep>
     <dep name="compound:redup">3</dep>
-    <dep name="conj">8</dep>
+    <dep name="conj">11</dep>
     <dep name="csubj">2</dep>
     <dep name="det">11</dep>
     <dep name="discourse">3</dep>
-    <dep name="fixed">13</dep>
-    <dep name="flat">1</dep>
-    <dep name="mark">117</dep>
-    <dep name="nmod">87</dep>
-    <dep name="nsubj">162</dep>
+    <dep name="fixed">12</dep>
+    <dep name="flat">3</dep>
+    <dep name="mark">135</dep>
+    <dep name="nmod">97</dep>
+    <dep name="nsubj">173</dep>
     <dep name="nummod">11</dep>
-    <dep name="obj">83</dep>
-    <dep name="obl">37</dep>
-    <dep name="orphan">2</dep>
-    <dep name="parataxis">6</dep>
-    <dep name="punct">219</dep>
-    <dep name="root">198</dep>
+    <dep name="obj">94</dep>
+    <dep name="obl">40</dep>
+    <dep name="parataxis">7</dep>
+    <dep name="punct">230</dep>
+    <dep name="root">208</dep>
     <dep name="vocative">2</dep>
+    <dep name="xcomp">1</dep>
   </deps>
 </treebank>
